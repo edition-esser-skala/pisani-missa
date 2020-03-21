@@ -169,6 +169,8 @@ vlne = \markup { \remark "Vlne." }
 pizz = \markup { \remark "pizz." }
 pizzE = \markup { \remarkE "pizz." }
 arco = \markup { \remark "arco" }
+vv = \markup { \remark "Vv." }
+flauti = \markup { \remark "Flauti" }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -273,6 +275,11 @@ tempoMarkup =
 %
 
 tempoKyrie = \tempoMarkup "Allegro"
+	tempoKyrieB = \tempoMarkup "Adagio"
+	tempoKyrieC = \tempoMarkup "Vivace"
+	tempoKyrieD = \tempoMarkup "Adagio"
+	tempoKyrieE = \tempoMarkup "[Allegro]"
+	
 
 
 

@@ -50,11 +50,11 @@
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Flauto I" } }
 							\KyrieViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Flauto II" } }
 							\KyrieViolinoII
 						}
 					>>

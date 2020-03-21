@@ -6,7 +6,8 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/s_missa.ly"
+\include "scores/s_kyrie.ly"
+
 
 
 % \include "parts/p_ob1.ly"
