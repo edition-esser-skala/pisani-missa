@@ -215,6 +215,55 @@ GloriaViolinoI = {
 	}
 }
 
+LaudamusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		\partial 8 h'8\fE^\flauti e16 fis \appoggiatura fis8 g4 fis8 \appoggiatura fis e4 r16 h^\vv-\dolce c h
+		e h fis' h, g'8 fis \appoggiatura fis e4~ e16 d!\f^\flauti c h
+		c h c e a8 c, c h4 g'8 %110
+		a,16 h a fis' fis8 a, a g r h
+		c16 a cis8 d16 h dis8 e16 h c? h e h g' h,
+		fis' h, c h g' h, a' h, g'32( fis e8.) \appoggiatura g16 fis8.(\trillE e32 fis)
+		e16 gis a8~ a16 c, h a g32( fis e8.) \appoggiatura g16 fis8.(\trill e32 fis)
+		e4 r r2 %115
+		R1
+		r8 d'^\vv-\dolce g,16 a h c d8 c16 h a8 g
+		fis a a a b b b b
+		a d d c h8.[ a16 g8. fis16]
+		e8. fis16 g8 a16 h c8 a d, c' %120
+		h r r4 d r
+		g,,8 g' d'4~ d8 c16 h a8 g
+		fis4 r r2
+		R1*2 %125
+		d'16\f^\flauti h g8 r16 d e fis g d a' d, h'8 a
+		g16 d' e fis g8 c, h16 d e fis g8 c,
+		h32( a g8.) \appoggiatura h8 a4 g r
+		R1
+		r2 r4 r8 h^\vv-\dolceAssai %130
+		c c4 a'8 h, h4 g'8
+		a, a4 fis'8 g,\f g'16 a h8 h,
+		r g'-\dolce g g fis16 h, c h g'8 g
+		fis16 h, c h h'8\f a g32( fis e8.) fis4
+		e r16 h^\flauti c h e fis \appoggiatura fis8 g4 fis8-\dolce %135
+		\appoggiatura fis e4~ e16 d\f c h c h c e a8-\dolce c,
+		c h g'16\f h, c h a h a fis' fis8-\dolce a,
+		a g g'4\f r r8 fis
+		g gis a ais h4 r8 h,-\dolce
+		c c4 a'8 h, h4 g'8 %140
+		a, a4 fis'8 g, g r h'\f
+		c c c c h a g fis16 e
+		e8 e dis dis e16 gis a gis \appoggiatura gis8 a4
+		R1
+		r8 h,\f e,16 h' c h e h c h e h g' h, %145
+		fis' h, c h fis' h, a' h, g' e gis8 a16 e ais8
+		\appoggiatura ais16 h8 a4 g16 fis g32( fis e8.) \appoggiatura g8 fis4
+		e16 gis a8~ a16 c, h a g32( fis e8.) fis4\trill
+		e2 r\fermata \bar "||" %149 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

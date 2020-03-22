@@ -418,6 +418,101 @@ GloriaBassFigures = \figuremode {
 	r %107 finis
 }
 
+LaudamusOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		\partial 8 r8 \mvTr e\fE-\solo e e h' e, e g e-\dolceE
+		e dis e h e fis g e\fE
+		a g fis fis g g e e %110
+		fis fis dis dis e e g e
+		a a h a g g g g
+		dis dis dis dis e e, h'' h,
+		c cis d? dis e g, a h
+		e,4 r e'8-\dolceE e e h %115
+		e fis g e a g fis d
+		g g, g g h4 c
+		d8 d d d cis cis cis cis
+		d4 d'8 c h!8.[ a16 g8. fis16]
+		e8 e e e c c d d %120
+		g g c, d g,4 r
+		g8 g g g h4 c
+		d8 d h g r c c c
+		g' g g g a a fis fis
+		g g, h c d4 d, %125
+		g8\fE g' h a g fis g d
+		g g, r fis' g g, r fis'
+		g h, c d g,4 r8 g'-\dolceE
+		h,4 c8 cis d d fis e
+		dis4. dis8 e e g-\dolceAssai e %130
+		a, a' fis d g, g' e c
+		fis, fis' dis h e\f e e e,
+		r e'-\dolce e e h' h ais ais
+		h a g\f a h4 h,
+		e8 fis g e e e e h'-\dolce %135
+		g g g\fE g a a fis-\dolce fis
+		g g g\f e fis fis dis-\dolce dis
+		e e e\fE e a a h h
+		e, d! c4 h8 h'-\dolceE g e
+		a a fis fis g g e e %140
+		fis fis dis dis e e e e
+		dis dis dis dis e fis g a
+		h4 h, c r8 c'
+		h a g a h4 h,
+		e8\f e e e e e e e %145
+		dis dis dis dis e d c c
+		h dis dis dis e g a h
+		c r dis, dis e g, a h
+		e,4 r r2\fermata \bar "||" %149 finis
+	}
+}
+
+LaudamusBassFigures = \figuremode {
+	r8 r4. <[7 _+]>8 r4 <[6]> %108
+	r8 <[6]> r <[_+]> r <[6\\]> <[6]>4
+	r8 <[2]> <[6 5]>4 <[4]>8 <[3]>4. %110
+	<[5+]>4 <[6 5]> <[4]>8 <[3]> <[6]>4
+	r8 <_+> <_!> <4+> <6>2
+	<[6 5]>2. <_+>4
+	<6>8 <[\t]> r <[6 5]> r <[6]> <6 5> <_+>
+	r2.. <[_+]>8 %115
+	r <[6\\]> <[6]>4 r8 <[2]> <6> <7>
+	r2 <[6]>4 <[8 6]>8 <[7 5]>
+	r2 <7- 5>
+	r <[6]>
+	r <6 5>4 <7> %120
+	r4 <[6]>2.
+	r2 <[6]>4 <8 6>8 <7 5>
+	r4 <[6]>2.
+	<5 4>4 <\t 3> <9> <6 5>
+	r <[6]>8 q <[6 4]>4 <[5 3]> %125
+	r <[6]>8 q r q4.
+	r4. <6 5>8 r4. q8
+	r8 <[6]> <[6 5]>2.
+	<[6]>4 <6>8 <5> r4 <[6]>8 <[6!]>
+	<6 5>2. <[6]>4 %130
+	<9> <[6 5]> <9> <[6 5]>
+	<9> <[6 5]> <[9]>8 <[8]>4.
+	r2 <_+>4 <7 5 [_+]>
+	<[_+]>8 <[\t]> <[6]> q <[6 4]>4 <[5 _+]>
+	r <[6]> r4. <_+>8 %135
+	<6>2. <6 5>4
+	<9 [4]>8 <8 [3]> r4 <[9]>8 <[8]> <[6 5]>4
+	<9 4>8 <8 3>4. <_!>8 <_+> <_!> <_+>
+	r <4+> <6> <6\\> <_+>4 <6>
+	<9>8 <8> <6 [5]>4 <9>8 <8> <[6] 5>4 %140
+	<9>8 <8> <6 5>4 <9>8 <8> r4
+	<7 5>2 r8 <[6\\]> <[6]> q
+	<6 4>4 <5 _+> <6>4. q8
+	<_+> <\t> <[6]> q <6 4>4 <5 _+>
+	r1 %145
+	<[6 5]>2 r8 <4+> <6> <6\\>
+	<[_+]> <[6 5]>4. r8 <[6]> <[6 5]> <[_+]>
+	<6>4 <[6 5!]> r8 <[6]> <[6 5]> <[_+]>
+	r1 %149 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

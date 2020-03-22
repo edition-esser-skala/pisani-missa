@@ -332,6 +332,76 @@ GloriaAltoLyrics = \lyricmode {
 	tis. %101 finis
 }
 
+LaudamusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		\partial 8 r8 R1*9 %116
+		r4 h'8. c16 d8([ c16 h]) a8 g
+		fis4 fis8 fis g4.\trillE fis16([ g)]
+		fis4 r r2
+		R1 %120
+		r2 g8 a16 h c8[ a]
+		h4~ h16[ c h a] g4 r
+		r4 r8 h c16([ h)] c([ h)] c4~
+		c8[ h16 a] h4~ h8[ a16 g] a4
+		g~ g16[ h a g] g4 fis %125
+		g r r2
+		R1*2
+		r2 r4 fis8. g16
+		a8 h16 c h8 a g16([ fis)] e8 h'4~^\sottoVoce %130
+		h a2 g4~
+		g fis fis8([ e)] r4
+		r8 g g g fis4 g
+		fis h8[ a] g32([ fis e8.)] fis4
+		e r r2 %135
+		r r4 c'8. c16
+		c c h8 r4 r2
+		r r4 r8 fis
+		g16([ e)] gis8 a[ ais] h2~
+		h8[ a16 g] a4~ a8[ g16 fis] g4~ %140
+		g8[ fis16 e] fis4~ fis8[ e16 dis] e8 g
+		a a a a g a h c
+		g4 fis e r8 a
+		fis fis h8[ a] g32[( fis e8.]) fis4
+		e r r2 %145
+		R1*3
+		R1\fermataMarkup \bar "||" %149 finis
+	}
+}
+
+LaudamusAltoLyrics = \lyricmode {
+	Be -- ne -- di -- ci -- mus %117
+	te, ad -- o -- ra -- mus
+	te,
+	%120
+	\xE glo -- ri -- fi -- ca --
+	_ mus, \x
+	glo -- ri -- fi -- ca --
+	_ _
+	_ _ mus %125
+	te.
+	
+	Be -- ne -- %129
+	di -- ci -- mus, ad -- o -- ra -- mus, ad -- %130
+	o -- ra --
+	mus te, __
+	glo -- ri -- fi -- ca -- _
+	_ _ _ mus
+	te. %135
+	Be -- ne --
+	di -- ci -- mus,
+	glo --
+	ri -- fi -- ca -- _
+	_ _ %140
+	_ mus, glo --
+	ri -- fi -- ca -- mus \xE te, glo -- ri -- fi --
+	ca -- mus te, glo --
+	ri -- fi -- ca -- _ mus
+	te. %145 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

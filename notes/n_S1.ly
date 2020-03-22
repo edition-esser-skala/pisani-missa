@@ -341,6 +341,82 @@ GloriaSopranoILyrics = \lyricmode {
 	tis. %101 finis
 }
 
+LaudamusSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		\partial 8 r8 R1*7 %114
+		r4 r8 h' e16[ fis] \appoggiatura fis8 g4 fis8 %115
+		e16[ dis] \appoggiatura dis8 e4 h8 c([ d?16 e d8)] c
+		\appoggiatura c8 h4 r r2
+		r4 a8 a b4.\trill a16([ b)]
+		a4 r r2
+		R1 %120
+		g8 a16 h c8[ a] h[ c16 d] e8[ c]
+		d8.([ e32 fis)] g8[ g]~ g16[ fis e d] c8 h
+		a d d d e16[ d e d] e[ fis g e]
+		d[ c d e] d[ e fis g] c,[ h c d] c[ h c d]
+		h[ d e fis] g8[ c,] h4 a %125
+		g r r2
+		R1
+		r2 r8 g d'4~
+		d8[ c16 h] a8 g \appoggiatura g fis4 r
+		r2 r4 e'8.^\sottoVoce d!16 %130
+		c2\trill h4. e8
+		a,4. g16([ fis)] g4 r8 h
+		e e e e dis8. h16 e8 e
+		dis8.[ h16] g'8[ fis16 e] e4 dis
+		e r r r8 dis %135
+		e16([ dis)] e8 r4 r2
+		R1
+		r4 r8 h c16([ a)] cis8 d16[( h dis8]
+		e4.) e8 dis4 r8 h
+		c4. a'8 \appoggiatura c, h4~ h16[ a h c] %140
+		a4~ a8[ fis'] g,4 g8 h
+		c c c c h a' g fis16([ e)]
+		e4 dis e r8 e
+		dis dis e([ fis16 g] e4) dis
+		e r r2 %145
+		R1*3
+		R1\fermataMarkup \bar "||" %149 finis
+	}
+}
+
+LaudamusSopranoILyrics = \lyricmode {
+	Lau -- da -- _ _ %115
+	_ mus, lau -- da -- mus
+	te,
+	ad -- o -- ra -- mus
+	te,
+	%120
+	glo -- ri -- fi -- ca -- _ _
+	_ _ _ mus
+	te, glo -- ri -- fi -- ca -- _
+	_ _ _ _
+	_ _ _ mus %125
+	te.
+	
+	Lau -- da --
+	_ mus te,
+	ad -- o -- %130
+	ra -- _ _
+	_ mus te, glo --
+	ri -- fi -- ca -- mus te, glo -- ri -- fi --
+	ca -- _ _ mus
+	te. Lau -- %135
+	da -- mus,
+	
+	glo -- ri -- fi -- ca --
+	mus te, glo --
+	ri -- fi -- ca -- %140
+	_ _ mus, glo --
+	ri -- fi -- ca -- mus te, glo -- ri -- fi --
+	ca -- mus te, glo --
+	ri -- fi -- ca -- mus
+	te. %145 finis
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

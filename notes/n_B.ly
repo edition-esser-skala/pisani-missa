@@ -320,6 +320,70 @@ GloriaBassoLyrics = \lyricmode {
 	tis. %101 finis
 }
 
+LaudamusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		\partial 8 r8 R1*11 %118
+		r8 d' d c h!16[ c h a] g[ a g fis]
+		e8.[ fis16] g8[ a16 h] c8[ a d, c'] %120
+		h16[ a] g8 r4 r2
+		r8 g d'4. c16([ h)] a8 g
+		fis4 r r2
+		R1
+		r8 g h c d4 d, %125
+		g r r2
+		R1*3
+		r2 r4 g8^\sottoVoce g %130
+		a4 fis g e
+		fis dis e r
+		r8 e e e h'4 ais
+		h8[ a g a] h4 h,
+		e r r2 %135
+		R1
+		r2 r4 a8. a16
+		a8 g r4 r r8 h
+		e, d! c4 h8[ h' g e]
+		a4 fis g e %140
+		fis dis e e8 e
+		dis dis dis dis e fis g a
+		h4 h, c r8 c'
+		h8([ a)] g([ a)] h4 h,
+		e r r2
+		R1*3
+		R1\fermataMarkup \bar "||" %149 finis
+	}
+}
+
+LaudamusBassoLyrics = \lyricmode {
+	Glo -- ri -- fi -- ca -- _ %119
+	_ _ _ %120
+	_ mus,
+	glo -- ri -- fi -- ca -- mus
+	te,
+	
+	glo -- ri -- fi -- ca -- mus %125
+	te.
+	
+	Ad -- o -- %130
+	ra -- _ _ _
+	_ mus te,
+	glo -- ri -- fi -- ca -- _
+	_ _ mus
+	te. %135
+	
+	Ad -- o --
+	ra -- mus, glo --
+	ri -- fi -- ca -- _
+	_ _ _ _ %140
+	_ _ _ mus, glo --
+	\xE ri -- fi -- ca -- mus te, glo -- ri --
+	fi -- ca -- mus te, glo --
+	ri -- fi -- ca -- mus
+	te.
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

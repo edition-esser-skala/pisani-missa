@@ -139,7 +139,7 @@ movementTitle = #(define-scheme-function
   (string? string?)
   #{
 		 \markup {
-			 \with-color #(rgb-color .8313 0 0) { \oldStyleNum #number }
+			 \with-color #(rgb-color .8313 0 0) { \fontsize #-3 #number }
 			 \hspace #3
 			 \fontsize #-4 #title
 		 }
@@ -172,7 +172,9 @@ arco = \markup { \remark "arco" }
 vv = \markup { \remark "Vv." }
 flauti = \markup { \remark "Flauti" }
 dolce = \markup { \remark "dolce" }
+dolceE = \markup { \remarkE "dolce" }
 dolceAssai = \markup { \remark "dolce assai" }
+dolceAssaiE = \markup { \remarkE "dolce assai" }
 sottoVoce = \markup { \remark "sotto voce" }
 
 
@@ -282,9 +284,11 @@ tempoKyrie = \tempoMarkup "Allegro"
 	tempoKyrieC = \tempoMarkup "Vivace"
 	tempoKyrieD = \tempoMarkup "Adagio"
 	tempoKyrieE = \tempoMarkup "[Allegro]"
+
 tempoGloria = \tempoMarkup "Allegro"
 	tempoEtInTerra = \tempoMarkup "Largo"
 	tempoGloriaB = \tempoMarkup "Allegro"
+tempoLaudamus = \tempoMarkup "Allegretto"
 
 
 

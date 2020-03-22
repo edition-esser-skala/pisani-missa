@@ -209,3 +209,35 @@ GloriaViola = {
 		g2 r4\fermata \bar "||" %107 finis
 	}
 }
+
+LaudamusViola = {
+	\relative c' {
+		\clef alto
+		\key e \minor \time 4/4 \tempoLaudamus
+			\set Score.currentBarNumber = #108
+		\partial 8 r8 g'16\fE a h4 a8 g8 g16 fis e8 g-\dolce
+		g h h, dis e g16 a h8 g\f
+		e4 r8 a d,4 r8 e %110
+		cis4 r8 h' h,4 r8 g'
+		e4 d8 fis h, h'4 h8~
+		h h4 h8~ h16 a g e dis8 h'
+		a e fis8.\trill fis16 e4 r8 dis
+		e4 r r2 %115
+		R1*10 %125
+		h'16\f g d8 r d4 d d8~
+		d d4 d d d8~
+		d d e fis g4 r
+		R1*2 %130
+		r8 a-\dolceAssaiE fis d! g, g' e c
+		fis, fis' dis h e4 r
+		R1*2
+		g8\fE a h g g16 a h4 a8 %135
+		h4 r r2
+		R1*8 %144
+		g8\f g g g g g g e %145
+		h' fis h, fis' h e, e e
+		dis fis fis h h h c dis,
+		r fis h,16 fis' fis8 e16 h' h8 e, dis
+		e2 r\fermata \bar "||" %149 finis
+	}
+}
