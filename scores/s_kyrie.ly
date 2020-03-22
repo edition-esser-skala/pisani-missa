@@ -11,14 +11,14 @@
 #(set-global-staff-size 15.87)
 
 \book {
-% 	\bookpart {
-% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-% 		\partTitle "1" "K Y R I E"
-% 	}
-% 	\bookpart {
-% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-% 		\markup \null
-% 	}
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\partTitle "1" "K Y R I E"
+	}
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\markup \null
+	}
 	\bookpart {
 		\header {
 			movement = \movementTitle "1" "K Y R I E   E L E I S O N"

@@ -92,3 +92,102 @@ KyrieOboeI = {
 		d,2 r\fermata \bar "|." %90 finis
 	}
 }
+
+GloriaOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoGloria
+		g'4\fE g8 g g g
+		h4 h8 h h h
+		d4 d8 d d d
+		g2.
+		g4 r r %5
+		R2.*2
+		r8 a, d a fis' d
+		a' d, fis d a' c,
+		h \mvTr g'\p-\dolce fis g g, h %10
+		a e'\f d c h a
+		g4 r r
+		R2.
+		g8\f d h' g d' h
+		g' c h4 a %15
+		g8 g, g g g g
+		g2 r4\fermata
+		R2.
+		r8 d'-\dolceAssai d d dis dis
+		e4 r r %20
+		r8 h h h h h
+		e4 r r
+		h2 r4\fermata
+		g'4\f r r
+		r g fis^\critnote %25
+		g r r
+		r a a
+		a r r
+		r8 a a a a a
+		h h c c h h %30
+		h4 a r
+		r8 a a a h h
+		h h h a g g
+		g4 fis8 h dis, dis
+		e g4 g g8 %35
+		fis4 fis fis
+		fis g g
+		g fis2
+		e8 g16 a h8 g a fis
+		g4 r r %40
+		R2.
+		g8. fis16 e4 r
+		R2.*2
+		g4 g, r %45
+		R2.*2
+		r8 h' h h h h
+		h h a c c c
+		h h h h h h %50
+		h h a c c c
+		h h h h h h
+		h h h h h h
+		c c c c c c
+		c c h h h h %55
+		a a a a h4
+		g g fis
+		g r r
+		r a8 a a a
+		a4 r r %60
+		h8 a h h h a
+		a a a a h h
+		a a a4 r\fermata
+		\tempoEtInTerra R2.*13 %76
+		r8 \mvTr fis!\f-\markup { \remark "assai" } fis fis fis fis
+		\tempoGloriaB g4 r r
+		r8 h h h h h
+		c4 g16 a g f e f e d %80
+		cis8 e e e e e
+		fis! fis fis4 r
+		r h h
+		h h h
+		h8 h h h h h %85
+		a4 r r
+		R2.
+		r8 d, d d d d
+		d4 r r
+		R2. %90
+		r8 h' h h h h
+		h h h h h h
+		h h h h h h
+		h4 a r
+		R2. %95
+		d,4. a'8 h!4
+		\tuplet 3/2 4 { c8 h a } a4 a
+		g r r
+		a4. fis8 g4
+		\tuplet 3/2 4 { c8 h a } a4 a %100
+		g8 g\p fis g g, h
+		a e'\f d c h a
+		h g'\p fis g g, h
+		a e'\f d c h a
+		g c' h4 a %105
+		g8 g, g g g g
+		g2 r4\fermata \bar "||" %107 finis
+	}
+}

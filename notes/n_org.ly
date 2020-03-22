@@ -73,7 +73,7 @@ KyrieOrgano = {
 		a a a h c c d d e d e e,
 		a a'-\tutti a a
 		g! g g g f4 e %65
-		d8 e f e d4-\markup { \remark "dolce assai" } d~
+		d8 e f e d4-\dolceAssai d~
 		d c!8 c b2
 		\tempoKyrieD a8 a a a b2
 		a4 r\fermata \key d \major \tempoKyrieE d\f a'
@@ -192,6 +192,230 @@ KyrieBassFigures = \figuremode {
 	r
 	r2 r8 <[6]> <[6 5]>4
 	r1 %90 finis
+}
+
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoGloria
+		\mvTr g'4\fE-\solo g g
+		g g g
+		g g g
+		g g g
+		g g, c %5
+		d8 d d d d d
+		g4 g, c
+		d d d
+		d d d
+		g, \mvTr g\pE-\dolce g %10
+		c d\f d,
+		g g\p g
+		c d d,
+		g\f g g
+		g'8 e d4 d, %15
+		g8 g g g g g
+		g2 r4\fermata
+		g-\tuttiE-\dolceAssai-\markup { \remark "Organo chiuso" } g g
+		g g' fis
+		e e e %20
+		e e d
+		c c c
+		h2 r4\fermata
+		\mvTr g4\f-\markup { \remark "Organo aperto" } g d'
+		g, g' d %25
+		g, g c
+		d d d
+		d g, c
+		d8 d d d c c
+		h4 a g %30
+		d'8 d d d d d
+		d d d d dis dis
+		e dis e fis g a
+		h4 h8 h, h a
+		g g' g g g g %35
+		a a h h h h
+		c c h h ais ais
+		h4 h, h
+		e r h'
+		e,8-\solo dis e fis g a %40
+		h c h a g fis
+		e4-\tutti e, r
+		g'8-\solo fis g a h c
+		d e d c h a
+		g4-\tutti g, d' %45
+		g,-\solo r r
+		R2.
+		g'8-\tutti g, g' a h g
+		d' d, d d d d
+		g a h g h cis %50
+		d d, d d d d
+		g a h a g fis
+		e fis g fis e d
+		c c' c h a g
+		fis d g^\critnote a h c %55
+		d4. c8 h4
+		c d d,
+		g g, g
+		d' d8 d d d
+		d4 d d %60
+		g8 fis g a h cis
+		d d, d d d d
+		d d d,4 r\fermata
+		\tempoEtInTerra \mvTr g'8\pE-\soloE-\markup { \remark "Organo chiuso" }-\dolceAssai g g g g g
+		c, c c c c c %65
+		d d d d d d
+		g, g g g g g
+		c c c c c c
+		c c c c c c
+		b b b b b b %70
+		b b b b b b
+		b b b b b b
+		a a a a a a
+		d d d[\f d d d]
+		d4 d8\pE d d d %75
+		c! c c c c c
+		h! \mvTr h'\f-\markup { \remark "assai" } h h a a
+		\tempoGloriaB g g g g g g
+		g-\tutti-\markup { \remark "Rip." } g g g g g
+		c, c c c c c %80
+		a a a a a a
+		d d d d d' c!
+		h c h a g fis
+		e d e fis g a
+		h a g a h c %85
+		d d, d d d d
+		g g a a a a
+		d, d d d c! c
+		h h h h h h
+		c c d d d d %90
+		g, g' g g fis fis
+		e e h h h h
+		c c c c cis cis
+		d4 d d-\dolce
+		es es es %95
+		d4.\f d8 g4
+		c, d d
+		es8-\dolce es es es es es
+		d4.\fE d8 g4
+		c, d d, %100
+		g8 g\p g g g g
+		c c\f d d d d
+		g, g\p g g g g
+		c c\f d d d d
+		e c d4 d, %105
+		g8 g g g g g
+		g2 r4\fermata \bar "||" %107 finis
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	r2.
+	r
+	r
+	r
+	r %5
+	r
+	r
+	r
+	r
+	r %10
+	<[6 5]>
+	r
+	<[6 5]>
+	r
+	r8 <6> <6 4>4 <5 3> %15
+	r2.
+	r
+	r
+	r2 <6+>4
+	r2. %20
+	r2 <6>4
+	<7> <6> <6+>
+	<_+>2.
+	r
+	r %25
+	r2 <[8 6]>8 <[7 5]>
+	r2.
+	r2 <[8 6]>8 <[7 5]>
+	r2 <2>4
+	<[6]> q2 %30
+	<6 4>4 <5 3>2
+	r <6 5>4
+	<9> <[8]> <[6]>8 <[7]>
+	<6 4>4 <5 _+>2
+	<6>2. %35
+	<6 5>4 <5 4>2
+	<4 3>4 <6 4> <7 5 _+>
+	<6 4> <[5] 4> <\t _+>
+	r2 <_+>4
+	r2. %40
+	r
+	r
+	r
+	r
+	r2 <7>4 %45
+	r2.
+	r
+	r
+	<[6 4]>4 <[5 3]>2
+	r4 <[6]> q8 <[7]> %50
+	<6 4>4 <5 3>2
+	r2.
+	r
+	r2 <[5]>4
+	<6 5>2 <[6]>4 %55
+	<6 4> <5 3>8 <[\t \t]> <[6]>4
+	r <[6 4]> <[5 3]>
+	r2.
+	r
+	r %60
+	r8 <[6]> r4 <[6]>8 <[6 5]>
+	r2 <6 4>4
+	<[5 3]>2.
+	<_->
+	<\l \l _->2 \bassFigureExtendersOn <[8 6] _->8 <[7- 5] _-> \bassFigureExtendersOff %65
+	<9- _+>4 \bassFigureExtendersOn <8 _+> <7 _+> \bassFigureExtendersOff
+	<_->2.
+	<9 \l _->4 \bassFigureExtendersOn <8 \l\! _-> <[8\!] 6 _->8 <[7-] 5 _-> \bassFigureExtendersOff
+	<4+ _->2.
+	<6> %70
+	q
+	<6\\ [5!]>
+	<6! 4>4 <5 _+>2
+	<_!>2.
+	r %75
+	<6>2 <6\\>4
+	<_+>2 <6 _!>4
+	<5 _!>2.
+	r2 <[7!]>4
+	r2. %80
+	<_+>
+	r
+	<6>
+	<5>
+	<6> %85
+	r
+	<6 5>4 <_+>2
+	r <4>4
+	<6>2.
+	<6 5> %90
+	r2 <4 2>4
+	<5 3> <[6]>2
+	<9 7>4 <8 [6]> <7 5>
+	<6 4> <5 3>2
+	<7>4 <6> <6\\> %95
+	<_+>4. <7!>8 <_!>4
+	<6 5> <4> <3>
+	<6> <6\\>2
+	<7! _+>2 <_!>4
+	r2. %100
+	r
+	<6 5>
+	r
+	<[6 5]>
+	<6>4 <[6 4]> <[5 3]> %105
+	r2.
+	r %107 finis
 }
 
 % Organo = {

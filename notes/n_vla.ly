@@ -73,7 +73,7 @@ KyrieViola = {
 		f2 e4 d8 c
 		h4.\trill h8 a a' a a
 		g! g g g f4 e %65
-		d8 e f e d4^\markup { \remark "dolce assai" } d~
+		d8 e f e d4^\dolceAssai d~
 		d c!8 c b2
 		\tempoKyrieD a8 a a a b2
 		a4 r\fermata \key d \major \tempoKyrieE a'4\fE a
@@ -94,5 +94,118 @@ KyrieViola = {
 		a4 r8 a a4 r8 a
 		a16 d, e fis g a h cis d8 fis, g a
 		d,2 r\fermata \bar "|."
+	}
+}
+
+GloriaViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 3/4 \tempoGloria
+		d4\fE d d
+		d d d
+		d d d
+		d d d
+		d r r %5
+		r8 d d d d d
+		R2.
+		a'4 a a
+		fis fis fis
+		d r r %10
+		c\pE d\fE d
+		d r r
+		c\pE d d
+		d\fE d d
+		g8 c, d4 d %15
+		d8 g, g g g g
+		g2 r4\fermata
+		R2.
+		d'4^\dolceAssai r r
+		R2. %20
+		e4 r r
+		R2.
+		fis2 r4\fermata
+		R2.
+		r4 d\fE d %25
+		d r r
+		r <d a'> q
+		q r r
+		r8 d' d d d d
+		d4 a d %30
+		d, a' r
+		d8 d d d h h
+		h h h h h c
+		h4 r8 fis h a
+		g h h h h h %35
+		c c h h h h
+		a a h h cis cis
+		h h h h h h
+		h4 r r
+		e,8 dis e fis g a %40
+		h c h a g fis
+		e4 h' r
+		g8 fis g a h c
+		d e d c h a
+		g4 d' r %45
+		R2.*2
+		d8 d d d d d
+		d d, d d d d
+		d d d d d d %50
+		d d d d fis fis
+		g a h a g fis
+		e fis g fis e d
+		c c' c h a g
+		fis d g a h c %55
+		d d, d' c h g
+		g g g g a a
+		h4 r r
+		r d,8 d d d
+		d4 r r %60
+		g8 fis g a h cis
+		d d, d d d d
+		d d d4 r\fermata
+		\tempoEtInTerra \mvTr g8\pE-\dolceAssai g g g g g
+		c, c c c c c %65
+		d d d d d d
+		g, g g g g g
+		c c c c c c
+		c c c c c c
+		b b b b b b %70
+		b b b b b b
+		b b b b b b
+		a a a a a a
+		d d d[\f d d d]
+		d4 d8\p d d d %75
+		c! c c c c c
+		h! \mvTr h'\f-\markup { \remark "assai" } h h a a
+		\tempoGloriaB g4 r r
+		g8 g g g g g
+		g e e e c c %80
+		cis cis' cis cis cis cis
+		d fis, fis fis d c
+		h c h a g' fis
+		e d e fis g a
+		h a g a h c %85
+		d d, d d d d
+		g g a a a a
+		d, d d d c! c
+		h h h h h h
+		c c d d d d %90
+		g, g' g g fis fis
+		e e h h h h
+		c c c c cis cis
+		d4 d d-\dolce
+		es es es %95
+		d4.\f d8 g4
+		c, d d
+		es8-\dolce es es es es es
+		d4.\f d8 g4
+		c, d d %100
+		g8 g,\p g g g g
+		c c\f d d d d
+		g g,\p g g g g
+		c c\f d d d d
+		e c d4 d %105
+		g,8 g g g g g
+		g2 r4\fermata \bar "||" %107 finis
 	}
 }

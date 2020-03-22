@@ -171,6 +171,9 @@ pizzE = \markup { \remarkE "pizz." }
 arco = \markup { \remark "arco" }
 vv = \markup { \remark "Vv." }
 flauti = \markup { \remark "Flauti" }
+dolce = \markup { \remark "dolce" }
+dolceAssai = \markup { \remark "dolce assai" }
+sottoVoce = \markup { \remark "sotto voce" }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -279,7 +282,9 @@ tempoKyrie = \tempoMarkup "Allegro"
 	tempoKyrieC = \tempoMarkup "Vivace"
 	tempoKyrieD = \tempoMarkup "Adagio"
 	tempoKyrieE = \tempoMarkup "[Allegro]"
-	
+tempoGloria = \tempoMarkup "Allegro"
+	tempoEtInTerra = \tempoMarkup "Largo"
+	tempoGloriaB = \tempoMarkup "Allegro"
 
 
 

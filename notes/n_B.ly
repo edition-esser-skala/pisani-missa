@@ -56,7 +56,7 @@ KyrieBassoNotes = {
 		R1*2
 		r2 r8 a' a a
 		g! g g g f4 e %65
-		d r r d~^\markup { \remark "sotto voce" }
+		d r r d~^\sottoVoce
 		d c!8 c b4. b8
 		\tempoKyrieD a4 a' b4. b8
 		a4 r\fermata \key d \major \tempoKyrieE r2
@@ -142,6 +142,182 @@ KyrieBassoLyrics = \lyricmode {
 	son, e -- lei -- son,
 	e -- le -- i -- son, e -- le -- i -- %85
 	son. %86 finis
+}
+
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*16 %16
+		R2.\fermataMarkup
+		g'2.~^\sottoVoce^\tuttiE
+		g4 g8 g fis fis
+		e2. %20
+		e4 e8 e d d
+		c4 c2
+		h8. h16 h4 r\fermata
+		R2.
+		r4 g'\f d %25
+		g r r
+		r d' d,
+		d r r
+		d' d8 d c c
+		h4( a) g %30
+		d' d, r
+		r d dis
+		e8([ dis e fis)] g([ a])
+		h4 h r
+		r g g %35
+		a h h
+		c( h) ais
+		h2( h,4)
+		e r r
+		e8[^\soloE dis e fis g a] %40
+		h[ c h a g fis]
+		e8.^\tuttiE e16 e4 r
+		g8[^\soloE fis g a h c]
+		d[ e d c h a]
+		g8.^\tuttiE g,16 g4 r %45
+		R2.*2
+		g'4 g8 a h g
+		d'4 d, r
+		g8 a h g h cis %50
+		d d, d4 r
+		g8[ a h a g fis]
+		e[ fis g fis e d]
+		c c'4 h8[ a g]
+		fis[ d g a h c] %55
+		d4. c8 h4
+		c d d,
+		g r r
+		d' d8 d d d
+		d4 d, r %60
+		g8 fis g a h cis
+		d d, d4 r
+		d'8. d,16 d4 r\fermata
+		\tempoEtInTerra R2.*3 %66
+		\mvTr d'4.\pE^\solo b8 g f
+		es2 c'4
+		c,2 c4
+		b2 r4 %70
+		b' b b8 b
+		b2.
+		a
+		d,4 r r
+		r d' d, %75
+		c!2 c4
+		h! r r
+		\tempoGloriaB R2.
+		\mvTr g'4\fE^\tuttiE g8 g g g
+		c4 c, r %80
+		a'8 a a a a a
+		d d, d4 d'8[ c!]
+		h[ c h a g fis]
+		e[ d e fis g a]
+		h[ a g a h c] %85
+		d d, d4 r
+		R2.
+		d4. d8 c! c
+		h4 r r
+		R2. %90
+		r4 g' fis
+		e h h
+		c4. c8 cis cis
+		d2 d4
+		es2. %95
+		d4. d8 g4
+		c, d2
+		es4 r r
+		d4. d8 g4
+		c, d2 %100
+		g,4 r r
+		R2.*5 %106
+		R2.\fermataMarkup \bar "||" %107 finis
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	Glo -- %18
+	ri -- a in ex --
+	cel --  %20
+	sis, in ex -- cel -- sis
+	De -- o
+	glo -- ri -- a.
+	
+	Glo -- ri -- %25
+	a,
+	glo -- ri --
+	a,
+	glo -- ri -- a in ex --
+	cel -- sis %30
+	De -- o,
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- %35
+	a in ex --
+	cel -- sis
+	De --
+	o.
+	Glo -- %40
+	_
+	_ ri -- a,
+	glo --
+	_
+	_ -- ri -- a, %45
+	
+	glo -- ri -- a in ex -- %48
+	cel -- sis,
+	in ex -- cel -- sis De -- o %50
+	glo -- ri -- a,
+	glo --
+	_
+	_ _ _
+	_ %55
+	_ _ ri --
+	a, glo -- ri --
+	a,
+	glo -- ri -- a in ex --
+	cel -- sis, %60
+	in ex -- cel -- sis De -- o
+	glo -- ri -- a,
+	\xE glo -- ri -- a. \x
+	
+	Et in ter -- ra %67
+	pax ho --
+	mi -- ni --
+	bus %70
+	bo -- nae vo -- lun --
+	ta --
+	_
+	tis.
+	Et in %75
+	ter -- ra
+	pax.
+	
+	Glo -- ri -- a in ex --
+	cel -- sis, %80
+	in ex -- cel -- sis De -- o
+	glo -- ri -- a, glo --
+	_
+	_
+	_  %85
+	_ ri -- a.
+	
+	Et in ter -- ra
+	pax,
+	%90
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae vo -- lun --
+	ta -- tis,
+	bo -- %95
+	_ nae vo --
+	lun -- ta --
+	tis,
+	bo -- nae vo --
+	lun -- ta -- %100
+	tis. %101 finis
 }
 
 % BassoNotes = {

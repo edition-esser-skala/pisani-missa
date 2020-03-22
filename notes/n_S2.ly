@@ -69,7 +69,7 @@ KyrieSopranoIINotes = {
 		R1*2
 		r2 r8 cis cis cis
 		cis2( d4) e %65
-		f r r8 d^\markup { \remark "sotto voce" } d d
+		f r r8 d^\sottoVoce d d
 		d4( a d4.) d8
 		\tempoKyrieD a4 r8 a d4. d8
 		cis4 r\fermata \key d \major \tempoKyrieE r2
@@ -167,14 +167,176 @@ KyrieSopranoIILyrics = \lyricmode {
 	son. %86 finis
 }
 
-% SopranoIINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoIILyrics = \lyricmode {
-% 	
-% }
+GloriaSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*16 %16
+		R2.\fermataMarkup
+		d'2.~^\sottoVoce^\tuttiE
+		d4 d8 d dis dis
+		e2. %20
+		e4 e8 e h h
+		h4( a) ais
+		h8. h16 h4 r\fermata
+		R2.
+		r4 d!\f d %25
+		d r r
+		r a a
+		a r r
+		d d8 d d d
+		d4( c) d %30
+		d d r
+		r d8.([ c16)] h4
+		h2 h8([ c)]
+		h4 h r
+		r e4.( d8 %35
+		c4) h h
+		a( h) cis
+		h2.
+		h4 r r
+		R2.*2 %41
+		e8. h16 h4 r
+		R2.*2
+		g'8. d16 d4 r %45
+		h8[^\soloE g16 a] h[ a h c] h8[ c16 h]
+		a8[ fis16 g] a[ g a h] a8[ h16 a]
+		g4^\tuttiE d'8 d d d
+		d4 a r
+		g'8 g g g g g %50
+		g g fis4 r
+		h,2.~
+		h
+		c
+		d4. c8[ d e] %55
+		d2 d4
+		e d4. c8
+		h4 r r
+		a d8 d d d
+		d4 a r %60
+		h8 a h h h a
+		a a d4 r
+		d8. a16 a4 r\fermata
+		\tempoEtInTerra R2.
+		\mvTr es'4.\pE^\solo c8 a g %65
+		\appoggiatura g4 fis!2 fis4
+		g8. a16 b4 r
+		r es2~
+		es8 es es4 es
+		d g, r %70
+		R2.
+		d'4 d, d8 d
+		a'2.
+		a4 r r
+		R2.*3 %77
+		\tempoGloriaB h!8[ g16 a] h8[ g16 a] h[ a h c]
+		\mvTr h8.[\fE^\tuttiE c16] d8 d d d
+		c8.([ d16)] e4 r %80
+		cis8 cis cis cis cis cis
+		d a a4 r
+		h2.
+		e
+		d8. c16 h4 r %85
+		r d d
+		e e4.( fis16[ g])
+		fis8.[( e16]) d4 r
+		r g, g
+		a a4.( h16[ c]) %90
+		h4 h h
+		h h h
+		e4. e8 e e
+		d4 d r
+		g,2. %95
+		a4. a8 h!4
+		e d2
+		c4 r r
+		a4. a8 h!4
+		e d4.( c8) %100
+		h4 r r
+		R2.*5 %106
+		R2.\fermataMarkup \bar "||" %107 finis
+	}
+}
+
+GloriaSopranoIILyrics = \lyricmode {
+	Glo -- %18
+	ri -- a in ex --
+	cel --  %20
+	sis, in ex -- cel -- sis
+	De -- o
+	glo -- ri -- a.
+	
+	\xE Glo -- ri -- %25
+	a,
+	glo -- ri --
+	a,
+	glo -- ri -- a in ex --
+	cel -- sis %30
+	De -- o,
+	in __ ex --
+	cel -- sis
+	De -- o,
+	glo -- %35
+	ri -- a
+	in __ ex --
+	cel --
+	sis.
+	
+	Glo -- ri -- a, %42
+	
+	glo -- ri -- a, %45
+	glo -- _ _
+	_ _ _
+	_ ri -- a in ex --
+	cel -- sis,
+	in ex -- cel -- sis De -- o %50
+	glo -- ri -- a,
+	glo --
+	
+	_
+	_ _ %55
+	_ ri --
+	a, glo -- ri --
+	a,
+	glo -- ri -- a in ex --
+	cel -- sis, %60
+	in ex -- cel -- sis De -- o
+	glo -- ri -- a,
+	glo -- ri -- a.
+	
+	Et in ter -- ra %65
+	pax ho --
+	mi -- ni -- bus
+	bo --
+	nae vo -- lun --
+	ta -- tis, %70
+	
+	bo -- nae vo -- lun --
+	ta --
+	tis.
+	
+	Glo -- _ _ %78
+	_ ri -- a in ex --
+	cel -- sis, %80
+	in ex -- cel -- sis De -- o
+	glo -- ri -- a,
+	glo --
+	_
+	_ ri -- a %85
+	in ex --
+	cel -- sis __
+	De -- o.
+	Et in
+	ter -- ra __ %90
+	pax, pax ho --
+	mi -- ni -- bus
+	bo -- nae vo -- lun --
+	ta -- tis,
+	bo -- %95
+	_ nae vo --
+	lun -- ta --
+	tis,
+	bo -- nae vo --
+	lun -- ta -- %100
+	tis. %101 finis
+}

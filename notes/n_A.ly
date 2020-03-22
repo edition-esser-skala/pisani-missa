@@ -70,7 +70,7 @@ KyrieAltoNotes = {
 		f2 e4 d8[ c]
 		h4. h8 a4 r
 		r8 b' b b a4 g %65
-		f r a2^\markup { \remark "sotto voce" }
+		f r a2^\sottoVoce
 		gis4 a a gis
 		\tempoKyrieD a r8 a gis4. gis8
 		a4 r\fermata \key d \major \tempoKyrieE r2
@@ -159,6 +159,177 @@ KyrieAltoLyrics = \lyricmode {
 	son, e -- le --
 	_ _ i -- son, e -- le -- i -- %85
 	son. %86 finis
+}
+
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*16 %16
+		R2.\fermataMarkup
+		g'2.~^\sottoVoce^\tuttiE
+		g4 g8 g a a
+		g2. %20
+		g4 g8 g fis fis
+		g4 e2
+		fis8. fis16 fis4 r\fermata
+		R2.
+		r4 h\f a %25
+		h r r
+		r fis8.([ g16)] a8.([ g16)]
+		fis4 r r
+		a a8 a a a
+		h4( c) h %30
+		h a r
+		r a a
+		g4.( fis8) e4
+		h' h, r
+		r h' h %35
+		a r r
+		R2.
+		r4 h a
+		g r r
+		R2.*2 %41
+		h8. g16 g4 r
+		R2.*2
+		h8. g16 g4 r %45
+		R2.*2
+		g8.([ a16)] h8 h h h
+		h4 a r
+		h8 h h h h h %50
+		h h a4 r
+		g2.~
+		g~
+		g2 a4~
+		a g4. e8 %55
+		a2 h4
+		g g fis
+		g r r
+		a a8 a a a
+		a4 a r %60
+		g8 d g g g g
+		fis fis fis4 r
+		a8. a16 a4 r\fermata
+		\tempoEtInTerra R2.
+		r4 \mvTr c4.\pE^\solo b8 %65
+		a4. a8 a a
+		g8. fis!16 g4 r
+		r g8 g c c
+		c4( a2)
+		d, g4~ %70
+		g g g8 g
+		gis2.
+		a2 g4
+		f r r
+		R2.*3 %77
+		\tempoGloriaB R2.
+		\mvTr h4\fE^\tuttiE h8 h h h
+		c4 g r %80
+		a8 a a a a a
+		a fis! fis4 r
+		r g2~
+		g8[ fis g a h c]
+		h2. %85
+		a8 fis fis4 r
+		R2.
+		fis4. fis8 fis fis
+		g4 r g~
+		g8 g fis4 fis %90
+		g g g
+		g g g
+		g4. g8 g g
+		g4 fis r
+		r g2 %95
+		fis4. fis8 g4
+		g g( fis)
+		g r r
+		fis4. fis8 g4
+		g g( fis) %100
+		g r r
+		R2.*5 %106
+		R2.\fermataMarkup \bar "||" %107 finis
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	\xE Glo -- %18
+	ri -- a in ex --
+	cel --  %20
+	sis, in ex -- cel -- sis
+	De -- o
+	glo -- ri -- a.
+	
+	Glo -- ri -- %25
+	a,
+	glo -- ri --
+	a,
+	glo -- ri -- a in ex --
+	cel -- sis %30
+	De -- o,
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- %35
+	a,
+	
+	glo -- ri --
+	a.
+	
+	Glo -- ri -- a, %42
+	
+	\x glo -- ri -- a, %45
+	
+	glo -- ri -- a in ex --
+	cel -- sis,
+	in ex -- cel -- sis De -- o %50
+	glo -- ri -- a,
+	glo --
+	
+	_
+	_ _ %55
+	_ \xE ri --
+	a, glo -- ri --
+	a,
+	glo -- ri -- a in ex --
+	cel -- sis, %60
+	in ex -- cel -- sis De -- o
+	glo -- ri -- a,
+	glo -- ri -- a.
+	
+	Et in %65
+	ter -- ra pax ho --
+	mi -- ni -- bus
+	bo -- nae vo -- lun --
+	ta --
+	tis, bo -- %70
+	nae vo -- lun --
+	ta --
+	_ _
+	tis.
+	
+	Glo -- ri -- a in ex -- %79
+	cel -- sis, %80
+	in ex -- cel -- sis De -- o
+	glo -- ri -- a,
+	glo --
+	
+	_ %85
+	_ ri -- a.
+	
+	Et in ter -- ra
+	pax, pax __
+	ho -- mi -- ni -- %90
+	bus, pax ho --
+	mi -- ni -- bus
+	bo -- nae vo -- lun --
+	ta -- tis,
+	bo -- %95
+	_ nae vo --
+	lun -- ta --
+	tis,
+	bo -- nae vo --
+	lun -- ta -- %100
+	tis. %101 finis
 }
 
 % AltoNotes = {

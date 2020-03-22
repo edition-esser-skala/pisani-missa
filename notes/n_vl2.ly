@@ -73,7 +73,7 @@ KyrieViolinoII = {
 		f2 e4 d8 c
 		h4.\trill h8 a cis cis cis
 		cis cis cis cis d d e e %65
-		a, a'16 g f e d e f8^\markup { \remark "dolce assai" } a,4 a8
+		a, a'16 g f e d e f8^\dolceAssai a,4 a8
 		gis gis a a a a gis gis
 		\tempoKyrieD a cis4 cis8 d d4 d8
 		cis4 r\fermata \key d \major \tempoKyrieE fis\f^\flauti e
@@ -98,5 +98,119 @@ KyrieViolinoII = {
 		fis8 a <fis a, d,> a <fis a, d,> a <fis a, d,> a
 		fis16 d, e fis g a h cis d8 fis, g a
 		<fis' a, d,>2 r\fermata \bar "|." %90 finis
+	}
+}
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoGloria
+		R2.
+		r8 g\fE h g h d
+		g h, d h d g
+		h d, g d g h
+		d4 r r %5
+		r8 d, d d d d
+		R2.
+		r8 a' d a fis' d
+		a' d, fis d a' c,
+		h \mvTr g'\p-\dolce fis g g, h %10
+		a c\f h a g fis
+		g g'\p fis g g, h
+		a c h a g fis
+		g\f d h' g d' h
+		g' g g4 fis %15
+		g8 h,, h h h h
+		h2 r4\fermata
+		R2.
+		r8 h'-\dolceAssai h h a a
+		g4 r r %20
+		r8 g g g fis fis
+		e-\critnote e a a ais ais
+		h fis h,4 r\fermata
+		<g'' h, d, g,>4\f r r
+		r q <fis a, d,> %25
+		<g h, d, g,> r r
+		r <fis a, d,> q
+		q r r
+		r8 fis fis fis fis fis
+		g g fis fis g g %30
+		g4 fis r
+		r8 fis fis fis fis fis
+		fis fis e e e e
+		e4 dis8 dis fis fis
+		h, e4 e e8~ %35
+		e e4 e e8~
+		e e4 e e8
+		e4 e dis
+		e8 e16 fis g8 e fis dis
+		e4 e,8 fis g a %40
+		h c h a g fis
+		<e h' e>4 q r
+		g8 fis g a h c
+		d e d c h a
+		<g, d' h' g'>4 q r %45
+		g' g g
+		a fis d
+		g8 g' g g g g
+		g g fis a a a
+		g g g g g g %50
+		g g fis a a a
+		g g g g g g
+		g g g g g g
+		e e e g a a
+		a a g g g g %55
+		fis fis fis fis g4
+		c h a
+		g r r
+		r fis8 fis fis fis
+		<fis a, d,>4 r r %60
+		g8 d g g g g
+		fis fis fis fis g g
+		fis fis fis4 r\fermata
+		\tempoEtInTerra \mvTr g,8\pE-\dolceAssai g g g g g
+		c, c c c c c %65
+		d d d d d d
+		g, g g g g g
+		c c c c c c
+		r es' es es es es
+		d d, d d d d %70
+		r g g g g g
+		gis gis gis gis gis gis
+		a d, cis cis cis cis
+		d f' f,[\f f f f]
+		f d' d,[\p d d d] %75
+		c!-\critnote a a a ais ais
+		h \mvTr h'8\f-\markup { \remark "assai" } h h c! c
+		\tempoGloriaB <h! d,! g,>4 r r
+		r8 d d d d d
+		e g, c e g16 a g f %80
+		e8 e e e e e
+		fis! d d d d, c!
+		h4 g'' g
+		g g g
+		g8 g g g g g %85
+		fis a, a a d4~
+		d8 d cis cis cis cis
+		d fis, fis fis fis fis
+		g g g g g g
+		a[ a a a] a h16 c %90
+		h8 g' g g g g
+		g g g g g g
+		g g g g g g
+		g4 fis fis,-\dolce
+		g g g %95
+		fis4.\f fis'8 g4
+		g g fis
+		g8-\dolce g, g g g g
+		fis4.\f fis'8 g4
+		g g fis %100
+		g8 g\p fis g g, h
+		a c\f h a g fis
+		g g'\p fis g g, h
+		a c\f h a g fis
+		g g' g4 fis %105
+		g8 h,, h h h h
+		h2 r4\fermata \bar "||" %107 finis
 	}
 }

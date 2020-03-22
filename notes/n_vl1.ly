@@ -73,7 +73,7 @@ KyrieViolinoI = {
 		f2 e4 d8 c
 		h4.\trill h8 a e' e e
 		e b' b b a a g g %65
-		f16 e d cis d e f g a8^\markup { \remark "dolce assai" } f4 f8~
+		f16 e d cis d e f g a8^\dolceAssai f4 f8~
 		f f e e d d4 d8
 		\tempoKyrieD cis a'4 a8 gis gis4 gis8
 		a4 r\fermata \key d \major \tempoKyrieE d\f^\flauti cis
@@ -98,6 +98,120 @@ KyrieViolinoI = {
 		d8 a <fis a, d,> a <fis a, d,> a <fis a, d,> a
 		fis16 fis, g a h cis d e fis8 fis, g a
 		<fis' a, d,>2 r\fermata \bar "|." %90 finis
+	}
+}
+
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoGloria
+		r8 g\fE h g h d
+		g h, d h d g
+		h d, g d g h
+		d g, h g h d
+		<g h, d,>4 r r %5
+		r8 d, d d d d
+		R2.
+		r8 a' d a fis' d
+		a' d, fis d a' c,
+		h \mvTr g'\p-\dolce fis g g, h %10
+		a e'\f d c h a
+		g g'\p fis g g, h
+		a e' d c h a
+		g\fE d h' g d' h
+		g' c h4 a %15
+		g8 d, d d d d
+		d2 r4\fermata
+		R2.
+		r8 d'-\dolceAssai d d dis dis
+		e4 r r %20
+		r8 h h h h h
+		e e e e e e
+		dis h h,4 r\fermata
+		<g'' h, d, g,>4\f r r
+		r q <fis a, d,> %25
+		<g h, d, g,> r r
+		r <fis a, d,> q
+		q r r
+		r8 a a a a a
+		h h c c h h %30
+		h4 a r
+		r8 a a a a a
+		g g g g g g
+		g4 fis8 h dis, dis
+		e g4 g g8 %35
+		fis4 fis fis
+		fis g g
+		g^\critnote fis2
+		e8 g16 a h8 g a fis
+		g4 g,8 a h c %40
+		h c h a g fis
+		<e h' e>4 q r
+		g8 fis g a h c
+		d e d c h a
+		<g, d' h' g'>4 q r %45
+		g' g g
+		a fis d
+		g8 h' h h h h
+		h h a c c c
+		h h h h h h %50
+		h h a c c c
+		h h h h h h
+		h h h h h h
+		c c c c c c
+		c c h h h h %55
+		a a a a h4
+		g g fis
+		g r r
+		r a8 a a a
+		a4 r r %60
+		h8 a h h h a
+		a a a a h h
+		a a a4 r\fermata
+		\tempoEtInTerra \mvTr g,8\pE-\dolceAssai g g g g g
+		c, c c c c c %65
+		d d d d d d
+		g, g g g g g
+		c c c c c c
+		r fis'! fis fis fis fis
+		g g, g g g g %70
+		d' d d d d d
+		d d d d, d d
+		f f e e e e
+		d a'' a,[\f a a a]
+		a d d,[\p d d d] %75
+		c! e e e e e
+		dis4 \mvTr fis'!8\f-\markup { \remark "assai" } fis fis fis
+		\tempoGloriaB <g h,! d, g,>4 r r
+		r8 h h h h h
+		c4 g16 a g f e f e d %80
+		cis8 cis' cis cis cis cis
+		d d, d d d, c!
+		h4 h'' h
+		h h h
+		h8 h h h h h %85
+		a4 d,8 d d d
+		e[ e e e] e fis16 g
+		fis8 a, a a a a
+		h4 d g~
+		g fis fis %90
+		g8 h h h h h
+		h h h h h h
+		h h h h h h
+		h4 a d,~-\dolce
+		d c cis %95
+		d4.\f a'8 h!4
+		\tuplet 3/2 4 { c8 h a } a4 a
+		g8-\dolce c, cis cis cis cis
+		c4.\f c'8 h!4
+		\tuplet 3/2 4 { c8 h a } a4 a %100
+		h8 g\p fis g g, h
+		a e'\f d c h a
+		h g'\p fis g g, h
+		a e'\f d c h a
+		g c' h4 a %105
+		g8 d, d d d d
+		d2 r4\fermata \bar "||" %107 finis
 	}
 }
 
