@@ -7,14 +7,14 @@
 
 
 \paper {
-	#(set-paper-size "a4" 'portrait)	
+	#(set-paper-size "a4" 'portrait)
 	two-sided = ##t
 	top-margin = 1\cm
 	bottom-margin = .5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
 	indent = 2.5\cm
-	
+
 	oddFooterMarkup = \markup {}
 	evenFooterMarkup = \markup {}
 	oddHeaderMarkup = \markup {
@@ -74,11 +74,17 @@
        (padding . 0)
        (stretchability . 0))
 
-	bookTitleMarkup = \markup {
-		\fill-line {
-			\fontsize #3 \fromproperty #'header:movement
-		}
-	}
+	 bookTitleMarkup = \markup {
+ 		\fill-line {
+ 			\line {
+ 				\fontsize #3 {
+ 	 				\with-color #(rgb-color .8313 0 0) { \fromproperty #'header:number }
+ 	 			 	\hspace #3
+ 	 			 	\fromproperty #'header:title
+ 				}
+ 			}
+  		}
+ 	}
 
 	system-separator-markup = \markup {
 		\center-align
@@ -112,42 +118,6 @@ partTitle = #(define-scheme-function
 	#}
 )
 
-#(define (change-char-helper aa test? offset)
-    (if (string? aa) 
-        (let* ((chars (string->list aa))
-               (tosc (map (lambda (c)
-                               (if (and (<= (char->integer c) 127) (test? c))
-                                   (ly:wide-char->utf-8 (+ (char->integer c) offset))
-                                   (string c) ) )
-                           chars))
-                (newStr (apply string-append tosc)))
-             newStr)
-         aa)
-)
-
-#(define (to-old-style str) (change-char-helper str char-numeric?
-                                (- #xF730 (char->integer #\0))))
-
-#(define-markup-command (oldStyleNum layout props str) (markup?)
-    "Old-style numerals"
-    (interpret-markup layout props (to-old-style str)))
-%
-%
-
-movementTitle = #(define-scheme-function
-  (parser location number title)
-  (string? string?)
-  #{
-		 \markup {
-			 \with-color #(rgb-color .8313 0 0) { \fontsize #-3 #number }
-			 \hspace #3
-			 \fontsize #-4 #title
-		 }
-	#}
-)
-%
-%
-
 
 solo = \markup { \remark Solo }
 soloE = \markup { \remarkE Solo }
@@ -176,6 +146,8 @@ dolceE = \markup { \remarkE "dolce" }
 dolceAssai = \markup { \remark "dolce assai" }
 dolceAssaiE = \markup { \remarkE "dolce assai" }
 sottoVoce = \markup { \remark "sotto voce" }
+rip = \markup { \remark "Rip." }
+ripE = \markup { \remarkE "Rip." }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -289,6 +261,7 @@ tempoGloria = \tempoMarkup "Allegro"
 	tempoEtInTerra = \tempoMarkup "Largo"
 	tempoGloriaB = \tempoMarkup "Allegro"
 tempoLaudamus = \tempoMarkup "Allegretto"
+tempoGratias = \tempoMarkup "Allegro"
 
 
 
@@ -475,19 +448,44 @@ tempoLaudamus = \tempoMarkup "Allegretto"
 	}
 }
 
-\include "notes/n_ob1.ly"
-\include "notes/n_ob2.ly"
-\include "notes/n_tr1.ly"
-\include "notes/n_tr2.ly"
-\include "notes/n_cor1.ly"
-\include "notes/n_cor2.ly"
-\include "notes/n_timp.ly"
-\include "notes/n_vl1.ly"
-\include "notes/n_vl2.ly"
-\include "notes/n_vla.ly"
-\include "notes/n_S1.ly"
-\include "notes/n_S2.ly"
-\include "notes/n_A.ly"
-\include "notes/n_T.ly"
-\include "notes/n_B.ly"
-\include "notes/n_org.ly"
+#(define (ly:create-toc-file layout pages)
+  (let* ((label-table (ly:output-def-lookup layout 'label-page-table)))
+    (if (not (null? label-table))
+      (let* ((format-line (lambda (toc-item)
+             (let* ((label (car toc-item))
+                    (text  (caddr toc-item))
+                    (label-page (and (list? label-table)
+                                     (assoc label label-table)))
+                    (page (and label-page (cdr label-page))))
+               (format #f "~a{~a}" text page))))
+             (formatted-toc-items (map format-line (toc-items)))
+             (whole-string (string-join formatted-toc-items "\n"))
+						 (outfilename "lilypond.toc")
+             (outfile (open-output-file outfilename)))
+        (if (output-port? outfile)
+            (display whole-string outfile)
+            (ly:warning (_ "Unable to open output file ~a for the TOC information") outfilename))
+        (close-output-port outfile)))))
+
+tocPart = #(define-music-function (parser location number text) (markup? markup?)
+   (add-toc-item! 'tocItemMarkup (format #f "\\contentsline {part}{\\numberline {~a}~a}" number text )))
+
+tocSection = #(define-music-function (parser location number text) (markup? markup?)
+   (add-toc-item! 'tocItemMarkup (format #f "\\contentsline {section}{\\numberline {~a}~a}" number text )))
+
+\include "notes/ob1.ly"
+\include "notes/ob2.ly"
+\include "notes/tr1.ly"
+\include "notes/tr2.ly"
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
+\include "notes/timp.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/vla.ly"
+\include "notes/S1.ly"
+\include "notes/S2.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

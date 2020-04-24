@@ -417,6 +417,18 @@ LaudamusSopranoILyrics = \lyricmode {
 	te. %145 finis
 }
 
+GratiasSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key a \mixolydian \time 2/4 \autoBeamOff \tempoGratias
+		
+	}
+}
+
+GratiasSopranoILyrics = \lyricmode {
+	
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

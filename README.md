@@ -2,35 +2,36 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, March 2020
+First version, April 2020
+
+
+## Requirements
+
+* LilyPond >= 2.18.0
+* LuaLaTeX >= 1.10.0
+* GNU Make >= 4.1
+* The Source Sans and Fredericka the Great fonts from Google Fonts
 
 
 ## Build instructions
 
-Use the `make` tool for building scores. Specify one of the following **targets** to create:
+Use `make` for building scores:
+* `make final/scores` generates all publication-ready scores in folder `final/`.
+* `make info` lists other available build targets.
 
-* **org** etc.: individual parts
-* **parts**: all parts
-* **movements**: all movements
-* **score**: full score
-* **all**: full score and all parts
-* **archive**: ZIP file with all sources
-* **info**: show all available targets
-
-PDF files will be stored in a subfolder *./pdf*, MIDI files in a subfolder *./midi*.
-
-The file *master.ly* allows you to work with an editor like Kile: Change the included movement/parts file in this script to generate files *master.pdf* and *master.midi*, which can be opened via the ViewPDF and OpenMIDI functionalities.
+Alternatively, the file *master.ly* allows you to work with a text editor (e.g., Atom):
+Change the included scores file in this script to generate files *master.pdf* and *master.midi*.
 
 
 ## Files
 
-* *Makefile* – the configuration file for make.
-* *definitions.ly* – contains general definitions.
-* *master.ly* – allows building movements/parts from within Kile.
-* individual voices in folder *notes/*
-* movement definitions in folder *scores/*
-* parts definitions in folder *parts/*
-
+* *definitions.ly* – contains general definitions
+* *Makefile* – configuration file for `make`
+* *master.ly* – allows building scores without using `make`
+* *README.md* – this file
+* *front_matter/* – LuaLaTeX files and images for typesetting front matter
+* *notes/* – LY files containing individual voices
+* *scores/* – LY files containing score definitions
 
 
 ## Copyright

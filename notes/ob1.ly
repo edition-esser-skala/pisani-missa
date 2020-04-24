@@ -191,3 +191,11 @@ GloriaOboeI = {
 		g2 r4\fermata \bar "||" %107 finis
 	}
 }
+
+GratiasOboeI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
+		
+	}
+}

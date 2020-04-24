@@ -264,6 +264,14 @@ LaudamusViolinoI = {
 	}
 }
 
+GratiasViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

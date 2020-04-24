@@ -241,3 +241,11 @@ LaudamusViola = {
 		e2 r\fermata \bar "||" %149 finis
 	}
 }
+
+GratiasViola = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
+		
+	}
+}

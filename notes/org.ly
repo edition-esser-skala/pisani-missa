@@ -276,7 +276,7 @@ GloriaOrgano = {
 		c! c c c c c
 		h! \mvTr h'\f-\markup { \remark "assai" } h h a a
 		\tempoGloriaB g g g g g g
-		g-\tutti-\markup { \remark "Rip." } g g g g g
+		g-\tutti-\rip g g g g g
 		c, c c c c c %80
 		a a a a a a
 		d d d d d' c!
@@ -511,6 +511,197 @@ LaudamusBassFigures = \figuremode {
 	<[_+]> <[6 5]>4. r8 <[6]> <[6 5]> <[_+]>
 	<6>4 <[6 5!]> r8 <[6]> <[6 5]> <[_+]>
 	r1 %149 finis
+}
+
+GratiasOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
+			\set Score.currentBarNumber = #150
+		\mvTr a4\f-\solo r
+		a'8 a a a
+		gis gis a gis
+		a4 r
+		\mvTr a8\p-\org a, cis a
+		d4 e %155
+		a, r8 a'
+		h dis, dis dis
+		e e cis' a
+		h4 h,
+		\mvTr e\fE-\rip r %160
+		e8 e gis, gis
+		a \mvTr a\pE-\org a a
+		a a a a
+		d4 e
+		\mvTr fis\fE-\rip gis %165
+		a8 cis, d e
+		a, a a a
+		d d d d
+		e d cis d
+		e4 e, %170
+		a r\fermata
+		R2*3
+		\mvTr a8\f-\rip a a a %175
+		a4 r8 \mvTr a'\pE-\org
+		gis e r4
+		R2
+		\mvTr e8\fE-\rip e e e
+		e4 r %180
+		\mvTr a,\pE-\org r
+		h r
+		e8 e e e
+		a a, a4
+		R2 %185
+		h'8 a gis fis
+		e a, gis a
+		h4 h
+		\mvTr e8\f-\rip e e e
+		dis e fis h, %190
+		e e gis, gis
+		a a h h
+		e e e e
+		h'4 h,
+		e r %195
+		\mvTr e8\f-\rip e e e
+		a, a a4
+		R2
+		\mvTr e'8\pE-\org e e e
+		a a, cis a %200
+		d d d d
+		e e cis a
+		cis4 h
+		a r
+		\mvTr a\f-\rip r %205
+		\mvTr a8\pE-\org h cis d
+		e4 e,
+		\mvTr a8\fE-\rip a a a
+		a \mvTr a\pE-\org a a
+		d d d d %210
+		dis4 h
+		e8 e e e
+		e e e e
+		a,4 r
+		e'8 e e e %215
+		a, h cis d
+		e d cis a
+		a'4 r
+		a r
+		f2 %220
+		e4 r
+		e8 e e e
+		a a, r4
+		R2*6 %229
+		r8 \mvTr d\fE-\rip d d %230
+		r e e d
+		cis \mvTr h\pE-\org cis d
+		e e e, e
+		a a a a
+		a cis' a gis %235
+		fis4 r8 d
+		e d cis h
+		a4 r
+		a8 h cis d
+		e4 e, %240
+		\mvTr a\f-\ripE -\tweak TextScript.X-offset #0 -\critnote r
+		a e'
+		a, r
+		r8 cis cis cis
+		d d d d %245
+		e d cis d
+		e4 e,
+		a2\fermata \bar "||" %248 finis
+	}
+}
+
+GratiasBassFigures = \figuremode {
+	r2 %150
+	r
+	r
+	r
+	r
+	<6 5>4 <6 4>8 <5 _+> %155
+	r4. <6>8
+	r2
+	<_+>
+	<4>4 <_+>
+	q2 %160
+	r
+	r
+	r4 <7!>
+	r4 <_+>
+	r2 %165
+	r
+	r
+	<5>4 <6>
+	r <[6]>
+	<6 4> <5 _+> %170
+	r2*6 %176
+	<[6]>8 <[_+]>4.
+	r2
+	<_+>
+	r %180
+	r
+	r
+	r
+	r
+	r %185
+	r
+	r
+	<6+ 4>4 <5 _+>
+	r2
+	r %190
+	r
+	r4 <6+ 4>8 <5 _+>
+	<_+>2
+	r
+	r %195
+	<5 _+>8 <6 4> <7 _+>4
+	r2
+	r
+	r
+	r %200
+	r4 <6>8 <5>
+	<_+>4 <[6]>
+	q <6+>
+	r2
+	r %205
+	r
+	r
+	r
+	r8 <7 5> <6 4> <5 3>
+	r2 %210
+	r
+	r
+	<[8 _+]>4 <7! \t>
+	r2
+	<[8 _+]>4 <7! \t> %215
+	r2
+	<_+>4 <[6]>
+	<_!>2
+	<\t>
+	<6+ [5!]> %220
+	<_+>
+	<7! [_+]>
+	r2*7 %229
+	r2 %230
+	r8 <_+>4.
+	r2
+	<6 4>4 <5 _+>
+	r2
+	r %235
+	r4. <6>8
+	r2
+	r
+	r
+	r %240
+	r
+	r4 <_+>
+	r2
+	r8 <[6]>4.
+	<5>4 <6> %245
+	r2
+	r
+	r %248 finis
 }
 
 % Organo = {
