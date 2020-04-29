@@ -196,6 +196,49 @@ GratiasOboeII = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
-		
+			\set Score.currentBarNumber = #150
+			R2*15 %164
+			a''8\fE gis16 fis e8 d %165
+			cis32( h a8.) h8.(\trill a32 h)
+			a4 r8 cis
+			d d, r fis'
+			h, h e d
+			cis32( h a8.) \appoggiatura cis8 h4\trillE %170
+			a r\fermata
+			R2*3
+			a'4\fE e16 d cis h %175
+			a4 r
+			R2*2
+			e'4\fE h16 a gis fis
+			e4 r %180
+			R2*8 %188
+			r8 h'\f e gis
+			fis gis a gis16 fis %190
+			gis8 h h,16 d! cis h
+			cis a' gis fis e8 dis
+			e16 dis cis h a gis fis e
+			gis32( fis e8.) fis4\trill
+			e r %195
+			h'8\f cis d! cis16 h
+			cis d e cis \appoggiatura h8 a4
+			R2*7 %204
+			r16 a\f h16 cis d e fis gis %205
+			a4 r
+			R2
+			a4\f e16 d cis h
+			a4 r
+			R2*20 %229
+			fis'2\f %230
+			gis
+			a4 r
+			R2*8 %240
+			a4\f e16 d cis h
+			a cis h a h d cis h
+			cis e d cis d fis e d
+			e4 r8 a,
+			d4 r8 fis %245
+			h, h cis32( h a8.)
+			a4 gis
+			a2\fermata \bar "||" %248 finis
 	}
 }

@@ -104,7 +104,7 @@ KyrieSopranoILyrics = \lyricmode {
 	_ _
 	_ _ _ _ i -- son, e --
 	le -- i -- son.
-	
+
 	Ky -- ri -- e e -- le -- i -- son, e -- %26
 	le -- _ _
 	_ _ _ _
@@ -141,7 +141,7 @@ KyrieSopranoILyrics = \lyricmode {
 	le -- i -- son,
 	Chri -- ste e -- le -- i -- %60
 	son.
-	
+
 	Chri -- ste e -- %64
 	le -- i -- %65
 	son, Chri --
@@ -265,7 +265,7 @@ GloriaSopranoILyrics = \lyricmode {
 	_ _
 	_
 	_ ri -- a.
-	
+
 	Glo -- ri -- %25
 	a,
 	glo -- ri --
@@ -277,13 +277,13 @@ GloriaSopranoILyrics = \lyricmode {
 	cel -- sis
 	De -- o,
 	glo -- %35
-	
+
 	ri -- a,
 	glo -- ri --
 	a.
-	
+
 	Glo -- ri -- a, %42
-	
+
 	glo -- ri -- a, %45
 	glo -- _ _
 	_ _ _
@@ -314,7 +314,7 @@ GloriaSopranoILyrics = \lyricmode {
 	ta --
 	_
 	tis.
-	
+
 	\xE Glo -- _ _ %78
 	_ ri -- a in ex --
 	cel -- sis, %80
@@ -324,7 +324,7 @@ GloriaSopranoILyrics = \lyricmode {
 	_
 	%85
 	_ ri -- a.
-	
+
 	Et in ter -- ra
 	pax,
 	%90
@@ -396,7 +396,7 @@ LaudamusSopranoILyrics = \lyricmode {
 	_ _ _ _
 	_ _ _ mus %125
 	te.
-	
+
 	Lau -- da --
 	_ mus te,
 	ad -- o -- %130
@@ -406,7 +406,7 @@ LaudamusSopranoILyrics = \lyricmode {
 	ca -- _ _ mus
 	te. Lau -- %135
 	da -- mus,
-	
+
 	glo -- ri -- fi -- ca --
 	mus te, glo --
 	ri -- fi -- ca -- %140
@@ -421,22 +421,155 @@ GratiasSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key a \mixolydian \time 2/4 \autoBeamOff \tempoGratias
-		
+			\set Score.currentBarNumber = #150
+		R2*21 %170
+		R2\fermataMarkup
+		\mvTr a'4\pE e'16([ d)] cis([ h)]
+		a gis a8 fis'4~
+		fis8 e16 fis \appoggiatura e8 d4
+		cis r %175
+		e8([ a,)] h cis
+		h16([ a)] gis([ fis)] e4
+		cis'8 h16 cis \appoggiatura h8 a4
+		gis r
+		h8 gis([ fis e)] %180
+		cis' a([ gis fis)]
+		dis'[ fis e dis]
+		e16[ fis gis fis] e[ d cis h]
+		cis4.\trill cis16[ h]
+		a8[ a16 gis] fis8[ e] %185
+		dis'8. dis16 e8 r
+		r cis h16([ a)] gis([ fis)]
+		e4( fis8.[\trillE e32 fis])
+		e4 r
+		R2*5 %194
+		e'8. h16 h4 %195
+		R2*2
+		e8. cis16 a4
+		h8([ cis)] d cis16([ h)]
+		cis([ h)] a8 e' e %200
+		fis16([ e d cis] h8) a
+		gis16[ h a gis] a[ h cis d]
+		e[ cis h cis] d[ h a h]
+		cis4\trill h\trill
+		a8[ h16 cis] d[ e fis gis] %205
+		a8[ gis16 fis] e8 d
+		cis32[( h a8.] h4)\trill
+		a r
+		e'8 g,! fis e
+		fis4~ fis16[ a g fis] %210
+		fis'8[ a, gis fis]
+		gis e'4 dis16[ e]
+		h[ cis] d4 cis16[ h]
+		cis8 e4 dis16[ e]
+		h[ cis] d4 cis16[ h] %215
+		cis[ a d h] e8 fis
+		gis,4 a
+		R2
+		c4 h8 a
+		dis4 dis8 dis %220
+		\appoggiatura dis e4 e,
+		d'8 d d cis!16[( h])
+		cis[ e d cis] fis[ d e fis]
+		e8 r d16[ h cis d]
+		cis4 fis16[ d e fis] %225
+		e[ cis d e] d[ h cis d]
+		cis[ a gis a] h[ cis d e]
+		d[ h a h] cis[ d e fis]
+		e8[ d16 cis] h8[ a]
+		fis'2 %230
+		gis
+		a8[ gis16 fis] e8 d
+		cis32[( h a8.] h4)\trillE
+		a r
+		a8([ cis)] a([ gis)] %235
+		fis([ fis')] d([ h)]
+		gis[ a16 gis] a[ h cis d]
+		e8[ d16 cis] d[ e fis gis]
+		a8[ gis16 fis] e8 a,
+		e4( h')\trill %240
+		a r
+		R2*6 %247
+		R2\fermataMarkup \bar "||" %248 finis
 	}
 }
 
 GratiasSopranoILyrics = \lyricmode {
-	
+	Gra -- ti -- as %172
+	a -- gi -- mus, a --
+	gi -- mus ti --
+	bi, %175
+	gra -- ti -- as
+	a -- gi -- mus,
+	a -- gi -- mus ti --
+	bi
+	pro -- pter __ %180
+	ma -- gnam __
+	glo --
+	_ _
+	_ _
+	_ _ %185
+	_ ri -- am,
+	glo -- ri -- am
+	tu --
+	am.
+
+	Gra -- ti -- as, %195
+
+	gra -- ti -- as %198
+	a -- gi -- mus
+	ti -- bi pro -- pter %200
+	ma -- gnam
+	glo -- _
+	_ _
+	_ _
+	_ _ %205
+	_ ri -- am
+	tu --
+	am,
+	pro -- pter ma -- gnam
+	glo -- %210
+	_
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %215
+	_ ri -- am
+	tu -- am.
+
+	Gra -- ti -- as
+	a -- gi -- mus %220
+	ti -- bi
+	pro -- pter ma -- gnam
+	glo -- _
+	_ _
+	_ _ %225
+	_ _
+	_ _
+	_ _
+	_ _
+	_ %230
+	_
+	_ ri -- am
+	tu --
+	am,
+	pro -- pter %235
+	ma -- gnam
+	glo -- _
+	_ _
+	_ ri -- am
+	tu -- %240
+	am. %241 finis
 }
 
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble
-% 		
-% 		
+%
+%
 % 	}
 % }
-% 
+%
 % SopranoILyrics = \lyricmode {
-% 	
+%
 % }

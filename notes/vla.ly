@@ -244,8 +244,67 @@ LaudamusViola = {
 
 GratiasViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
-		
+			\set Score.currentBarNumber = #150
+		e4\fE cis'16 h a gis %150
+		a a, cis e a e cis a
+		e'8 e e e
+		e4 r
+		R2*6 %159
+		h4\fE gis'?16 fis e dis %160
+		e h gis e e'8 e
+		e4 r
+		R2*2
+		cis'8\fE h16 a h8.\trill h16 %165
+		a8 e fis gis?
+		a cis e,4\trill
+		a8 d fis,4\trill
+		e8 h' cis, d
+		e4 e %170
+		e r\fermata
+		a8\pE a a gis
+		fis fis d d
+		d' cis h e,
+		e\f a cis16 h a gis %175
+		a8 a, r4
+		r r8 gis'\p
+		a gis fis h,
+		h\f e gis16 fis e dis
+		e4 r %180
+		R2*8 %188
+		r8 gis\fE h h
+		h h dis, dis %190
+		e e e e
+		e e h h
+		h h h h
+		h4 h
+		h r %195
+		R2*9 %204
+		cis4\fE r %205
+		R2*2
+		e4\fE cis'16 h a gis
+		a4 r
+		R2*12 %221
+		gis?8\pE gis gis h
+		a a d, d
+		cis cis h h
+		a a d d %225
+		cis cis h h
+		a a a a
+		h h h h
+		cis cis d d
+		d2\f %230
+		h'
+		e,4 r
+		R2*8 %240
+		e4\fE cis'16 h a gis
+		a4 e
+		e r
+		a8 cis e,4\trill
+		a8 d fis,4\trill %245
+		e8 h' cis, d
+		e4 e
+		e2\fermata \bar "||" %248 finis
 	}
 }

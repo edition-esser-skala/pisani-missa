@@ -223,7 +223,7 @@
 	% 		system-system-spacing.minimum-distance = #20
 	% 		systems-per-page = #2
 	% 	}
-	% 	\tocSection "2.2" "Laudamus te"
+	%   \tocSection "2.2" "Laudamus te"
 	% 	\score {
 	% 		<<
 	% 			\new StaffGroup <<
@@ -283,7 +283,7 @@
 			system-system-spacing.minimum-distance = #20
 			systems-per-page = #2
 		}
-		\tocSection "2.3" "Gratias agimus tibi"
+		% \tocSection "2.3" "Gratias agimus tibi"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -322,13 +322,14 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
+						% \transpose c c,
 						\GratiasOrgano
 					}
 				>>
 				\new FiguredBass { \GratiasBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			% \midi { \tempo 4 = 90 }
 		}
 	}
 }

@@ -196,6 +196,98 @@ GratiasOboeI = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
-		
+			\set Score.currentBarNumber = #150
+		R2*3 %152
+		a''4\pE e16 d cis h
+		a gis a8 r16 a h cis
+		h8 cis16 d cis8 h %155
+		cis16 e fis gis a8 fis
+		dis16 cis h8 a'4
+		gis8.(\trillE fis32 gis) a16 gis fis dis
+		h4 fis'8.(\trill e32 fis)
+		e4 r %160
+		R2
+		a4\pE e16 d cis h
+		a8 cis e16 g! fis e
+		fis d e fis gis e fis gis
+		a8\fE gis16 fis e8 d %165
+		cis32( h a8.) h8.(\trill a32 h)
+		a4 r8 cis
+		d d, r fis'
+		h, h e d
+		cis32( h a8.) \appoggiatura cis8 h4\trillE %170
+		a r\fermata
+		R2*3
+		a'4\fE e16 d cis h %175
+		a4 r
+		R2*2
+		e'4\fE h16 a gis fis
+		e8- !h'(\p a gis) %180
+		cis-! cis( h a)
+		dis-! fis( e dis)
+		e e e16 d cis h
+		cis a cis e a4
+		r8 cis,16 h a8 gis %185
+		fis fis h dis
+		e4 r
+		R2
+		r8 h\f e gis
+		fis gis a gis16 fis %190
+		gis8 h h,16 d! cis h
+		cis a' gis fis e8 dis
+		e16 dis cis h a gis fis e
+		gis32( fis e8.) fis4\trill
+		e r %195
+		h'8\f cis d! cis16 h
+		cis d e cis \appoggiatura h8 a4
+		R2
+		h8\pE cis d cis16 h
+		cis h a8 r4 %200
+		R2*3
+		e'16\p cis h cis d h a h
+		cis8\f h16 cis d e fis gis %205
+		a4 r
+		R2
+		a4\f e16 d cis h
+		a8 g!\p fis e
+		fis16\f d fis a d fis, a d %210
+		fis8 a,(\p gis fis)
+		gis4 r
+		h16 cis d4 cis16 h
+		cis4 r
+		h16 cis \appoggiatura cis8 d4 cis16 h %215
+		cis8 d e fis
+		\appoggiatura a, gis4 a
+		a'8 c, h a
+		e'4 r8 e
+		dis dis4 dis8 %220
+		\appoggiatura dis e4 r
+		d8 d d cis!16 h
+		cis8 e fis a
+		e a d, h'
+		cis, e fis16 d e fis %225
+		e cis d e d h cis d
+		cis4\trill h16 cis d e
+		d4\trill cis16 d e fis
+		e8 d16 cis h8 a
+		fis'2\f %230
+		gis
+		a4 r
+		R2
+		a,8\p cis16 a e'8 cis16 e
+		a4 r %235
+		r8 a4 fis8
+		h,4 r
+		r16 e\f d cis d e fis gis
+		a4 r
+		R2 %240
+		a4\f e16 d cis h
+		a cis h a h d cis h
+		cis e d cis d fis e d
+		e4 r8 a,
+		d4 r8 fis %245
+		h, h cis32( h a8.)
+		a4 gis
+		a2\fermata \bar "||" %248 finis
 	}
 }

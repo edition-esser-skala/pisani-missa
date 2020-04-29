@@ -268,6 +268,96 @@ GratiasViolinoII = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key a \mixolydian \time 2/4 \tempoGratias
-		
+			\set Score.currentBarNumber = #150
+			a''4\fE e16 d cis h %150
+			a8 a, r16 e' a cis
+			h e, d' e, cis' e, h' e,
+			cis' h a8 r4
+			R2*6 %159
+			e'4\fE h16 a gis fis %160
+			e8 gis h16 d! cis h
+			cis h a8 r4
+			R2*2
+			a'8\fE gis16 fis e8 d %165
+			cis32( h a8.) h8.(\trill a32 h)
+			a8 e' a e
+			fis a h d
+			gis, fis16 e a8 a,
+			a4 gis %170
+			a r\fermata
+			a8\pE a a gis
+			fis fis d d
+			d' cis h e,
+			a\f cis e16 d cis h %175
+			a8 a, r4
+			r r8 gis'\p
+			a gis fis h,
+			e\f gis h16 a gis fis
+			e8-! gis(\p fis e) %180
+			a-! a( gis fis)
+			fis-! a( gis fis)
+			gis gis gis gis
+			a cis16 e a4
+			r8 a,16 gis fis8 e %185
+			dis'8. dis16 e8 a
+			gis cis, h16 a gis fis
+			gis4 dis
+			e8 h'[\f e gis]
+			fis16 h, gis' h, a'8 gis16 fis %190
+			gis8 h h,16 d! cis h
+			cis8 h16 a gis8 fis
+			e'16 dis cis h a gis fis e
+			e4 dis
+			e r %195
+			h'16\f e, cis' e, d'!8 cis16 h
+			cis d e cis \appoggiatura h8 a4
+			R2
+			gis8\p a h a16 gis
+			a8 a, r4 %200
+			R2*4
+			r16 a'\f h cis d e fis gis %205
+			a4 r
+			R2
+			a4\f e16 d cis h
+			a8 e\p d cis
+			d\f fis16 a d fis, a d %210
+			fis8 fis,(\p e dis)
+			e4 r
+			gis16 a h4 a16 gis
+			a4 r
+			gis16 a h4 a16 gis %215
+			cis a d h e8 fis
+			\appoggiatura cis h4 cis
+			c r
+			r8 c h a
+			a'2^\tenuto %220
+			gis4 r
+			h,8 h h a16 gis
+			a8 a d, d
+			cis cis h h
+			a a d d %225
+			cis cis h h
+			a a a a
+			h h h h
+			cis cis d d
+			fis'2\f %230
+			gis
+			a4 r
+			R2
+			a8\p e16 cis a8 e16 cis
+			a8 cis' a gis %235
+			fis fis' d h
+			gis4 r
+			r16 e'\f d cis d e fis gis
+			a4 r
+			R2 %240
+			a4\f e16 d cis h
+			a4 gis
+			a16 cis h a h d cis h
+			cis8 e a e
+			fis a h d %245
+			gis, fis16 e a8 a,
+			cis32( h a8.) \appoggiatura cis8 h8.(\trillE a32 h)
+			a2\fermata \bar "||" %248 finis
 	}
 }
