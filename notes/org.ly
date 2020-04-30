@@ -1190,6 +1190,98 @@ QuiTollisBassFigures = \figuremode {
 	<6 4> <5 _!>2. %495 finis
 }
 
+QuoniamOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #496
+		\mvTr g'8\fE-\soloE a b a g a b g
+		c4 a b8 b, d b
+		r b d es f f d b
+		es a, a a b b b b
+		f' f fis fis g g g, a %500
+		b4 c d8 d' b g
+		c c c c c c c c
+		b a a g fis fis fis fis
+		g c, d d, g4 r
+		g'8\pE g, b a g g' b g %505
+		c4 a b8 b, d b
+		d4 es f8 f d b
+		r b d c b b a a
+		g g' d d es es f f
+		b b, r4 r8 a a a %510
+		b b es es f f f, f
+		b\f b b b f' f fis fis
+		g g b, a g4 c
+		d d'16 c b a g8\pE g b g
+		c c c c b b b b %515
+		a a a a g g g g
+		c,4 d \once \tieDashed es2~
+		es d8 d d d
+		g, a b c d d d, d
+		g\f g' g g g g g g %520
+		g fis fis fis g4 r
+		r8 fis\pE fis fis g g, d' fis
+		g4 r r2
+		R1*2 %525
+		r2 g,8 a b c
+		d d d d es es b' b
+		c r b r a r g r
+		d c b a g4 r
+		g8 g g g c4 b8 c %530
+		d4 d, g'8\f g g g
+		c4 a b8 b, b b
+		f' f fis fis g g g, a
+		b4 c d8 d' b g
+		c c c c c c c c %535
+		b a a g fis fis fis fis
+		g c, d d, g2\fermata \bar "||" %537 finis
+	}
+}
+
+QuoniamBassFigures = \figuremode {
+	r1 %496
+	<[_-]>4 <[6 5-]> r <[6]>
+	r q r q
+	r8 <[6]>4 <[5-]>8 <[\t]> <[3]>4.
+	<6 4>8 <5 3> <6 5>4 <9 4>8 <8 3>4. %500
+	<[6]>4 <[6 _-]>8 <[5]> <_+>4 <[6]>
+	<_->2 <4+>
+	<6>8 <_+>4 <4+>8 <5!>2
+	r8 <[6 _-]> <6 4> <5 _+> r2
+	r1 %505
+	<[_-]>4 <[6 5-]> r <[6]>
+	q <[6]>8 <[5]> r4 <[6]>
+	r4 <[6]>8 <[6 _-]> r4 <6>
+	r <6> <6 5> <[7-]>
+	r2 r8 <6>4 <5->8 %510
+	r4 <[6]> <[6 4]> <[5 3]>
+	r2 <6 4>8 <5 3> <6 5>4
+	<9 4>8 <8 3> <[6]> <[6\\]> r4 <6 [_-]>8 <5>
+	<_+>2. <[6]>4
+	<_->2 <6> %515
+	<7>8 <6+>2..
+	<6- [_-]>4 <6!> <6>2
+	<6\\> <[8 _+]>8 <7! \t>4.
+	r2 <6 4>4 <5 _+>
+	r2 <6->4. <[5]>8 %520
+	<6! 4\+ 3> <6>4. <6->2
+	r8 <6>4. r4 <[_+]>8 <[6]>
+	r1*3 %525
+	r2 r4 <[6]>8 <[6 _-]>
+	<[6 4]>4 <[5 _+]> <5> <[6]>
+	<[_-]> <[6]> <[7]>2
+	<_+>4 <[6]>8 <[6\\]> r2
+	r2 <_->4 <[6]>8 <[6 _-]> %530
+	<[6 4]>4 <[5 _+]>2.
+	<_->4 <6 5->2.
+	<6 4>8 <5 3> <[6 5]>4 <[9] 4>8 <[8] 3>4.
+	<6>4 <6 [_-]>8 <5> <_+>4 <[6]>
+	<_->2 <4+> %535
+	<6>8 <_+>4 <[4+ 2]>8 <5!>2
+	r8 <[6 _-]> <[6 4]> <[5 _+]> r2 %537 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

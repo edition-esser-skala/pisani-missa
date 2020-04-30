@@ -520,3 +520,35 @@ QuiTollisViola = {
 		c8.[ es16 h8. d16] c2\fermata \bar "||" %495 finis
 	}
 }
+
+QuoniamViola = {
+	\relative c' {
+		\clef alto
+		\key g \dorian \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #496
+		b'8\fE c d c b c d b
+		g4 a f r8 f
+		b, d16 c b8 g' c, c' b f
+		r c' c c c b f f
+		f f d d d d16 c b8 a %500
+		g g'4 a8 a4 r8 b
+		g g4 g8 d d4 d8
+		d e!4 e8 a d,4 d8
+		d es d d b d16 b g4
+		R1*7 %511
+		f'4\fE r8 f f f d d
+		d d d c b4 es
+		d d'16 c b a g8 g, r4
+		R1*5 %519
+		b'8\fE b b b b es b b %520
+		b a a4 r2
+		R1*9 %530
+		r2 b8\fE b b b
+		g4 a f r8 f
+		f f d d d d16 c b8 a
+		g g'4 a8 a4 r8 b
+		g g4 g8 d d4 d8 %535
+		d e!4 e8 a d,4 d8
+		d es d d b d16 b g4\fermata \bar "||" %537 finis
+	}
+}

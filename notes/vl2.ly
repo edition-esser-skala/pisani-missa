@@ -618,3 +618,53 @@ QuiTollisViolinoII = {
 		es16 c'8. d,16 h'8. c2\fermata \bar "||" %495 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #496
+		d'4\fE g,16 a b c d8 g,4 g'8
+		es16 d \appoggiatura d8 c4 f8 d16 c \appoggiatura c8 b4 d16 es
+		f g \appoggiatura g8 f4 b,8 a16 g f8 r b'
+		g f4 es8 es d b' b,~
+		b a c a~ a g \appoggiatura { b16[ c] } d4~ %500
+		d8 c16 b a8 g fis16 e d8 r d'
+		es16 c h c c8 c fis fis4 g16 fis
+		g8 cis,4 cis8 c a'4 c,8
+		b16 g c a g8 fis g d16 b g4
+		r2 r8 b'\f d4 %505
+		r8 es\p c4 r8 d b4
+		r2 r8 c\f d4
+		r8 d,\p f es d d' c f,
+		b, b' f b~ b b a a
+		b f r4 r8 c' c c %510
+		f, b c16 b a g b4 a
+		b8\f f' b b,~ b a c a~
+		a g g16 a b c d8.( c32 b) a8 g
+		fis32( e d8.) d'16 c b a g4 r
+		r8 \slurDashed es'4(\fE g,8) r d'4(\p g,8) \slurSolid %515
+		r fis'4( a,8) r g'4( b,8)
+		R1
+		cis2\f d8\pE fis, a g16 fis
+		g8 g4 g8 g4 fis
+		g8\f g'4 d8 es16 g b g es8 d %520
+		cis d d,4 r8 g\p g g
+		g\f fis d' d, r2
+		r8 g\p c c b b a a
+		g g a a g16 fis g a b a g fis
+		g a b a g8 g a g fis d %525
+		g,16 g' a b c d e fis g8.( f32 es) d8 g,
+		g g fis fis g8\f g' g g
+		es\p g d g c, g' b, g'
+		\appoggiatura b, a8.( g32 fis) g16 a b c d es d c d e fis d
+		g8 b, d b g4 r %530
+		r2 d'8\f g,4 g'8
+		es16 d \appoggiatura d8 c4 f8 d16 c b8 d b~
+		b a c a~ a g \appoggiatura { b16[ c] } d4~
+		d8 c16 b a8 g fis16 e d8 r d'
+		es16 c h c c8 c fis fis4 g16 fis %535
+		g8 cis,4 cis8 c a'4 c,8
+		b16 g c a g8 fis g d16 b g4\fermata \bar "||" %537 finis
+	}
+}

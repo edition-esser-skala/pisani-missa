@@ -763,6 +763,74 @@ QuiTollisSopranoILyrics = \lyricmode {
 	bis. %494 finis
 }
 
+QuoniamSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #496
+		R1*9 %504
+		d'8. g,16 g([ a)] b([ c)] d8 g, r g' %505
+		es16[( d] \grace d8 c4) f8 d16([ c)] b8 r d16([ es)]
+		f8([ es16 d] c8) b a16 g f8 r b
+		b4 b16([ c)] d([ es]) f8 f~ f16[ es] d([ c)]
+		b[ a b8]~ b16[ d c b] c[ b c8]~ c16[ es d c]
+		d8.[( c32 b]) c16[ d es? f] g8 f4 es8 %510
+		d8.([ c32 d)] es16[ d] c([ b)] f4( c')\trillE
+		b r r2
+		R1
+		r2 d16 b g8 r d'
+		es es es d16([ c)] d8 g, r g %515
+		c4. b16([ a)] b a g8 r g
+		as8.([ c16)] \appoggiatura c8 h8. h16 c8([ g')] es8. d16
+		\appoggiatura d16 cis8 cis4 d16[ cis] d8 c4 b16[ a]
+		b[ g' f! es] d[ c b a] b[ a] g8 a4\trillE
+		g r r2 %520
+		r4 r8 d' es([ g16 f)] es8 d
+		cis16 cis d8 r d g4 fis16([ es)] d([ c)]
+		b[ d c b] es[ c d es] d[ g fis g] c,[ a b c]
+		b[ g a b] c[ a b c] d2~
+		d4~ d16[ e fis g] c,4.\trill b16[ a] %525
+		b[ g a b] c[ d e fis] g8.([ f32 es)] d8 c
+		b32([ a g8.] a4)\trillE g r8 g'
+		es([ g)] d g c,[ g' b, g']
+		\appoggiatura b, a8.([ g32 fis)] g16[ a b c] d[ es d c] d[ e fis d]
+		g8 g, r4 r8 es'([ d)] c %530
+		b32([ a g8.] a4)\trill g r
+		R1*5 %536
+		R1\fermataMarkup \bar "||" %537 finis
+	}
+}
+
+QuoniamSopranoILyrics = \lyricmode {
+	Quo -- ni -- am tu so -- lus, tu %505
+	so -- lus san -- ctus, tu
+	so -- lus Do -- mi -- nus, tu
+	so -- lus al -- tis -- si -- mus,
+	Je -- _
+	_ _ _ _ _ %510
+	_ _ su Chri --
+	ste.
+
+	Quo -- ni -- am tu
+	so -- lus, so -- lus san -- ctus, tu %515
+	so -- lus Do -- mi -- nus, tu
+	so -- lus al -- tis -- si -- mus,
+	Je -- _ _ _ _ _
+	_ _ _ su Chri --
+	ste, %520
+	tu so -- lus al --
+	tis -- si -- mus, al -- tis -- si -- mus,
+	Je -- _ _ _
+	_ _ _
+	_ _ %525
+	_ _ _ _ su
+	Chri -- ste, al --
+	tis -- si -- mus, Je --
+	_ _ _ _
+	_ su, Je -- su %530
+	Chri -- ste. %531 finis
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

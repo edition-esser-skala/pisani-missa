@@ -417,3 +417,35 @@ QuiTollisOboeI = {
 		c8.[ c16 d,8. h'16] c2\fermata \bar "||" %495
 	}
 }
+
+QuoniamOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #496
+		d'4\fE g,16 a b c d8 g,4 g'8
+		es16 d \appoggiatura d8 c4 f8 d16 c \appoggiatura c8 b4 d16 es
+		f g \appoggiatura g8 f4 b,8 a16 g f8 r b'
+		g f4 es8 es d b' d,~
+		d c a' c,~ c b \appoggiatura { b16[ c] } d4~ %500
+		d8 c16 b a8 g fis16 e d8 r d'
+		es16 c h c c8 c fis fis4 g16 fis
+		g8 cis,4 cis8 c a'4 c,8
+		b16 g c a b8 a g4 r
+		R1*7 %511
+		b8\f d b' d,~ d c a' c,~
+		c b g16 a b c d8.( c32 b) a8 g
+		fis32( e d8.) r4 r2
+		R1*5 %519
+		g8\f g'4 d8 es16 g b g es8 d %520
+		cis d d,4 r2
+		R1*9 %530
+		r2 d'8\f g,4 g'8
+		es16 d \appoggiatura d8 c4 f8 d16 c b8 b' d,~
+		d c a' c,~ c b \appoggiatura { b16[ c] } d4~
+		d8 c16 b a8 g fis16 e d8 r d'
+		es16 c h c c8 c fis fis4 g16 fis %535
+		g8 cis,4 cis8 c a'4 c,8
+		b16 g c a b8 a g2\fermata \bar "||" %537 finis
+	}
+}
