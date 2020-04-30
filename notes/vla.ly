@@ -434,3 +434,89 @@ DomineDeusViola = {
 		c4.\fermata \bar "||" %382 finis
 	}
 }
+
+QuiTollisViola = {
+	\relative c' {
+		\clef alto
+		\key c \dorian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		es8.[\fE g16 g8. es16] c8.[ es16 c8. c16]
+		c8.[ es16 h8. d16] es8.[ es16 c8. c16]
+		as'8.[^\critnote as16 es8. g16] g8.[ g16 g8. g16] %385
+		as8.[ as16 as8. as16] d,8.[ d16 d8. d16]
+		g4 r r2
+		c8.[ c16 b8. b16] b8.[ b16 as8. as16]
+		as8.[ as16 ges8. ges16] f8.[ f16 f8. f16]
+		f8.[ f16 f8. f16] f8.[ f16 f8. f16] %390
+		b,8.[ b16 b8. b16] f'8.[ f16 f8. f16]
+		b8.[ f16 f8. f16] g!8.[ g16 g8. g16]
+		c,8.[ f16 f8. f16] f4 r
+		d!8.[ d16 g!8. g16] g8.[ g16 g8. g16]
+		g8.[ g16 c,8.\pE c16] as'8.[ c,16 c8. c16] %395
+		g'8.[\fE g16 h8. d,16] es8.[ g16 e8. g16]
+		b8.[ b16 des8. des16] g,8.[ g16 c8. c16]
+		f,8.[ f16 h?8. h16] g8.[ g16 c,8. c16]
+		as'8.[ as16 as8. as16] as8.[ as16 as8. as16]
+		d,8.[ d16 a'8. a16] g8.[ g16 g8. g16] %400
+		es8.[ es16 es8. es16] es8.[ es16 d8. d16] \noBreak
+		c8.[ es16 h8. d16] c2\fermata \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			es8\fE^\markup { \remark "con sordino" } b' b \noBreak
+		as d, d
+		es es f %405
+		f b16 as g f
+		es8 es es
+		as b b,
+		es as, as
+		b b'16 as g f %410
+		es8 es g
+		as as as
+		a a a
+		b b b
+		g g es %415
+		as b b,
+		es b' b,
+		es r r
+		R4.*11 %429
+		b4\fE b8 %430
+		f' f f
+		b, r a
+		b c d
+		es f f,
+		b4 r8 %435
+		R4.*22 %457
+		R4.\fermataMarkup
+		R4.*7 %465
+		g'8\fE g b
+		b as es
+		f f f
+		f f f
+		es es g %470
+		f f f
+		es d f
+		g r r
+		es16[ as] b8 b, \noBreak
+		es4.\fermata \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			es8.[\fE^\markup { \remark "senza sordino" } g16 g8. es16] c8.[ es16 c8. c16] \noBreak
+		c8.[ es16 h8. d16] es8.[ es16 c8. c16]
+		as'8.[^\critnote as16 es8. g16] g8.[ g16 g8. g16]
+		as8.[ as16 as8. as16] d,8.[ d16 d8. d16]
+		g4 r r2 %480
+		c8.[ c16 b8. b16] b8.[ b16 as8. as16]
+		as8.[ as16 ges8. ges16] f8.[ f16 f8. f16]
+		f8.[ f16 f8. f16] f8.[ f16 f8. f16]
+		b,8.[ b16 b8. b16] f'8.[ f16 f8. f16]
+		b8.[ f16 f8. f16] g!8.[ g16 g8. g16] %485
+		c,8.[ f16 f8. f16] f4 r
+		d!8.[ d16 g!8. g16] g8.[ g16 g8. g16]
+		g8.[ g16 c,8.\pE c16] as'8.[ c,16 c8. c16]
+		g'8.[\fE g16 h8. d,16] es8.[ g16 e8. g16]
+		b8.[ b16 des8. des16] g,8.[ g16 c8. c16] %490
+		f,8.[ f16 h?8. h16] g8.[ g16 c,8. c16]
+		as'8.[ as16 as8. as16] as8.[ as16 as8. as16]
+		d,8.[ d16 a'8. a16] g8.[ g16 g8. g16]
+		es8.[ es16 es8. es16] es8.[ es16 d8. d16]
+		c8.[ es16 h8. d16] c2\fermata \bar "||" %495 finis
+	}
+}

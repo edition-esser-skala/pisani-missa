@@ -511,6 +511,192 @@ DomineDeusAltoLyrics = \lyricmode {
 	tris. %368 finis
 }
 
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		R1
+		r2 r4 \mvTr g'\fE^\tuttiE
+		as g r8 g g g %385
+		g4( f8[ fis]) g4 r
+		R1
+		as4 g8.([ f16)] es4 es
+		r2 f8 f f f
+		f2 f4 r %390
+		r r8 b a!16([ g)] f8 r f
+		f4 f g!2
+		f4 r r2
+		g!8 g g g g2
+		g4 g8 g as2~ %395
+		as4 g8[ f] es8.[ f16] g4
+		r b8. as16 g4 as8.[ g16]
+		f4 d g2~
+		g4 f fis2
+		g4 a! g2 %400
+		g4 r r2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			R4.*15 %417
+		r8 r \mvTr b\pE^\soloE
+		b16([ g)] \appoggiatura f8 es4
+		c'8 b as %420
+		g16([ f)] es8 r
+		g f es
+		c'16.[( b32 c8.)] b16
+		a!([ g] \grace g8 f8.) es16
+		d[ f es d es f] %425
+		g[ f es f g a]
+		b8.([ a32 b)] c16[ f,]
+		d'8[ a b]~
+		b32[ a] g([ f)] c'4
+		b8 r r %430
+		R4.*4
+		r8 r f %435
+		b16([ a)] \appoggiatura a8 b4
+		des8 c b
+		as16([ g)] f8 r
+		r as4
+		as16([ g)] as4 %440
+		c8 b as
+		g16([ f)] es8 r
+		b'as16([ g)] f([ es)]
+		b'8 b, r
+		r r b'~ %445
+		b as16([ g)] as8
+		r r c~
+		c b16([ a!)] b8
+		b16([ g)] \appoggiatura f8 es4
+		c'16([ b)] as4 %450
+		\tuplet 3/2 8 { g16 f([ es)] } f8.([ es32 f)]
+		es8 r r
+		b' f8. g16
+		as8.([ g32 f)] g8
+		c8.([ b32 as)] b8 %455
+		as8.([ g32 f)] g8
+		c16[ b as g f es]
+		d8 es r\fermata
+		as c16([ b)] as8~
+		as16[ c b as g] f %460
+		g[ es32 f] g16[ es] c'8
+		b16[ es,32 f] g16[ es] as8
+		\appoggiatura as16 g8[~ g32 es f g] as[ b c d]
+		es8 \tuplet 3/2 8 { d16[ c b] } as8
+		\tuplet 3/2 8 { g16[( f es] } es[ f8.]) %465
+		es8 r r
+		R4.*8 \noBreak %474
+		R4.\fermataMarkup \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			R1 \noBreak
+		r2 r4 \mvTr g\fE^\tuttiE
+		as g r8 g g g
+		g4 f8[( fis]) g4 r
+		R1 %480
+		as4 g8.([ f16)] es4 es
+		r2 f8 f f f
+		f2 f4 r
+		r r8 b a!16([ g)] f8 r f
+		f4 f g! g %485
+		f r r2
+		g!8 g g g g2
+		g4 g8 g as2~
+		as4 g8[ f] es8.[ f16] g4
+		r b8. as16 g4 as8.[ g16] %490
+		f4 d \once \tieDashed g2~
+		g4 f fis2
+		g4 a! g2
+		g4 r r2
+		R1\fermataMarkup \bar "||" %495 finis
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	\xE Qui %384
+	tol -- lis pec -- ca -- ta %385
+	mun -- di:
+
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis. %390
+	Qui tol -- lis pec --
+	ca -- ta mun --
+	di:
+	Mi -- se -- re -- re no --
+	bis, mi -- se -- re -- %395
+	_ _ re,
+	mi -- se -- re -- _
+	_ _ _
+	_ _
+	_ re no -- %400
+	bis. \x
+
+	Qui %418
+	tol -- lis
+	pec -- ca -- ta %420
+	mun -- di:
+	Su -- sci -- pe
+	de -- pre --
+	ca -- ti --
+	o -- %425
+	_
+	_ _
+	_
+	nem no --
+	stram. %430
+
+	Qui %435
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di,
+	qui
+	tol -- lis %440
+	pec -- ca -- ta
+	mun -- di,
+	pec -- ca -- ta
+	mun -- di:
+	Su -- %445
+	sci -- pe,
+	su --
+	sci -- pe
+	de -- pre --
+	ca -- ti -- %450
+	o -- nem no --
+	stram,
+	su -- sci -- pe
+	de -- pre --
+	ca -- ti -- %455
+	o -- _
+	_
+	_ nem,
+	de -- pre -- ca --
+	ti -- %460
+	o -- _ _
+	_ _ _
+	_ _
+	_ _ nem
+	no -- %465
+	stram.
+
+	\xE Qui %477
+	se -- des ad dex -- te --
+	ram Pa -- tris:
+	%480
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+	Qui se -- des ad
+	dex -- te -- ram Pa -- %485
+	tris:
+	Mi -- se -- re -- re no --
+	bis, mi -- se -- re --
+	_ _ re,
+	mi -- se -- re -- _ %490
+	_ _ _
+	_ _
+	_ re no --
+	bis. %494 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

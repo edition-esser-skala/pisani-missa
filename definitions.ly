@@ -267,6 +267,9 @@ tempoGloria = \tempoMarkup "Allegro"
 tempoLaudamus = \tempoMarkup "Allegretto"
 tempoGratias = \tempoMarkup "Allegro"
 tempoDomineDeus = \tempoMarkup "Allegro"
+tempoQuiTollis = \tempoMarkup "Largo"
+	tempoQuiTollisB = \tempoMarkup "Arioso"
+	tempoQuiTollisC = \tempoMarkup "Largo"
 
 
 
@@ -478,6 +481,7 @@ tocPart = #(define-music-function (parser location number text) (markup? markup?
 tocSection = #(define-music-function (parser location number text) (markup? markup?)
    (add-toc-item! 'tocItemMarkup (format #f "\\contentsline {section}{\\numberline {~a}~a}" number text )))
 
+\include "notes/fl.ly"
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
 \include "notes/tr1.ly"

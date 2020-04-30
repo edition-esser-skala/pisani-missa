@@ -495,3 +495,126 @@ DomineDeusViolinoII = {
 		f4.\fermata \bar "||" %382 finis
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		g''16\f es8. c16 g8. es16 c8. as'16 f8.
+		es16 c'8. d,16 h'8. c,4 g''16 es8.
+		d16 h8. g'16 c,8. h16 g8. h'16 g8. %385
+		c8 es, f fis g16 d8. h16 g8.
+		c16 g8. es'16 c8. g'16 c,8. g'16 c,8.
+		as'16 f8. b16 des,8. c16 es,8. es'16 c8.
+		es4 r c16 a!8. b16 des8.
+		f,16 c'8. f,16 a8. b16 f8. des'16 b8. %390
+		f'16 des8. b'16 des,8. c16 f,8. f'16 c8.
+		des16 b8. des16 des8. des16 des8. des16 des8.
+		c16 a8. es'16 c8. des4 r
+		h16 g!8. c16 es8. g,16 c8. h4
+		c16 g8. g'16\p es8. c16 as8. as'16 f8. %395
+		d16\f h8. g'16 h,8. c16 g8. g'16 e8.
+		f16 des8. b'16 g8. e16 c8. f16 c8.
+		h16 d8. h16 d8. c16 es8. g16 g8.
+		g16 g8. f16 f8. fis16 fis8. fis16 fis8.
+		g16 g8. es16 es8. d16 d8. d16 d8. %400
+		c16 es8. c16 g8. es16 c8. as'16 f8. \noBreak
+		es16 c'8. d,16 h'8. c2\fermata \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			g'16\fE^\markup { \remark "con sordino" } es g4 \noBreak
+		as8 g f
+		es c c %405
+		f,16 es d8 r
+		es es es
+		as b b,
+		es as, as
+		b b'16 as g f %410
+		es8 es g
+		as as as
+		a a a
+		b b b
+		g g es %415
+		as b b,
+		es b' b,
+		es r r
+		es4\p g8
+		as b b, %420
+		es es es
+		es r r
+		es es es
+		f a,! a
+		b b b %425
+		es es es
+		d d a
+		b c d16 es
+		f4 f8
+		b,4\fE b8 %430
+		f' f f
+		b, r a
+		b c d
+		es f f
+		b,4 r8 %435
+		r des'\pE des
+		e,4.
+		f8 f f
+		f4 es!8
+		d!4. %440
+		d
+		es8 es es
+		es as, a
+		b b'16 as g f
+		es4 b8 %445
+		as as as
+		a a a
+		b b b
+		g g g
+		as b b %450
+		es b b
+		es16 b'\fE as g f es
+		b8 r b\pE
+		c c b
+		as as g %455
+		c c b
+		as as as
+		b c r\fermata
+		r f8. es16
+		d8 b b %460
+		es16 es es es es es
+		es es es es es es
+		es8 r r
+		es r d
+		es b b %465
+		es4\fE g8
+		as as as
+		a a a
+		b b b
+		g g es %470
+		as b b,
+		es b' b,
+		es16 c'16 b as g f
+		es8 es[ d] \noBreak
+		es4.\fermata \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			g'16\f^\markup { \remark "senza sordino" } es8. c16 g8. es16 c8. as'16 f8. \noBreak
+		es16 c'8. d,16 h'8. c,4 g''16 es8.
+		d16 h8. g'16 c,8. h16 g8. h'16 g8.
+		c8 es, f fis g16 d8. h16 g8.
+		c16 g8. es'16 c8. g'16 c,8. g'16 c,8. %480
+		as'16 f8. b16 des,8. c16 es,8. es'16 c8.
+		es4 r c16 a!8. b16 des8.
+		f,16 c'8. f,16 a8. b16 f8. des'16 b8.
+		f'16 des8. b'16 des,8. c16 f,8. f'16 c8.
+		des16 b8. des16 des8. des16 des8. des16 des8. %485
+		c16 a8. es'16 c8. des4 r
+		h16 g!8. c16 es8. g,16 c8. h4
+		c16 g8. g'16\p es8. c16 as8. as'16 f8.
+		d16\f h8. g'16 h,8. c16 g8. g'16 e8.
+		f16 des8. b'16 g8. e16 c8. f16 c8. %490
+		h16 d8. h16 d8. c16 es8. g16 g8.
+		g16 g8. f16 f8. fis16 fis8. fis16 fis8.
+		g16 g8. es16 es8. d16 d8. d16 d8.
+		c16 es8. c16 g8. es16 c8. as'16 f8.
+		es16 c'8. d,16 h'8. c2\fermata \bar "||" %495 finis
+	}
+}

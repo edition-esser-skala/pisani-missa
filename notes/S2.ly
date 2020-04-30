@@ -447,3 +447,95 @@ DomineDeusSopranoIILyrics = \lyricmode {
 	us Pa --
 	tris. %368 finis
 }
+
+QuiTollisSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		R1
+		r2 r4 \mvTr c'\fE^\tuttiE
+		d g, r8 g' g f %385
+		es4( c) g r
+		c c \once \tieDashed c2~
+		c4 b2 as4
+		c b a b
+		b( a) b r %390
+		r2 r4 a
+		b b b2
+		a4 r r f'~
+		f8 f es es d!2
+		c4 r r2 %395
+		r4 d8 d es4 e
+		f g8.[ f16] e4 f8.[ es16]
+		d2 es~
+		es4 c c8 c4.
+		h?8[( g'16 f]) es4 d2 %400
+		c4 r r2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			R4.*72 \noBreak %474
+		R4.\fermataMarkup \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			R1 \noBreak
+		r2 r4 \mvTr c\fE^\tuttiE
+		d g, r8 g' g f
+		es4 c g r
+		c c c2~ %480
+		c4 b2 as4
+		c b a b
+		b( a) b r
+		r2 r4 a
+		b b b b %485
+		a r r f'~
+		f8 f es es d!2
+		c4 r r2
+		r4 d8 d es4 e
+		f g8.[ f16] e4 f8.[ es16] %490
+		d2 es~
+		es4 c c8 c4.
+		h?8[( g'16 f]) es4 d2
+		c4 r r2 \noBreak
+		R1\fermataMarkup \bar "||" %495 finis
+	}
+}
+
+QuiTollisSopranoIILyrics = \lyricmode {
+	\xE Qui %384
+	tol -- lis pec -- ca -- ta %385
+	mun -- di:
+	Mi -- se -- re --
+	_ re,
+	mi -- se -- re -- re
+	no -- bis. %390
+	Pec --
+	ca -- ta mun --
+	di: Mi --
+	se -- re -- re no --
+	bis, %395
+	mi -- se -- re -- _
+	_ _ _ _
+	_ _
+	re, mi -- se --
+	re -- re no -- %400
+	bis.
+
+	Qui %477
+	se -- des ad dex -- te --
+	ram Pa -- tris:
+	Mi -- se -- re -- %480
+	_ re,
+	mi -- se -- re -- re
+	no -- bis.
+	Ad
+	dex -- te -- ram Pa -- %485
+	tris: Mi --
+	se -- re -- re no --
+	bis,
+	mi -- se -- re -- _
+	_ _ _ _ %490
+	_ _
+	re, mi -- se --
+	re -- re no --
+	bis. %494 finis
+}

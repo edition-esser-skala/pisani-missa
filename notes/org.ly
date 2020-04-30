@@ -971,6 +971,225 @@ DomineDeusBassFigures = \figuremode {
 	r %382 finis
 }
 
+QuiTollisOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		\mvTr c4\fE-\solo c c f
+		g g, c c'-\tutti
+		h c g g %385
+		as as g g
+		es r r es
+		f g as as,
+		as' ges f2~
+		f b,4 b %390
+		b b f' f
+		b b e,2
+		f4 f b as
+		g! g g g
+		c, es\p f f %395
+		g\f g c, c'~
+		c \once \tieDashed b!~ b as~
+		as g8 f es4 c
+		as as as as
+		g fis g2 %400
+		c4 c c f \noBreak
+		g g, c2\fermata \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			\mvTr es8\fE-\soloE es es \noBreak
+		as b b,
+		es as, a %405
+		b b'16 as g f
+		es8 r r
+		R4.*11 %418
+		es4\pE g8
+		as b b, %420
+		es es es
+		es r r
+		es es es
+		f a,! a
+		b b b %425
+		es es es
+		d d a
+		b c d16 es
+		f4 f,8
+		b4\fE b8 %430
+		f' f f
+		b, r a
+		b c d
+		es f f,
+		b4 r8 %435
+		r des'8\pE des
+		e,4.
+		f8 f f
+		f4 es!8
+		d!4. %440
+		d
+		es8 es es
+		es as, a
+		b b'16 as g f
+		es8 es g %445
+		as as as
+		a a a
+		b b b
+		g g g
+		as b b, %450
+		es b' b,
+		es c as
+		b r b'
+		c c b
+		as as g %455
+		c c b
+		as as as
+		b c r\fermata
+		r f,8. es16
+		d8 b b %460
+		es es es
+		es es es
+		es r r
+		es r d
+		es b4 %465
+		es8\fE es g
+		as as as
+		a a a
+		b b b
+		g g es %470
+		as b b,
+		es b' b,
+		es r r
+		es16[ as,] b8 b \noBreak
+		es,4.\fermata \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			\mvTr c'4\fE-\solo c c f \noBreak
+		g g, c c'-\tutti
+		h c g g
+		as as g g
+		es r r es %480
+		f g as as,
+		as' ges f2
+		f b,4 b
+		b b f' f
+		b b e,2 %485
+		f4 f b as
+		g! g g g
+		c, es f f
+		g g c, c'~
+		c b!2 as4~ %490
+		as g8 f es4 c
+		as as as as
+		g fis g2
+		c4 c c f
+		g g, c2\fermata \bar "||" %495 finis
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+	r2. <_->4 %383
+	<6 4> <5 _!>2.
+	<7->2 <_!> %385
+	<7>4 <6>8 <6+> <_!>2
+	<6>2. q4
+	<6- 5 [_-]> <6 5-> <[9]> <8>
+	r <6> <7 _!> <6- 4>
+	<5 4> <\t _!> <_->2 %390
+	r <_!>
+	<_-> <7- 5>
+	<_!>4 <7-> <_->4 <6>
+	<7 _!> <6 4> <5 4> <\t _!>
+	r <6> <_->2 %395
+	\bassFigureExtendersOn <9- _!>4 <8 _!>8 <7 _!> \bassFigureExtendersOff <_->4 <_!>
+	<[6-] 4 2-> <6 _-> <6 4! _-> <6>
+	<6 4! 2!> <\t \t \t> <6>2
+	<7>4 <6> <6+>2
+	<_!>4 <7 _!> <4> <_!> %400
+	r2. <[6] _->4
+	<6 4> <5 _!>2.
+	r4.
+	r8 <[8 6]>8 <[7- 5]>
+	r4 <[6]>8 %405
+	r4.
+	r
+	r4.*11 %418
+	r4 <[6]>8
+	r <[8 6]> <[7- 5]> %420
+	r4.
+	r
+	<6>
+	r8 <[6]>4
+	r4. %425
+	r
+	<[6]>4 q8
+	r q q
+	<[4]>4 <[3]>8
+	r4. %430
+	<[5 3]>8 <[6 4]> <[7 5]>
+	r4 <[6]>8
+	r q q
+	q <[6 4]> <[5 3]>
+	r4. %435
+	r8 <[6]>4
+	<7->8 <6> <5>
+	<[_-]>4.
+	r4 <[\t]>8
+	<5->4. %440
+	<7>8 <6> <5->
+	r4.
+	r4 <[6]>8
+	r4.
+	r4 <[6 5-]>8 %445
+	<[4-]> <[3]>4
+	<[6]>4 <[5]>8
+	<[4]> <[_!]>4
+	<[6]>4.
+	r8 <[8 6]> <[7- 5]> %450
+	r4.
+	r8 <[6-]>4
+	r4.
+	<6->4 <6>8
+	<[6]>4 q8 %455
+	<6->4 <6>8
+	<[6]>4.
+	r4.
+	r8 <[_-]>8. <[\t]>16
+	<[6 5-]>4. %460
+	r4 <[6 4-]>8
+	<[5 3]>4 <[6 4-]>8
+	<[5 3]>4.
+	r4 <[6 5-]>8
+	r <[4]> <[3]> %465
+	r4 <[6 5-]>8
+	<[4-]> <[3]>4
+	<[6]>4 <[5]>8
+	<[4]> <[_!]>4
+	<[6]>4. %470
+	r8 <[8 6]> <[7- 5]>
+	r <[6 4]> <[5 3]>
+	r4.
+	r8 <[6 4]> <[5 3]>
+	r4. %475
+	r2. <_->4
+	<6 4> <5 _!>2.
+	<7->2 <_!>
+	<7>4 <6>8 <6+> <_!>2
+	<6>2. q4 %480
+	<6- 5 [_-]> <6 5-> <9> <8>
+	r <6> <7 _!> <6- 4>
+	<5 4> <\t _!> <_->2
+	r <_!>
+	<_-> <7- 5> %485
+	<_!>4 <7-> <_-> <6>
+	<7 _!> <6 4> <5 4> <\t _!>
+	r <6> <_->2
+	\bassFigureExtendersOn <9- _!>4 <8 _!>8 <7 _!> \bassFigureExtendersOff <_->4 <_!>
+	<[6-] 4 2-> <6 _-> <6 4! _-> <6> %490
+	<6 4! 2!> <\t \t \t> <6>2
+	<7>4 <6> <6+>2
+	<_!>4 <7> <4> <_!>
+	r2. <[6] _->4
+	<6 4> <5 _!>2. %495 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

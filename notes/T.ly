@@ -524,6 +524,99 @@ DomineDeusTenoreLyrics = \lyricmode {
 	_ _
 	tris. %368 finis
 }
+
+QuiTollisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		R1
+		r2 r4 \mvTr es\fE^\tuttiE
+		f es r8 d d d %385
+		c2 d4 r
+		R1
+		as4 b c c
+		r2 c8 c b b
+		c2 des4 r %390
+		r2 r4 c
+		b b b2
+		f4 r r2
+		d'!8 d c c d2
+		es4 r r2 %395
+		r4 d8 d c2
+		des2. c4
+		h2 c
+		es4 as,8[( f]) c'2(
+		d4) es8[( c]) g4( d') %400
+		es r r2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			R4.*72 \noBreak %474
+		R4.\fermataMarkup \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			R1 \noBreak
+		r2 r4 \mvTr es\fE^\tuttiE
+		f es r8 d d d
+		c4 c d r
+		R1 %480
+		as4 b c c
+		r2 c8 c b b
+		c2 des4 r
+		r2 r4 c
+		b b b b %485
+		f r r2
+		d'!8 d c c d2
+		es4 r r2
+		r4 d8 d c2
+		des2. c4 %490
+		h2 c
+		es4 as,8[( f]) c'2(
+		d4) es8[( c]) g4( d')
+		es r r2
+		R1\fermataMarkup \bar "||" %495 finis
+	}
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+	\xE Qui %384
+	tol -- lis pec -- ca -- ta %385
+	mun -- di:
+
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis. %390
+	Pec --
+	ca -- ta mun --
+	di:
+	Mi -- se -- re -- re no --
+	bis, %395
+	mi -- se -- re --
+	_ _
+	_ re,
+	mi -- se -- re --
+	re no -- %400
+	bis.
+
+	Qui %477
+	se -- des ad dex -- te --
+	ram Pa -- tris:
+	%480
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+	ad
+	dex -- te -- ram Pa -- %485
+	tris:
+	Mi -- se -- re -- re no --
+	bis,
+	mi -- se -- re --
+	_ _ %490
+	_ re,
+	mi -- se -- re --
+	re no --
+	bis. %494 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

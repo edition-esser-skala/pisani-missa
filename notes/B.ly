@@ -493,6 +493,98 @@ DomineDeusBassoLyrics = \lyricmode {
 	tris. %368 finis
 }
 
+QuiTollisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		R1
+		r2 r4 \mvTr c'\fE^\tuttiE
+		h c r8 g g g %385
+		as2 g4 r
+		R1
+		f4 g as as,
+		as' ges f4. f8
+		f2 b,4 r %390
+		r2 r4 f'
+		b b e,2
+		f4 r b as
+		g! g g2
+		c,4 r r2 %395
+		r4 g'8 g c,4 c'~
+		c b!2 as4~
+		as g8[ f] es4 c
+		as'1
+		g4 fis g2 %400
+		c,4 r r2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			R4.*72 \noBreak %474
+		R4.\fermataMarkup \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			R1 \noBreak
+		r2 r4 \mvTr c'\fE^\tuttiE
+		h c r8 g g g
+		as4 as g r
+		R1 %480
+		f4 g as as,
+		as' ges f4. f8
+		f2 b,4 r
+		r2 r4 f'
+		b b e, e %485
+		f r b as
+		g! g g2
+		c,4 r r2
+		r4 g'8 g c,4 c'~
+		c b!2 as4~ %490
+		as g8[ f] es4 c
+		as'1
+		g4 fis g2
+		c,4 r r2 \noBreak
+		R1\fermataMarkup \bar "||" %495 finis
+	}
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+	Qui %384
+	tol -- lis pec -- ca -- ta %385
+	mun -- di:
+
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis. %390
+	Pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re no --
+	bis, %395
+	mi -- se -- re -- _
+	_ _
+	_ _ _
+	_
+	_ re no -- %400
+	bis.
+
+	Qui %477
+	se -- des ad dex -- te --
+	ram Pa -- tris:
+	%480
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+	Ad
+	dex -- te -- ram Pa -- %485
+	tris: Mi -- se --
+	re -- re no --
+	bis,
+	mi -- se -- re -- _
+	_ _ %490
+	_ _ _
+	_
+	_ re no --
+	bis. %494 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

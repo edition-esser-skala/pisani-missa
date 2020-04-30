@@ -365,3 +365,55 @@ DomineDeusOboeI = {
 		a4.\fermata \bar "||" %382 finis
 	}
 }
+
+QuiTollisOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #383
+		R1
+		r2 r4 es'\fE
+		d es r8 d d d %385
+		c2 h4 r
+		r2 r4 c8 c
+		des2 c
+		r4 es4. es8 des des
+		c2 b4 r8 f' %390
+		des16 c b8 r4 r c
+		des des des2
+		c4 r des c
+		h c c h
+		c r r c8 c %395
+		h2 c4 r
+		r2 r4 c8 c
+		f4 g2 es4
+		c1
+		h4 c c h %400
+		c8.[ c16 c8. c16] c8.[ c16 c8. c16] \noBreak
+		c8.[ c16 d,8. h'16] c2\fermata \bar "||"
+		\time 3/8 \tempoQuiTollisB \newSpacingSection
+			R4.*72 \noBreak %474
+		R4.\fermataMarkup \bar "||" %475
+		\time 4/4 \newSpacingSection \tempoQuiTollisC
+			R1 \noBreak
+		r2 r4 es\fE
+		d es r8 d d d
+		c2 h4 r
+		r2 r4 c8 c %480
+		des2 c
+		r4 es4. es8 des des
+		c2 b4 r8 f'
+		des16 c b8 r4 r c
+		des des des2 %485
+		c4 r des c
+		h c c h
+		c r r c8 c
+		h2 c4 r
+		r2 r4 c8 c %490
+		f4 g2 es4
+		c1
+		h4 c c h
+		c8.[ c16 c8. c16] c8.[ c16 c8. c16]
+		c8.[ c16 d,8. h'16] c2\fermata \bar "||" %495
+	}
+}
