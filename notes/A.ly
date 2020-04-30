@@ -101,7 +101,7 @@ KyrieAltoLyrics = \lyricmode {
 	_ _
 	_ _ i -- son, e --
 	le -- i -- son.
-	
+
 	Ky -- ri -- e e -- le -- i -- son, e -- %26
 	lei -- son, e -- lei -- son,
 	e -- le -- i -- son, e --
@@ -151,7 +151,7 @@ KyrieAltoLyrics = \lyricmode {
 	le -- _
 	_ _ _ i -- son, e --
 	le -- i -- son. \x
-	
+
 	Ky -- ri -- e e -- %80
 	\xE lei -- son, e -- le -- i --
 	son, e --
@@ -258,7 +258,7 @@ GloriaAltoLyrics = \lyricmode {
 	sis, in ex -- cel -- sis
 	De -- o
 	glo -- ri -- a.
-	
+
 	Glo -- ri -- %25
 	a,
 	glo -- ri --
@@ -271,20 +271,20 @@ GloriaAltoLyrics = \lyricmode {
 	De -- o,
 	glo -- ri -- %35
 	a,
-	
+
 	glo -- ri --
 	a.
-	
+
 	Glo -- ri -- a, %42
-	
+
 	\x glo -- ri -- a, %45
-	
+
 	glo -- ri -- a in ex --
 	cel -- sis,
 	in ex -- cel -- sis De -- o %50
 	glo -- ri -- a,
 	glo --
-	
+
 	_
 	_ _ %55
 	_ \xE ri --
@@ -295,7 +295,7 @@ GloriaAltoLyrics = \lyricmode {
 	in ex -- cel -- sis De -- o
 	glo -- ri -- a,
 	glo -- ri -- a.
-	
+
 	Et in %65
 	ter -- ra pax ho --
 	mi -- ni -- bus
@@ -306,16 +306,16 @@ GloriaAltoLyrics = \lyricmode {
 	ta --
 	_ _
 	tis.
-	
+
 	Glo -- ri -- a in ex -- %79
 	cel -- sis, %80
 	in ex -- cel -- sis De -- o
 	glo -- ri -- a,
 	glo --
-	
+
 	_ %85
 	_ ri -- a.
-	
+
 	Et in ter -- ra
 	pax, pax __
 	ho -- mi -- ni -- %90
@@ -382,7 +382,7 @@ LaudamusAltoLyrics = \lyricmode {
 	_ _
 	_ _ mus %125
 	te.
-	
+
 	Be -- ne -- %129
 	di -- ci -- mus, ad -- o -- ra -- mus, ad -- %130
 	o -- ra --
@@ -402,14 +402,123 @@ LaudamusAltoLyrics = \lyricmode {
 	te. %145 finis
 }
 
+DomineDeusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \autoBeamOff \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		R4.*20 %268
+		R4.*15 %283
+		\mvTr a'8\fE^\tuttiE a a
+		a g r %285
+		a([ g)] f
+		e16.([ f32)] g8 r
+		g4 g8
+		g4.~
+		g8[ a e] %290
+		a4 g8
+		\tuplet 3/2 8 { a16[ h c] } d8[ g,]~
+		g g r
+		g4 c,8
+		g'4 g8 %295
+		a g8. f16
+		e8 r r
+		R4.*14 %311
+		\mvTr c'8\fE^\tuttiE c c
+		h4 h8
+		a4 a8
+		gis8. gis16 gis8 %315
+		r gis gis
+		a a a
+		a a r
+		R4.
+		g!4 g8 %320
+		a4 a8
+		R4.
+		e8[ fis gis]
+		a4.
+		a8 a([ gis)] %325
+		a r r
+		R4.*17 %343
+		a8^\sottoVoce^\tuttiE a a
+		b16([ a)] b8 r %345
+		b16([ a b8)] b
+		b a r
+		a g f
+		g g r
+		R4.*10 %359
+		\mvTr a8\fE^\tuttiE a a %360
+		a g r
+		a16([ g a8)] a
+		a g r
+		c4.~
+		c8 b8. a16 %365
+		g4 a8
+		g g4
+		f8 r r
+		R4.*13 %381
+		R4.\fermataMarkup \bar "||" %382 finis
+	}
+}
+
+DomineDeusAltoLyrics = \lyricmode {
+	\xE Do -- mi -- ne %284
+	De -- us, %285
+	Rex coe --
+	le -- stis,
+	De -- us
+	Pa --
+	%290
+	_ _
+	_ _
+	ter,
+	De -- us
+	Pa -- ter %295
+	o -- mni -- po --
+	tens.
+
+	Do -- mi -- ne %312
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te, %315
+	u -- ni --
+	ge -- ni -- te,
+	Je -- su,
+
+	Je -- su, %320
+	Je -- su,
+
+	Je --
+	_
+	su Chri -- %325
+	ste.
+
+	Do -- mi -- ne %344
+	De -- us, %345
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+
+	Do -- mi -- ne %360
+	De -- us,
+	A -- gnus
+	De -- i,
+	Fi --
+	li -- us, %365
+	Fi -- li --
+	us Pa --
+	tris. %368 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
-% 		
-% 		
+%
+%
 % 	}
 % }
-% 
+%
 % AltoLyrics = \lyricmode {
-% 	
+%
 % }

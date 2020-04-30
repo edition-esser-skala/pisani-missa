@@ -87,7 +87,7 @@ KyrieBassoLyrics = \lyricmode {
 	_ _
 	_ _ i -- son, e --
 	le -- i -- son.
-	
+
 	Ky -- ri -- e e -- le -- i -- son, e -- %26
 	lei -- son, e -- lei -- son,
 	e -- le -- i -- son, e --
@@ -97,7 +97,7 @@ KyrieBassoLyrics = \lyricmode {
 	_ _
 	_ i -- son, e -- le -- i --
 	son.
-	
+
 	Ky -- ri -- e e -- le -- i -- %36
 	son, Ky -- ri -- e e --
 	le -- _ _ i --
@@ -122,7 +122,7 @@ KyrieBassoLyrics = \lyricmode {
 	le -- i -- son,
 	Chri -- ste e -- le -- i -- son, e -- %60
 	lei -- son.
-	
+
 	Chri -- ste e -- %64
 	le -- i -- son, e -- le -- i -- %65
 	son, Chri --
@@ -134,7 +134,7 @@ KyrieBassoLyrics = \lyricmode {
 	_ _
 	_ _ i -- son, e --
 	le -- i -- son.
-	
+
 	Ky -- ri -- e e -- %80
 	lei -- son, e -- le -- i --
 	son, e -- le -- _
@@ -243,7 +243,7 @@ GloriaBassoLyrics = \lyricmode {
 	sis, in ex -- cel -- sis
 	De -- o
 	glo -- ri -- a.
-	
+
 	Glo -- ri -- %25
 	a,
 	glo -- ri --
@@ -265,7 +265,7 @@ GloriaBassoLyrics = \lyricmode {
 	glo --
 	_
 	_ -- ri -- a, %45
-	
+
 	glo -- ri -- a in ex -- %48
 	cel -- sis,
 	in ex -- cel -- sis De -- o %50
@@ -282,7 +282,7 @@ GloriaBassoLyrics = \lyricmode {
 	in ex -- cel -- sis De -- o
 	glo -- ri -- a,
 	\xE glo -- ri -- a. \x
-	
+
 	Et in ter -- ra %67
 	pax ho --
 	mi -- ni --
@@ -294,7 +294,7 @@ GloriaBassoLyrics = \lyricmode {
 	Et in %75
 	ter -- ra
 	pax.
-	
+
 	Glo -- ri -- a in ex --
 	cel -- sis, %80
 	in ex -- cel -- sis De -- o
@@ -303,7 +303,7 @@ GloriaBassoLyrics = \lyricmode {
 	_
 	_  %85
 	_ ri -- a.
-	
+
 	Et in ter -- ra
 	pax,
 	%90
@@ -362,17 +362,17 @@ LaudamusBassoLyrics = \lyricmode {
 	_ mus,
 	glo -- ri -- fi -- ca -- mus
 	te,
-	
+
 	glo -- ri -- fi -- ca -- mus %125
 	te.
-	
+
 	Ad -- o -- %130
 	ra -- _ _ _
 	_ mus te,
 	glo -- ri -- fi -- ca -- _
 	_ _ mus
 	te. %135
-	
+
 	Ad -- o --
 	ra -- mus, glo --
 	ri -- fi -- ca -- _
@@ -384,14 +384,123 @@ LaudamusBassoLyrics = \lyricmode {
 	te.
 }
 
+DomineDeusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/8 \autoBeamOff \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		R4.*20 %268
+		R4.*15 %283
+		\mvTr f8\fE^\tuttiE a f
+		c' c, r %285
+		f([ e)] d
+		c c r
+		c16([ d e8)] c
+		g'16[ a h8 g]
+		c16[ h a8 g] %290
+		a16[ g f8 e]
+		f16[ e d8 c]
+		g' g, r
+		c'([ h)] a
+		g8.([ f16)] e8 %295
+		f g g,
+		c r r
+		R4.*14 %311
+		\mvTr a'8\fE^\tuttiE a a
+		g!4 g8
+		f4 f8
+		e8. e16 e8 %315
+		r e' d
+		c h a
+		d4 c8
+		h[ a g]
+		c4 h8 %320
+		a[ g f]
+		h4 a8
+		gis[ fis e]
+		a[ h c]
+		d e([ e,)] %325
+		a r r
+		R4.*17 %343
+		f8^\sottoVoce^\tuttiE f f
+		f f r %345
+		f4 f8
+		f f r
+		f e d
+		c c r
+		R4.*10 %359
+		\mvTr f8\fE^\tuttiE a f %360
+		c' c, r
+		f([ a)] f
+		c' c, r
+		f g a
+		b16([ a)] b([ c)] d([ b)] %365
+		c8[ b a]
+		b[ c c,]
+		f r r
+		R4.*13 %381
+		R4.\fermataMarkup \bar "||" %382 finis
+	}
+}
+
+DomineDeusBassoLyrics = \lyricmode {
+	Do -- mi -- ne %284
+	De -- us, %285
+	Rex coe --
+	le -- stis,
+	De -- us
+	Pa --
+	_ _ %290
+	_
+
+	_ ter,
+	De -- us
+	Pa -- ter %295
+	o -- mni -- po --
+	tens.
+
+	Do -- mi -- ne %312
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te, %315
+	u -- ni --
+	ge -- ni -- te,
+	Je -- _
+	_
+	_ _ %320
+	_
+	_ _
+	_
+	_
+	su Chri -- %325
+	ste.
+
+	Do -- mi -- ne %344
+	De -- us, %345
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+
+	Do -- mi -- ne %360
+	De -- us,
+	A -- gnus
+	De -- i,
+	Fi -- li -- us,
+	Fi -- li -- us %365
+	Pa --
+	_
+	tris. %368 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
-% 		
-% 		
+%
+%
 % 	}
 % }
-% 
+%
 % BassoLyrics = \lyricmode {
-% 	
+%
 % }

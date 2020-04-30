@@ -361,3 +361,137 @@ GratiasViolinoII = {
 			a2\fermata \bar "||" %248 finis
 	}
 }
+
+DomineDeusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		\mvTr f8\fE-\flautiE f16 f f f
+		a8 c16 c c c %250
+		<f c f,>4 r8
+		R4.*4 %255
+		c8 c16 c c c
+		e8 g16 g g g
+		c8 r r
+		c,(\p d es)
+		d( e f) %260
+		e( f g)
+		f( g a)
+		g( a b)
+		a16\f g a a g g
+		f g a a g g %265
+		f8 f c
+		a f' c
+		\tuplet 3/2 8 { a16[ g f] } f8 e
+		f4 r8\fermata
+		R4.*3 %272
+		<a f'>8\f q16 q q q
+		q8 \mvTr f[\p-\vv f]
+		g g f %275
+		e e r
+		h h r
+		c c d
+		e r f
+		g h, g %280
+		a4 h8
+		c g' g,
+		c c'16\f b! a g
+		f8 r r
+		r e'16-\flauti e e e %285
+		f8 c' h
+		c e,16 e e e
+		e e e e e e
+		d d d d d d
+		e e e e e e %290
+		a a a a a a
+		a g f8 e
+		e d16 d d d
+		e8 r r
+		d8. d16 e8 %295
+		a d, d
+		c c16 c h h
+		e8 r \mvTr d,\p-\vv
+		e d c
+		d c h %300
+		a c h
+		a c d
+		e c d
+		e e r
+		a f e %305
+		d4 f8-\critnote
+		g e d
+		c r r
+		a''-\flauti g f
+		e d c %310
+		d, e e
+		e16\f e' e e e e
+		e e g g g, g
+		d' d d d dis dis
+		e fis gis fis e fis %315
+		gis8 r r
+		r16 e e e e e
+		e e e e e e
+		d d d d d d
+		d d d d d d %320
+		c c c c c c
+		c c c c c c
+		h h h h h h
+		a h c d e8
+		a h, gis' %325
+		a r r
+		R4.*3
+		\mvTr e,4\p-\vvE g8 %330
+		c4 a8
+		b16 a b8 b
+		b-\flauti a a
+		g16 f g8 g
+		g f a, %335
+		b b b
+		a f' f
+		g c, c
+		f g a
+		b c d %340
+		c\f g'16 g g g
+		a8 r r
+		<f a,> r r
+		\slurDashed a,16(-\dolceAssai f' a, f' a, f')
+		b,( d b d b d) %345
+		b( d b d b d)
+		b( d a c a c) \slurSolid
+		a'8 g f
+		e r r
+		R4. %350
+		g,16-\vv a g f e d
+		c e e e e e
+		e8 c' e
+		f^\critnote a, a
+		d16 c b c d e %355
+		f8 a16\f a a a
+		b8 r r
+		R4.*2
+		\mvTr f8\f-\flauti f16 f f f %360
+		f8 e r
+		f f16 f f f
+		f8 e16 e e e
+		f8 r r
+		R4. %365
+		e8. e16 f8
+		f f e
+		f16 c a8 f
+		c'(\p d es)
+		d( e f) %370
+		e( f g)
+		f( g a)
+		g( a b)
+		a r r
+		R4. %375
+		r8 c,\f es
+		d f b
+		a c, es
+		d f b
+		\tuplet 3/2 8 { a16[ g f] } g8 e %380
+		f f,16 f f f
+		f4.\fermata \bar "||" %382 finis
+	}
+}

@@ -424,7 +424,7 @@ GratiasSopranoINotes = {
 			\set Score.currentBarNumber = #150
 		R2*21 %170
 		R2\fermataMarkup
-		\mvTr a'4\pE e'16([ d)] cis([ h)]
+		a'4 e'16([ d)] cis([ h)]
 		a gis a8 fis'4~
 		fis8 e16 fis \appoggiatura e8 d4
 		cis r %175
@@ -560,6 +560,115 @@ GratiasSopranoILyrics = \lyricmode {
 	_ ri -- am
 	tu -- %240
 	am. %241 finis
+}
+
+DomineDeusSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \autoBeamOff \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		R4.*20 %268
+		R4.*15 %283
+		\mvTr f'8\fE^\tuttiE f f
+		f e r %285
+		f([ c)] d
+		e16.([ d32)] c8 r
+		e4 e8
+		d16[ c d8 h]
+		c16[ d] e4~ %290
+		e8 f4~
+		f16[ g f8 e]
+		e d r
+		e([ d16 e)] f8
+		d4 e8 %295
+		d8 d8.\trill d16
+		c8 r r
+		R4.*14 %311
+		\mvTr e8\fE^\tuttiE e e
+		e4 e8
+		d4 dis8
+		e8. h16 h8 %315
+		r h h
+		e4.~
+		e8 e e
+		d4.~
+		d %320
+		c~\trill
+		c
+		h
+		a16[ h c d e8]
+		d16([ c)] h4 %325
+		a8 r r
+		R4.*17 %343
+		c8^\sottoVoce^\tuttiE c c
+		d16([ c)] d8 r %345
+		d16([ c d8]) d
+		d c r
+		c c d
+		e16([ d)] c8 r
+		R4.*10 %359
+		\mvTr f8\f^\tuttiE f f %360
+		f e r
+		c16([ d c8)] c
+		c b r
+		R4.
+		d8. e16 f8 %365
+		e8.[( c16]) f8
+		f f([ e)]
+		f r r
+		R4.*13 %381
+		R4.\fermataMarkup \bar "||" %382 finis
+	}
+}
+
+DomineDeusSopranoILyrics = \lyricmode {
+	Do -- mi -- ne %284
+	De -- us, %285
+	Rex coe --
+	le -- stis,
+	De -- us
+	\xE Pa --
+	_ _ %290
+	_
+
+	_ ter,
+	De -- us
+	Pa -- ter %295
+	o -- mni -- po --
+	tens.
+
+	Do -- mi -- ne %312
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te, %315
+	u -- ni --
+	ge --
+	ni -- te,
+	Je --
+	%320
+	_
+
+	_
+	_
+	su Chri -- %325
+	ste.
+
+	Do -- mi -- ne %344
+	De -- us, %345
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+
+	Do -- mi -- ne %360
+	De -- us,
+	A -- gnus
+	De -- i,
+
+	Fi -- li -- us, %365
+	Fi -- li --
+	us Pa --
+	tris. %368 finis
 }
 
 % SopranoINotes = {

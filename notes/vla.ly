@@ -308,3 +308,129 @@ GratiasViola = {
 		e2\fermata \bar "||" %248 finis
 	}
 }
+
+DomineDeusViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 3/8 \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		c8\fE c16 c c c
+		f8 a16 a a a %250
+		a4 r8
+		R4.*4 %255
+		e8 e16 e e e
+		g8 e16 e e e
+		e8 r r
+		a\p a a
+		f f b %260
+		b b b
+		a a f
+		c' c c
+		c\f c,16 c c c
+		c' c, c c c c %265
+		c8 c a'
+		c a a
+		f c c
+		c4 r8\fermata
+		R4.*3 %272
+		c8\fE c16 c c c
+		c4 r8
+		g'\p g f %275
+		e e r
+		h h r
+		c c d
+		e r f
+		g h, g %280
+		a4 h8
+		c g' g,
+		c c'16\f b! a g
+		f8 a f
+		c' c, r %285
+		f e d
+		c c, r
+		c'16 d e8 c
+		g'16 a h8 g
+		c16 h a8 g %290
+		a16 g f8 e
+		f16 e d8 c
+		g' g, g
+		c' h a
+		g8. f16 e8 %295
+		f g g,
+		c c h?
+		a r d\pE
+		e d c
+		d c h %300
+		a c h
+		a c d
+		e c d
+		e e, r
+		a' f e %305
+		d4 f8
+		g e d
+		c r r
+		R4.*3 %311
+		a'8\fE a a
+		g! g g
+		f f f
+		e e e %315
+		e e e
+		c h a
+		d d c
+		h a g
+		c c h %320
+		a g f
+		h h a
+		gis fis e
+		a h c
+		d e e, %325
+		a r r
+		R4.*9  %335
+		b8\pE b b
+		a f' f
+		g c, c
+		f g a
+		b c d %340
+		c\fE c,16 c c c
+		c4 r8
+		R4.
+		f16(-\dolceAssai a f a f a)
+		f( b f b f b) %345
+		\once \slurDashed f( b f b f b)
+		\once \slurDashed f( b f a f a)
+		f8 e d
+		c4 r8
+		R4. %350
+		g'16 a g f e d
+		c8 c c
+		c c c
+		f f f
+		b b b %355
+		a f f
+		b r r
+		R4.*2
+		f8\fE a f %360
+		c' c, c
+		f a f
+		c' c, c
+		f g a
+		b b b %365
+		c b a
+		b c c,
+		f f a
+		f\p f c'
+		f, f b %370
+		b b b
+		a a f
+		c' c c
+		c4 r8
+		R4. %375
+		r8 a\fE c
+		f, f c
+		c a' a
+		f f g
+		c, d g, %380
+		a c16 c c c
+		c4.\fermata \bar "||" %382 finis
+	}
+}

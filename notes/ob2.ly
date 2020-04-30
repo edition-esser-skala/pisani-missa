@@ -242,3 +242,77 @@ GratiasOboeII = {
 			a2\fermata \bar "||" %248 finis
 	}
 }
+
+DomineDeusOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		f8\fE f16 f f f
+		a8 c16 c c c %250
+		c4 r8
+		R4.*4 %255
+		c8 c16 c c c
+		e8 g16 g g g
+		c8 r r
+		R4.*5 %263
+		a16\f g a a g g
+		f g a a g g %265
+		f8 f c
+		a f' c
+		\tuplet 3/2 8 { a16[ g f] } f8 e
+		f4 r8\fermata
+		R4.*3 %272
+		a8\f a16 a a a
+		a8 r r
+		R4.*10 %284
+		r8 e'16\fE e e e %285
+		f8 c' h
+		c e,16 e e e
+		e e e e e e
+		d d d d d d
+		e e e e e e %290
+		a a a a a a
+		a g f8 e
+		e d16 d d d
+		e8 r r
+		d8. d16 e8 %295
+		a d, d
+		c c16 c h h
+		e8 r r
+		R4.*13 %311
+		r16 e\fE e e e e
+		e e g g g, g
+		d' d d d dis dis
+		e fis gis fis e fis %315
+		gis8 r r
+		r16 e e e e e
+		e e e e e e
+		d d d d d d
+		d d d d d d %320
+		c c c c c c
+		c c c c c c
+		h h h h h h
+		a h c d e8
+		a h, gis' %325
+		a r r
+		R4.*33 %359
+		f8\f f16 f f f %360
+		f8 e r
+		f f16 f f f
+		f8 e16 e e e
+		f8 r r
+		R4. %365
+		e8. e16 f8
+		f f e
+		f8 r r
+		R4.*7 %375
+		r8 c\f es
+		d f b
+		a c, es
+		d f b
+		\tuplet 3/2 8 { a16[ g f] } g8 e %380
+		f f,16 f f f
+		f4.\fermata \bar "||" %382 finis
+	}
+}

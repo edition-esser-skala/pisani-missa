@@ -362,6 +362,140 @@ GratiasViolinoI = {
 	}
 }
 
+DomineDeusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		\mvTr f8\fE-\flautiE f16 f f f
+		a8 c16 c c c %250
+		<f c f,>4 r8
+		R4.*4 %255
+		c8 c16 c c c
+		e8 g16 g g g
+		c8 r r
+		c,(\p d es)
+		d( e f) %260
+		e( f g)
+		f( g a)
+		g( a b)
+		a16\f b c c b b
+		a b c c b b %265
+		a8 f c
+		a f' c
+		\tuplet 3/2 8 { a16[ g f] } a8 g
+		f4 r8\fermata
+		R4.*3 %272
+		<a f'>8\f q16 q q q
+		q8 \mvTr f[\p-\vv f]
+		g g f %275
+		e e r
+		h h r
+		c c d
+		e r f
+		g h, g %280
+		a4 h8
+		c g' g,
+		c c'16\f b! a g
+		f8 r r
+		r c''16-\flauti c c b %285
+		a8 g f
+		e c'16 c c c
+		c c c c c c
+		c c h h h h
+		c c c c c c %290
+		c c c c c c
+		c c h8 c
+		c h16 h h h
+		c8 r r
+		h8. h16 c8 %295
+		c c h
+		c e,16 e gis gis
+		a8 r \mvTr d,,\p-\vv
+		e d c
+		d c h %300
+		a c h
+		a c d
+		e c d
+		e e r
+		a f e %305
+		d4 f8-\critnote
+		g e d
+		c r r
+		a''-\flauti g f
+		e d c %310
+		\tuplet 3/2 4 { d16[ c h] } \appoggiatura c8 h8.(\trill a32 h)
+		a16\f c' c c c c
+		h h h h h h
+		a a a a a a
+		gis fis e fis gis a %315
+		h8 r r
+		r r e,
+		f16 f f f f f
+		f f f f f f
+		e e e e e e %320
+		e e e e e e
+		d d d d d d
+		d d d d d d
+		c h c d e8
+		a h, gis' %325
+		a r r
+		R4.*3
+		\mvTr c,8\p-\vvE d e %330
+		f16 e f8 c
+		d16 c d8 d
+		d-\flauti c f
+		b,16 a b8 b
+		b a c %335
+		d b16 c d e
+		f e d c b a
+		b g'32 f e16[ d c b]
+		a8 b c
+		d e f %340
+		e\f e16 e e e
+		f8 e16 d c b
+		a8 r r
+		c16(-\dolceAssai f c f c f)
+		d( f d f d f) %345
+		d( f d f d f)
+		d( f c f c f)
+		c8 c h
+		c r r
+		R4. %350
+		g16-\vv a g f e d
+		c g' g g g g
+		g' f e d c b
+		a8 c c
+		d16 c b c d e %355
+		f8 c'16\f c c c
+		d8 r r
+		R4.*2
+		\mvTr a8\f-\flauti a16 a a a %360
+		a8 g r
+		a a16 a a a
+		a8 g16 g g g
+		a8 r r
+		R4. %365
+		g8. g16 a8
+		g g4
+		f16 c a8 f
+		c'(\p d es)
+		d( e f) %370
+		e( f g)
+		f( g a)
+		g( a b)
+		a r r
+		R4. %375
+		r8 c,\f es
+		d f b
+		a c, es
+		d f b
+		\tuplet 3/2 8 { a16[ g f] } g8 e %380
+		f a,16 a a a
+		a4.\fermata \bar "||" %382 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

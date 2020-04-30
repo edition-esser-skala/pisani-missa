@@ -104,7 +104,7 @@ KyrieSopranoIILyrics = \lyricmode {
 	_ _ _
 	_ _ i -- son, e --
 	le -- i -- son.
-	
+
 	Ky -- ri -- e e -- le -- i -- son, e -- %26
 	le -- _ _ _
 	_ _ _ _
@@ -141,7 +141,7 @@ KyrieSopranoIILyrics = \lyricmode {
 	le -- i -- son, e -- le -- i --
 	son, e -- le -- i -- %60
 	son.
-	
+
 	Chri -- ste e -- %64
 	le -- i -- %65
 	son, Chri -- ste e --
@@ -265,7 +265,7 @@ GloriaSopranoIILyrics = \lyricmode {
 	sis, in ex -- cel -- sis
 	De -- o
 	glo -- ri -- a.
-	
+
 	\xE Glo -- ri -- %25
 	a,
 	glo -- ri --
@@ -281,9 +281,9 @@ GloriaSopranoIILyrics = \lyricmode {
 	in __ ex --
 	cel --
 	sis.
-	
+
 	Glo -- ri -- a, %42
-	
+
 	glo -- ri -- a, %45
 	glo -- _ _
 	_ _ _
@@ -292,7 +292,7 @@ GloriaSopranoIILyrics = \lyricmode {
 	in ex -- cel -- sis De -- o %50
 	glo -- ri -- a,
 	glo --
-	
+
 	_
 	_ _ %55
 	_ ri --
@@ -303,18 +303,18 @@ GloriaSopranoIILyrics = \lyricmode {
 	in ex -- cel -- sis De -- o
 	glo -- ri -- a,
 	glo -- ri -- a.
-	
+
 	Et in ter -- ra %65
 	pax ho --
 	mi -- ni -- bus
 	bo --
 	nae vo -- lun --
 	ta -- tis, %70
-	
+
 	bo -- nae vo -- lun --
 	ta --
 	tis.
-	
+
 	Glo -- _ _ %78
 	_ ri -- a in ex --
 	cel -- sis, %80
@@ -339,4 +339,111 @@ GloriaSopranoIILyrics = \lyricmode {
 	bo -- nae vo --
 	lun -- ta -- %100
 	tis. %101 finis
+}
+
+DomineDeusSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/8 \autoBeamOff \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		R4.*20 %268
+		R4.*15 %283
+		\mvTr c'8\fE^\tuttiE c c
+		c c r %285
+		c4 h8
+		c16.([ d32)] e8 r
+		c16([ h c8)] c
+		c[ h d]
+		e16[ d c8 h] %290
+		c4.~
+		c8[ h c]~
+		c h r
+		c([ d)] c
+		h4 c8 %295
+		c c h
+		c r r
+		R4.*15 %312
+		\mvTr e8\fE^\tuttiE e e
+		f16 d a8 a
+		h8. h16 e8 %315
+		R4.
+		r8 e e
+		f4.~
+		f8 f f
+		e4.~ %320
+		e
+		d~\trill
+		d
+		c
+		f8 e8.([ d16)] %325
+		c8 r r
+		R4.*17 %343
+		f8^\sottoVoce^\tuttiE f f
+		f f, r %345
+		f4 f8
+		f16([ g)] a8 r
+		f' c h
+		c16([ d)] e8 r
+		R4.*10 %359
+		\mvTr c8\fE^\tuttiE c c %360
+		c c r
+		f16([ e f8)] f
+		f e r
+		a, b c
+		f,4. %365
+		c'
+		d8 c8.([ b16)]
+		a8 r r
+		R4.*13 %381
+		R4.\fermataMarkup \bar "||" %382 finis
+	}
+}
+
+DomineDeusSopranoIILyrics = \lyricmode {
+	\xE Do -- mi -- ne %284
+	De -- us, %285
+	Rex coe --
+	le -- stis,
+	De -- us
+	Pa --
+	_ %290
+	_
+
+	ter,
+	De -- us
+	Pa -- ter %295
+	o -- mni -- po --
+	tens.
+
+	Do -- mi -- ne %313
+	Fi -- li u -- ni --
+	ge -- ni -- te, %315
+
+	u -- ni --
+	ge --
+	ni -- te,
+	Je -- %320
+
+	_
+
+	_
+	su Chri -- %325
+	ste.
+
+	Do -- mi -- ne %344
+	De -- us, %345
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+
+	Do -- mi -- ne %360
+	De -- us,
+	A -- gnus
+	De -- i,
+	Fi -- li -- us,
+	Fi -- %365
+	li --
+	us Pa --
+	tris. %368 finis
 }

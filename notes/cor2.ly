@@ -97,3 +97,102 @@ GloriaCornoII = {
 		g2 r4\fermata \bar "||" %107 finis
 	}
 }
+
+DomineDeusCornoII = {
+	\transpose f c'' \relative c {
+		\clef treble
+		\key f \major \time 3/8 \tempoDomineDeus
+			\set Score.currentBarNumber = #249
+		R4.*2 %250
+		a'8\fE a16 a a a
+		a8 g f
+		g c, c
+		f16 g a a g g
+		f g a a g f %255
+		c8 r r
+		R4.
+		c8 c c
+		f r r
+		R4.*4 %263
+		f16\f g a a g g
+		f g a a g g %265
+		f4.~\trill
+		f
+		f8 c c
+		a4 r8\fermata
+		R4.*3 %272
+		a'8\f a16 a a a
+		a8 r r
+		R4.*8 %282
+		r8 c16\fE b a g
+		f8 r r
+		r c16 c c c %285
+		f8 r r
+		r c16 c c c
+		c8 c16 c c c
+		g'8 r r
+		c, r r %290
+		a' r r
+		f r r
+		r g16 g g g
+		c,8 r r
+		g' r r %295
+		f g g
+		c, r r
+		a' r r
+		R4.*13 %311
+		a8\fE r r
+		R4.*4 %316
+		a8 r r
+		a r r
+		R4.*2 %320
+		a8 r r
+		R4.*2
+		a8 r r
+		R4. %325
+		r8 a g
+		f16 g a a g g
+		f g a a g f
+		c8 c16 c c8
+		R4. %330
+		a'\p
+		b
+		b8 a r
+		g4.
+		f8[ f,] r %335
+		R4.*5 %340
+		c'8\f c16 c c c
+		f8 r r
+		R4.
+		a-\dolceAssai
+		b4 b8 %345
+		b b b
+		b a a
+		a r r
+		c, r r
+		R4.*6 %355
+		r8 a'16\fE a a a
+		b8 a g
+		f r r
+		R4.
+		a8 r r %360
+		r c,16 c c c
+		f8 r r
+		r c16 c c c
+		f8 r r
+		R4. %365
+		r8 r a
+		b c c,
+		f r r
+		R4.*5 %373
+		f16\pE g a a g g
+		f g a a g g %375
+		f8 r a\f
+		b r r
+		a r a
+		b r g
+		c b g %380
+		a[ a,16 a a a]
+		f4.\fermata \bar "||" %382 finis
+	}
+}

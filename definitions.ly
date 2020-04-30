@@ -127,6 +127,8 @@ tasto = \markup { \remark "tasto solo" }
 tastoE = \markup { \remarkE "tasto solo" }
 org = \markup { \remark Org. }
 orgE = \markup { \remarkE Org. }
+senzaOrg = \markup { \remark "senza Org." }
+senzaOrgE = \markup { \remarkE "senza Org." }
 vlc = \markup { \remark "Vlc." }
 vlcE = \markup { \remarkE "Vlc." }
 bassi = \markup { \remark Bassi }
@@ -140,7 +142,9 @@ pizz = \markup { \remark "pizz." }
 pizzE = \markup { \remarkE "pizz." }
 arco = \markup { \remark "arco" }
 vv = \markup { \remark "Vv." }
+vvE = \markup { \remarkE "Vv." }
 flauti = \markup { \remark "Flauti" }
+flautiE = \markup { \remarkE "Flauti" }
 dolce = \markup { \remark "dolce" }
 dolceE = \markup { \remarkE "dolce" }
 dolceAssai = \markup { \remark "dolce assai" }
@@ -262,6 +266,7 @@ tempoGloria = \tempoMarkup "Allegro"
 	tempoGloriaB = \tempoMarkup "Allegro"
 tempoLaudamus = \tempoMarkup "Allegretto"
 tempoGratias = \tempoMarkup "Allegro"
+tempoDomineDeus = \tempoMarkup "Allegro"
 
 
 
