@@ -67,3 +67,93 @@ KyrieTimpani = {
 		c2 r\fermata \bar "|." %90 finis
 	}
 }
+
+CumSanctoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		c4\fE c8. c16 c4 r
+		c r r2
+		g4 g8. g16 g4 r %540
+		g r c r
+		c r c r
+		c r c r
+		c8 c16 c c c c c c4 r
+		c r16 c c c c4 r\fermata %545
+		\tempoCumSanctoB c r g r
+		g r r2
+		r g4 r
+		r2 c4 r
+		R1*3 %552
+		g4 r r2 \noBreak
+		g4 r8 g c4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*24 %578
+		g2 r
+		c r %580
+		g r
+		g r
+		c4 c8 c c4 c
+		g2 r
+		c8 c16 c c8 c c c c c %585
+		g2 r
+		R1*3
+		c2 r %590
+		R1*2
+		g2 r
+		R1*2 %595
+		g2 r
+		c r
+		r g4 g8 g
+		g g g g c2
+		R1*13 %612
+		c2 g
+		R1
+		c2 r %615
+		c r
+		c r
+		c g
+		c1
+		R1*14 %633
+		R1\fermataMarkup
+		R1*6 %640
+		c2 r
+		c r
+		R1*2
+		r2 g %645
+		c4 c8 c c4 c
+		c2 r
+		c r
+		c r
+		g c %650
+		g4 g8 g g4 g
+		c2 r
+		R1
+		g2 r
+		R1 %655
+		c2 r
+		r g
+		c r
+		c4 c8 c g4 g
+		c2 r %660
+		R1*8 %668
+		g4 g8 g g4 g
+		c2 r %670
+		R1*2
+		r2 g
+		c r
+		R1*4 %678
+		g8 g g g g g g g
+		c c c c c c c c %680
+		c c c c c c c c
+		c2 r
+		g r
+		c r
+		g r %685
+		R1*4
+		g8 g g g g g g g %690
+		c2 r4 c
+		c2 r4 g
+		c1\fermata \bar "|." %693 FINIS
+	}
+}

@@ -697,6 +697,293 @@ QuiTollisAltoLyrics = \lyricmode {
 	bis. %494 finis
 }
 
+CumSanctoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		R1*7 %544
+		R1\fermataMarkup %545
+		\tempoCumSanctoB \mvTr a'4\fE^\tuttiE a8 a a8. a16 a4
+		r8 a a a a a g g
+		gis4. gis8 a4 r8 a
+		b4. b8 a4 r8 a
+		a4 a8 a b4 a %550
+		a g gis2
+		g4 fis!8.[ e16] fis2
+		e4 a8 a a4 a \noBreak
+		g2 a4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*8 %562
+		a2 d,
+		r4 d fis gis
+		a h cis h %565
+		a gis? fis e
+		fis2 gis
+		a4 h cis a
+		h1
+		a2 r %570
+		R1
+		a2 g
+		fis4 g a g
+		fis2 g~
+		g4 h a g %575
+		fis g a fis
+		g1
+		fis4 g a fis
+		a1~
+		a4 fis a h %580
+		a2 e~
+		e a~
+		a gis4 fis
+		e2 a
+		fis h %585
+		e, r
+		R1*2
+		a2 g
+		fis g4 a %590
+		h2 a
+		r4 g a h
+		a1~
+		a4 fis g a
+		h a g4. fis8 %595
+		e2 fis4 g
+		a2. h4
+		e,1~
+		e2 fis~
+		fis e %600
+		r e
+		fis g!
+		a1
+		g
+		fis4 g a4. g8 %605
+		fis4. e8 d2
+		a'1~
+		a~
+		a2 gis4. fis8
+		e2 a %610
+		fis h
+		e,4 a2 g!4
+		fis4. g8 a2~
+		a g
+		fis4 g a g %615
+		fis2 g~
+		g4 h a g
+		fis g a fis
+		g fis g e
+		fis2 r %620
+		e a~
+		a4 g!8[ fis] g4 ais
+		h fis2 gis4
+		cis,2 r
+		r gis' %625
+		a h
+		gis a
+		r gis
+		a1
+		gis2 a %630
+		gis1~
+		gis2 a
+		gis1
+		fis2 r\fermata
+		R1 %635
+		a2 d,
+		r4 d fis gis
+		a2. g4
+		fis2 a4 h
+		e,2 r %640
+		a2. g4
+		fis2 g~
+		g e
+		r a4 fis
+		g e a g %645
+		fis2 r
+		r4 fis g a
+		h1~
+		h4 a g2
+		a a %650
+		a2. g4
+		fis2 a~
+		a gis
+		a r
+		R1 %655
+		r2 a
+		h a4. g8
+		fis4. g8 a2
+		h a4. g8
+		fis2 r %660
+		R1*3
+		r4 a2( gis4)
+		a2 r %665
+		R1*2
+		r2 h
+		a r
+		r8 a[ g a] fis[ a g a] %670
+		h[ g fis g] e[ g fis g]
+		a[ fis e fis] d[ fis e fis]
+		g[ e d e] cis[ e d e]
+		fis2 h~
+		h a~ %675
+		a g~
+		g fis~
+		fis e~
+		e a
+		a r %680
+		r4 a8[ fis] a2~
+		a4 a g fis
+		e a2 g4
+		fis2 r
+		a r %685
+		fis r
+		a r
+		g a
+		g a
+		a2.( g4) %690
+		fis2 a
+		h a
+		a1\fermata \bar "|." %693 FINIS
+	}
+}
+
+CumSanctoAltoLyrics = \lyricmode {
+	\xE Cum San -- cto Spi -- ri -- tu, %546
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, in
+	glo -- ri -- a, in
+	glo -- ri -- a De -- i %550
+	Pa -- _ _
+	_ _ _
+	tris, De -- i Pa -- tris,
+	a -- men.
+
+	A -- men, %563
+	a -- _ _
+	_ _ _ _ %565
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_
+	men, %570
+
+	a -- _
+	_ _ _ _
+	_ _
+	_ _ _ %575
+	_ _ _ _
+	_
+	men, a -- _ _
+	_
+	_ _ _ %580
+	_ _
+	_
+	_ _
+	_ _
+	_ _ %585
+	men,
+
+	a -- _ %589
+	_ _ _ %590
+	_ men,
+	a -- _ _
+	_
+	_ _ _
+	_ _ _ _ %595
+	_ _ _
+	_ _
+	_
+	_
+	men, %600
+	a --
+	_ _
+	_
+	_
+	_ _ _ _ %605
+	_ _ men,
+	a --
+
+	_ _
+	_ _ %610
+	_ _
+	men, a -- _
+	_ _ _
+	_
+	_ _ _ _ %615
+	_ _
+	_ _ _
+	_ _ _ _
+	_ _ _ _
+	men, %620
+	a -- _
+	_ _ _
+	_ _ _
+	men,
+	a -- %625
+	_ _
+	_ men,
+	a --
+	_
+	_ _ %630
+	_
+	_
+	_
+	men.
+	%635
+	A -- men,
+	a -- _ _
+	_ _
+	_ _ _
+	men, %640
+	a -- _
+	_ _
+	men,
+	a -- _
+	_ _ _ _ %645
+	men,
+	a -- _ _
+	_
+	_ _
+	_ men, %650
+	a -- _
+	_ _
+	_
+	men,
+	%655
+	a --
+	_ _ _
+	_ _ _
+	_ _ _
+	men. %660
+
+	A -- %664
+	men, %665
+
+	a -- %668
+	men,
+	a -- _ %670
+	_ _
+	_ _
+	_ _
+	men, a --
+	_ %675
+	_
+	_
+	_
+	_
+	men, %680
+	a -- _
+	_ _ _
+	_ _ _
+	men,
+	a -- %685
+	men,
+	a --
+	_ _
+	_ men,
+	a -- %690
+	men, a --
+	men, a --
+	men. %693 FINIS
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

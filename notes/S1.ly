@@ -831,6 +831,303 @@ QuoniamSopranoILyrics = \lyricmode {
 	Chri -- ste. %531 finis
 }
 
+CumSanctoSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		R1*7 %544
+		R1\fermataMarkup %545
+		\tempoCumSanctoB \mvTr fis'4\fE^\tuttiE fis8 fis fis8. fis16 e4
+		r8 cis cis cis d d d d
+		d4. d8 cis4 r8 e
+		e4. e8 f4 r8 f16([ e)]
+		d4 d8 d d4 cis %550
+		d1
+		cis4 d8.[ cis16] d2
+		cis4 e8 e e4 fis! \noBreak
+		g2 fis4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC d2 a \noBreak %555
+		r4 a h cis
+		d e fis e
+		d cis h a
+		h2 cis
+		d4 e fis d %560
+		e1\trill
+		d4 fis e d
+		cis e d4. cis8
+		d1
+		cis4 d e d %565
+		cis2 d~
+		d4 cis h2
+		cis4 d e cis
+		d e fis gis
+		a cis, d e %570
+		fis2 e4. d8
+		e2 r
+		R1*3 %575
+		d1
+		h2 e
+		a, d
+		cis d4. cis8
+		d1 %580
+		a~
+		a
+		d2 e~
+		e4 d cis2
+		fis4 e d2 %585
+		cis d4 e
+		a, fis g a
+		h2 cis4 d
+		e2 r
+		d cis %590
+		h cis4 d
+		e2 d
+		cis4 a h cis
+		d1~
+		d4 cis d2 %595
+		cis d4 e
+		fis1
+		e2. d4
+		cis2 d~
+		d cis %600
+		r e
+		d4 cis h2
+		cis d~
+		d cis
+		d4 e fis4. e8 %605
+		d1~
+		d2 cis~
+		cis4 d8[ e] fis2~
+		fis e4. d8
+		cis4 d e cis %610
+		d cis d h
+		cis2 r
+		R1
+		r4 cis d e
+		fis1~ %615
+		fis4 e d2~
+		d cis4. h8
+		a2 d~
+		d cis
+		d r %620
+		R1
+		h2 e~
+		e4 d!8[ cis] d4 eis
+		fis1~
+		fis4 e!8[ d] e4 cis %625
+		d8[ cis] d2 h4
+		cis8[ h] cis2 a4
+		h8[ a] h2.
+		a4 cis fis2
+		eis fis~ %630
+		fis fis~
+		fis fis~
+		fis eis
+		fis r\fermata
+		d a %635
+		r4 a h cis
+		d1
+		cis2 d4 e
+		fis1
+		e4 cis d e %640
+		fis1~
+		fis2 d
+		e1
+		d2 r
+		R1 %645
+		r4 a h cis
+		d1~
+		d2. e8[ fis]
+		g1~
+		g2 fis %650
+		e1
+		d2 r
+		R1
+		r2 cis
+		d e %655
+		d1~
+		d2 cis
+		d4. e8 fis2
+		e e
+		d r %660
+		R1*4
+		r8 e[ d e] cis[ e d e] %665
+		fis[ d cis d] h[ d cis d]
+		e[ cis h cis] a[ cis h cis]
+		d[ h a h] gis[ h a h]
+		cis2 h4 a
+		a2 r %670
+		R1*2
+		r2 e'
+		d d~
+		d cis~ %675
+		cis h~
+		h a~
+		a g~
+		g4 g'2 fis8[ e]
+		fis2 r4 fis8[ d] %680
+		fis1
+		fis2 r
+		r4 e d a
+		d2 r
+		cis r %685
+		d r
+		c r
+		h4 cis d2
+		g fis
+		e1 %690
+		d2 d
+		d cis
+		d1\fermata \bar "|." %693 FINIS
+	}
+}
+
+CumSanctoSopranoILyrics = \lyricmode {
+	\xE Cum San -- cto Spi -- ri -- tu, %546
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, in
+	glo -- ri -- a, in
+	glo -- ri -- a De -- i %550
+	Pa --
+	_ _ _
+	tris, De -- i Pa -- tris,
+	a -- men. \x
+	A -- men, %555
+	a -- \xE _ _
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %560
+	_
+	men, a -- _ _
+	_ _ _ _
+	_
+	_ _ _ _ %565
+	_ _
+	_ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %570
+	_ _ _
+	men,
+
+	a -- %576
+	_ _
+	_ _
+	_ _ _
+	men, %580
+	a --
+
+	_ _
+	_ _
+	_ _ _ %585
+	_ _ _
+	men, a -- _ _
+	_ _ _
+	men,
+	a -- _ %590
+	_ _ _
+	_ _
+	_ _ _ _
+	_
+	_ _ %595
+	men, a -- _
+	_
+	_ _
+	_ _
+	men, %600
+	a --
+	_ _ _
+	_ _
+	_
+	_ _ _ _ %605
+	_
+	_
+	_ _
+	_ _
+	_ _ _ _ %610
+	_ _ _ _
+	men,
+
+	a -- _ _
+	_ %615
+	_ _
+	_ _
+	_ _
+	_
+	men, %620
+
+	a -- _
+	_ _ _
+	_
+	_ _ _ %625
+	_ _ _
+	_ _ _
+	_ _
+	men, a -- _
+	_ _ %630
+	_
+	_
+	_
+	men.
+	A -- men, %635
+	a -- _ _
+	_
+	_ _ _
+	_
+	_ _ _ _ %640
+	_
+	_
+	_
+	men,
+	%645
+	a -- _ _
+	_
+	_
+	_
+	_ %650
+	_
+	men,
+
+	a --
+	_ _ %655
+	_
+	_
+	_ _ _
+	men, a --
+	men. %660
+
+	A -- _ %665
+	_ _
+	_ _
+	_ _
+	_ _ _
+	men, %670
+
+	a -- %673
+	men, a --
+	_ %675
+	_
+	_
+	_
+	_ _
+	men, a -- %680
+	_
+	men,
+	a -- _ _
+	men,
+	a -- %685
+	men,
+	a --
+	_ _ _
+	_ men,
+	a -- %690
+	men, a --
+	men, a --
+	men. %693 FINIS
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

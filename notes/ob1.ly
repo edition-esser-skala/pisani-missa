@@ -449,3 +449,133 @@ QuoniamOboeI = {
 		b16 g c a b8 a g2\fermata \bar "||" %537 finis
 	}
 }
+
+CumSanctoOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		a''4\fE a8. a16 a fis, g a h cis d e
+		r8 fis16 g a8 g fis a g fis
+		e4 e8. e16 e4 r %540
+		a8 g16 fis g8 e fis d a fis
+		a'2~ a4 r
+		r16 a g a fis a g a fis8 fis16 g a8 fis
+		d d16 e fis8 d a a16 a d8 a
+		fis fis16 fis fis fis fis fis fis4 r\fermata %545
+		\tempoCumSanctoB a'8 a a a a a e e
+		a a a a a a g g
+		gis gis gis gis a e e e
+		e e e e f a16 f d8 f16 d
+		a4 r8 d e e a a %550
+		a a g g gis gis gis gis
+		g g fis! e fis fis fis fis
+		e cis cis cis cis cis d d \noBreak
+		d d cis cis d4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*24 %578
+		r4 e fis4. g8
+		fis4 fis fis e %580
+		e e a a
+		a a a a
+		a a gis fis
+		e e e e
+		d e fis gis %585
+		a2 g
+		fis4 d e fis
+		g2 fis
+		e4 cis d e
+		r fis g a %590
+		h d, e fis
+		g2 fis
+		r4 cis d e
+		fis1
+		d2 r %595
+		a' d,
+		r4 d fis gis
+		a h cis h
+		a gis fis e
+		fis2 gis %600
+		a4 h cis a
+		h1
+		a
+		g!4 g g fis8 e
+		fis2 r %605
+		R1*8 %613
+		e4 cis d e
+		fis1~ %615
+		fis4 e d2~
+		d4 h a g
+		fis g a fis
+		g2 g
+		fis d'~ %620
+		d4 cis8 h cis4 dis
+		e h e2~
+		e4 d!8 cis d4 eis
+		fis cis fis2~
+		fis4 e!8 d e4 cis %625
+		fis2 gis
+		eis fis
+		h1
+		a4 a a a
+		gis cis, cis cis %630
+		d d cis cis
+		h h cis cis
+		d2 cis
+		cis r\fermata
+		R1*4 %638
+		d2 a
+		r4 a h cis %640
+		d e fis e
+		d cis h a
+		h2 cis
+		d4 e fis d
+		e1 %645
+		d2 r
+		r4 fis g a
+		h h h h
+		h h h h
+		a a a g8 fis %650
+		e4 e e e
+		fis a a a
+		a a gis gis
+		a2 a,
+		h cis %655
+		d fis,
+		g a
+		h fis
+		g a
+		d, r8 a''8 g a %660
+		h2 r8 g fis g
+		a2 r8 fis e fis
+		g2 r8 e d e
+		fis4 a2 gis4
+		a8 e d e cis e d e %665
+		fis d cis d h d cis d
+		e cis h cis a cis h cis
+		d h a h gis h a h
+		cis4 a'2 g!4
+		fis2 r %670
+		R1*2
+		r2 e
+		d a'4 r
+		h r a r %675
+		a r g r
+		g r fis r
+		fis r e r
+		e g g fis8 e
+		fis2 r %680
+		r r4 fis8 d
+		fis4 a g fis
+		e a a g
+		fis fis fis fis
+		e e e e %685
+		d d d d
+		c c c c
+		h cis d fis
+		g g fis fis
+		e e e e %690
+		d2 fis
+		g e
+		fis1\fermata \bar "|." %693 FINIS
+	}
+}

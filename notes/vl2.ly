@@ -668,3 +668,144 @@ QuoniamViolinoII = {
 		b16 g c a g8 fis g d16 b g4\fermata \bar "||" %537 finis
 	}
 }
+
+CumSanctoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		fis'4\fE fis8. fis16 fis d, e fis g a h cis
+		d4 r r2
+		cis4 cis8. cis16 cis a, h cis d e fis gis %540
+		a4 r r2
+		r16 d, e fis g a h cis d fis, g a h cis d e
+		fis8 fis fis fis fis8.[ fis16 a8. a16]
+		fis8.[ fis16 d8. d16] a8.[ a16 fis8. fis16]
+		d8 d16 d d d d d d4 r\fermata %545
+		\tempoCumSanctoB d'8 d d d d d cis cis
+		cis cis cis cis d d d d
+		d d d d cis cis cis cis
+		cis cis cis cis d f16 d a8 d16 a
+		f8 d' d d d d cis? cis %550
+		d d d d d16(-. d-. d-. d-.) d(-. d-. d-. d-.)
+		cis(-. cis-. cis-. cis-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.)
+		cis8 cis cis cis cis cis d d \noBreak
+		d d cis cis d4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*14 %568
+		r2 d
+		cis4 a h cis %570
+		d2 cis4. h8
+		cis2 d4 e^\critnote
+		fis e d2~
+		d4 e d cis
+		h2 e %575
+		a, d~
+		d cis
+		d r
+		r4 e fis4. g8
+		fis4 fis fis e %580
+		cis cis cis cis
+		cis d8 e fis4 fis
+		fis gis8 a h4 d,
+		cis cis cis cis
+		fis e d d %585
+		cis2 r
+		R1*3
+		d2 cis %590
+		h4 h cis d
+		e2 d
+		cis4 a h cis
+		d fis g a
+		h a g4. fis8 %595
+		e2 fis4 g
+		a2. h4
+		e,2. d4
+		cis2 d~
+		d h %600
+		a e'
+		d4 cis8 d e2~
+		e fis
+		h, a
+		a r %605
+		R1*7 %612
+		d,2 a
+		r4 a h cis
+		d e fis e %615
+		d cis h a
+		h2 cis
+		d4 e fis d
+		e2 e
+		d d'~ %620
+		d4 cis8 h cis4 dis
+		e h e2~
+		e4 d!8 cis d4 eis
+		fis cis fis2~
+		fis4 e!8 d e4 cis %625
+		fis2 gis
+		eis4 cis fis2~
+		fis4 eis8 dis eis2
+		fis4 fis fis fis
+		eis eis fis fis %630
+		fis fis fis fis
+		fis fis fis fis
+		fis2 eis
+		fis r\fermata
+		R1*3 %637
+		a,2 d,
+		r4 d fis gis
+		a cis d e %640
+		fis g a g
+		fis2 g~
+		g4 g e e
+		d a d fis
+		g e a g %645
+		fis d r2
+		r r4 d
+		g g g g
+		g g g g
+		g g fis fis %650
+		e e e e
+		fis fis fis fis
+		e e d d
+		cis a' a, a'
+		h, a' cis, a' %655
+		d, d fis, d'
+		g, d' a d
+		h d fis, d'
+		g, d' a cis
+		d8 fis e fis d fis e fis %660
+		g e d e cis e d e
+		fis d cis d h d cis d
+		e cis h cis a cis h cis
+		d4 fis e d
+		cis8 cis h cis a cis h cis %665
+		d h a h gis h a h
+		cis a gis a fis a gis a
+		h gis fis gis e gis fis gis
+		a4 cis d e
+		d8 fis, e fis d fis e fis %670
+		g e d e cis e d e
+		fis d cis d h d cis d
+		e cis h cis a cis h cis
+		d2 fis'4 r
+		g r g r %675
+		fis r fis r
+		e r e r
+		d r d r
+		cis cis cis d8 cis
+		d2 r %680
+		r r4 a'8 fis
+		a4 fis e d
+		cis cis d e
+		a, d' fis,8 d' fis, d'
+		e, cis' e, cis' e, cis' e, cis' %685
+		d, h' d, h' d, h' d, h'
+		c, a' c, a' c, a' c, a'
+		h,4 cis d fis
+		g8 g g g fis fis fis fis
+		e e e e e e e e %690
+		fis2 <fis a, d,>
+		<g h, d, g,> <e a,>
+		<fis a, d,>1\fermata \bar "|." %693 FINIS
+	}
+}

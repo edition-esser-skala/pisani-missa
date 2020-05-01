@@ -617,6 +617,271 @@ QuiTollisTenoreLyrics = \lyricmode {
 	bis. %494 finis
 }
 
+CumSanctoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		R1*7 %544
+		R1\fermataMarkup %545
+		\tempoCumSanctoB \mvTr d4\fE^\tuttiE d8 d d8. d16 a4
+		r8 e' e e d d d d
+		d4. d8 e4 r8 e
+		e4. e8 a,4 r8 d16([ e)]
+		f4 f8 f e4 e %550
+		d1
+		e4 a, d2
+		a4 e'8 e e4 d \noBreak
+		e2 a,4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*16 %570
+		d2 a
+		r4 a h cis
+		d e fis e
+		d cis h a
+		h2 cis %575
+		d4 e fis d
+		e1
+		d4 e fis d
+		e2 fis4. e8
+		fis2. e4 %580
+		e d cis d
+		e2 fis~
+		fis h,
+		e1
+		d %585
+		a4 a h cis
+		d2. cis4
+		h g a h
+		cis a h cis
+		d2 r %590
+		r4 d e fis
+		g2 fis
+		e4 cis d e
+		fis1
+		d %595
+		a
+		r2 d
+		a r
+		R1
+		r2 e' %600
+		d cis
+		d e
+		a, d
+		R1
+		a2 d, %605
+		r4 d fis gis
+		a h cis h
+		a gis fis e
+		fis2 gis
+		a4 h cis a %610
+		h1
+		a4 a h cis
+		d2 cis4. h8
+		cis2 h4 a
+		d1~ %615
+		d~
+		d2 e
+		a,4 g fis2
+		h g
+		d' r %620
+		R1*2
+		r2 h~
+		h4 a!8[ gis] a4 his
+		cis1 %625
+		fis2 gis
+		eis fis
+		d cis~
+		cis2. d4
+		cis1 %630
+		R
+		r2 cis
+		d cis
+		cis r\fermata
+		R1*4 %638
+		d2 a
+		r4 a h cis %640
+		d e fis e
+		d cis h a
+		h2 cis
+		d4 e fis d
+		e1 %645
+		d2 r
+		R1
+		d2. cis4
+		h cis8[ d] e2~
+		e a, %650
+		a1
+		a2 r
+		R1
+		r2 a'~
+		a g %655
+		fis1
+		e2 a,
+		d1
+		r2 a
+		a r %660
+		R1*3
+		r4 fis'( e d)
+		cis2 r %665
+		R1*2
+		r2 e
+		e4 a2( g4)
+		fis2 r8 fis[ e fis] %670
+		g[ e d e] cis[ e d e]
+		fis[ d cis d] h[ d cis d]
+		e[ cis h cis] a[ cis h cis]
+		d1
+		e %675
+		fis2 h,
+		cis1
+		d2 h
+		cis4 e2 d8[ cis]
+		d2 r %680
+		r r4 d8([ a)]
+		d2 r
+		r4 cis( d e)
+		d2 r
+		e r %685
+		d r
+		d r
+		d4 e fis2
+		cis d
+		d( cis) %690
+		d r4 fis
+		e2 e
+		fis1\fermata \bar "|." %693 FINIS
+	}
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+	\xE Cum San -- cto Spi -- ri -- tu, %546
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, in
+	glo -- ri -- a, in
+	glo -- ri -- a De -- i %550
+	Pa --
+	_ _ _
+	tris, De -- i Pa -- tris,
+	a -- men.
+
+	A -- men, %571
+	a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ %575
+	_ _ _ _
+	_
+	men, a -- _ _
+	_ _ _
+	_ men, %580
+	a -- _ _ _
+	_ _
+	_
+	_
+	_ %585
+	men, a -- _ _
+	_ _
+	_ _ _ _
+	_ _ _ _
+	men, %590
+	a -- _ _
+	_ _
+	_ _ _ _
+	_
+	_ %595
+	men,
+	a --
+	men,
+
+	a -- %600
+	_ _
+	_ _
+	_ men,
+
+	a -- men, %605
+	a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %610
+	_
+	men, a -- _ _
+	_ _ _
+	_ _ _
+	_ %615
+
+	_
+	_ _ _
+	_ _
+	men, %620
+
+	a -- %623
+	_ _ _
+	_ %625
+	_ _
+	_ _
+	_ _
+	_
+	men, %630
+
+	a --
+	_ _
+	men.
+
+	A -- men, %639
+	a -- _ _ %640
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ %645
+	men,
+
+	a -- _
+	_ _ _
+	_ %650
+	_
+	men,
+
+	a --
+	_ %655
+	_
+	_ _
+	men,
+	a --
+	men. %660
+
+	A -- %664
+	men, %665
+
+	a -- %668
+	men, a --
+	men, a -- %670
+	_ _
+	_ _
+	_ _
+	men,
+	a -- %675
+	_ _
+	_
+	_ _
+	_ _ _
+	men, %680
+	a --
+	men,
+	a --
+	men,
+	a -- %685
+	men,
+	a --
+	_ _ _
+	_ men,
+	a -- %690
+	men, a --
+	men, a --
+	men. %693 FINIS
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

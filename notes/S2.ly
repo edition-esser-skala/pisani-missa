@@ -539,3 +539,270 @@ QuiTollisSopranoIILyrics = \lyricmode {
 	re -- re no --
 	bis. %494 finis
 }
+
+CumSanctoSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		R1*7 %544
+		R1\fermataMarkup %545
+		\tempoCumSanctoB \mvTr d'4\fE^\tuttiE d8 d d8. d16 cis4
+		r8 e a,8. g16 f8 f d d
+		d'4. d8 a4 r8 cis
+		cis4. cis8 d4 r8 d
+		d4 d8 d g4 e %550
+		r d8 d d2
+		a2. h4
+		a cis8 cis cis4 d \noBreak
+		d( cis) d r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*14 %568
+		r2 d
+		cis4 a h cis %570
+		d2 cis4. h8
+		cis2 d4 e^\critnote
+		fis e d2~
+		d4 e d cis
+		h2 e %575
+		a, d~
+		d cis
+		d r
+		R1
+		r2 d %580
+		cis4 d e d
+		cis2 d~
+		d4 cis h2
+		cis4 d e cis
+		d e fis gis %585
+		a2 g
+		fis4 d e fis
+		g2 fis
+		e4 cis d e
+		fis2 e %590
+		d r
+		R1*4 %595
+		a2 d,
+		r4 d fis gis
+		a h cis h
+		a gis fis e
+		fis2 gis %600
+		a4 h cis a
+		h1
+		e2 fis
+		h, a
+		a r %605
+		r fis'
+		e1~
+		e2 d~
+		d4. cis8 h2
+		a1~ %610
+		a2 gis
+		a4 cis d e
+		fis2 e4. d8
+		e2 r
+		R1 %615
+		d2. cis4
+		h2 e
+		d1
+		h2 e
+		a, d~ %620
+		d4 cis8[ h] cis4 dis
+		e h2 cis4
+		fis,2 r
+		r4 cis'2( dis4)
+		gis,1 %625
+		R
+		cis2 fis~
+		fis4 eis8[ dis] eis2
+		fis1
+		cis %630
+		d2 cis
+		h r
+		r cis4.( h8)
+		a2 r\fermata
+		R1*2 %636
+		d2 a
+		r4 a h cis
+		d1
+		cis2 r %640
+		r d~
+		d h~
+		h a
+		r d
+		h a %645
+		a r
+		R1
+		r2 d~
+		d4 e8[ fis] g4 fis
+		e2 d~ %650
+		d cis
+		d fis
+		e d
+		cis r
+		R1 %655
+		r2 d
+		g e
+		\once \tieDashed d1~
+		d2 cis
+		d r %660
+		R1*4
+		r8 cis[ h cis] a[ cis h cis] %665
+		d[ h a h] gis[ h a h]
+		cis[ a gis a] fis[ a gis a]
+		h[ gis fis gis] e[ gis fis gis]
+		a4 cis d e
+		d2 r %670
+		R1*2
+		r2 a
+		a r
+		g'1 %675
+		fis
+		e
+		d
+		cis2 r
+		r4 d8[ a] d2~ %680
+		d d
+		r4 fis e d
+		cis2 h4 a
+		a2 r
+		e' r %685
+		h r
+		a r
+		r r4 d
+		e2 a,
+		a1 %690
+		a4 d8[( e] fis4 d)
+		e2 e
+		d1\fermata \bar "|." %693 FINIS
+	}
+}
+
+CumSanctoSopranoIILyrics = \lyricmode {
+	\xE Cum San -- cto Spi -- ri -- tu, %546
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, in
+	glo -- ri -- a, in
+	glo -- ri -- a De -- i, %550
+	De -- i Pa --
+	_ _
+	tris, De -- i Pa -- tris,
+	a -- men.
+
+	A -- %669
+	_ _ _ _ %570
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ %575
+	_ _
+	_
+	men,
+
+	a -- %580
+	_ _ _ _
+	_ _
+	_ _
+	_ _ _ _
+	_ _ _ _ %585
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _ %590
+	men,
+
+	a -- men, %596
+	a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ %600
+	_ _ _ _
+	_
+	men, a --
+	_ _
+	men, %605
+	a --
+	_
+	_
+	_ _
+	_ %610
+	_
+	_ _ _ _
+	_ _ _
+	men,
+	%615
+	a -- _
+	_ _
+	_
+	_ _
+	_ _ %620
+	_ _ _
+	_ _ _
+	men,
+	a --
+	men, %625
+
+	a -- _
+	_ _
+	_
+	_ %630
+	_ _
+	men,
+	a --
+	men.
+
+	A -- men, %637
+	a -- _ _
+	_
+	men, %640
+	a --
+	_
+	men,
+	a --
+	_ _ %645
+	men,
+
+	a --
+	_ _ _
+	_ _ %650
+	_
+	_ _
+	_ _
+	men,
+	%655
+	a --
+	_ _
+	_
+	_
+	men. %660
+
+	A -- _ %665
+	_ _
+	_ _
+	_ _
+	_ _ _ _
+	men, %670
+
+	a -- %673
+	men,
+	a -- %675
+	_
+	_
+	_
+	men,
+	a -- _ %680
+	men,
+	a -- _ _
+	_ _ _
+	men,
+	a -- %685
+	men,
+	a --
+	_
+	_ men,
+	a -- %690
+	men, a --
+	men, a --
+	men. %693 FINIS
+}

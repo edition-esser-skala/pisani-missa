@@ -82,3 +82,118 @@ KyrieTrombaII = {
 		d,2 r\fermata \bar "|." %90 finis
 	}
 }
+
+CumSanctoTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		e'4\fE e8. e16 e4 r
+		r8 c16 d e8 d c e d c
+		g4 g8. g16 g4 r %540
+		g8 d'16 c d8 g, c g e c
+		c'2~ c4 r
+		r16 e d e c e d e c8 c16 d e8 c
+		g g16 g g8 g e e16 e g8 e
+		c c16 c c c c c c4 r\fermata %545
+		\tempoCumSanctoB c'8 c g g g g g g
+		g4 r r2
+		r r8 g16 g g4
+		r2 r8 g16 g g4
+		R1*3 %552
+		r8 d' d d d d c c \noBreak
+		d d d d g,4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*24 %578
+		g2 r
+		c r %580
+		g r
+		g r
+		e' r
+		g, r
+		c4 d c2 %585
+		g r
+		R1*3 %589
+		e'2 r %590
+		f r
+		d r
+		g, r
+		c r
+		c r %595
+		g r
+		c r
+		d r
+		d r
+		c r %600
+		g d'
+		c d
+		d c
+		f d
+		c r %605
+		R1*8 %613
+		g2 r
+		g r %615
+		g r
+		c r
+		c r
+		r d
+		g, r %620
+		R1*9 %629
+		r2 e'~ %630
+		e e
+		e e
+		fis1
+		e2 r\fermata
+		R1*5 %639
+		d2 r %640
+		e r
+		e r
+		d r
+		c4 d e c
+		d1 %645
+		c2 r
+		R1
+		r4 c c d8 e
+		f4 f f f
+		f f e c %650
+		g g g g
+		g e' e e
+		d d c c
+		g2 r
+		c r %655
+		c r
+		d r
+		c c
+		r g
+		g r8 e' d e %660
+		f2 r8 d c d
+		e2 r8 c d c
+		d2 g,
+		c4 e d c
+		g2 r %665
+		R1*3
+		r4 g c d
+		g,2 r %670
+		R1*2
+		r2 g
+		g e'4 r
+		f r f r %675
+		e r e r
+		d r d r
+		c r d r
+		g,2 r
+		r r4 c8 g %680
+		c4 e8 c e2
+		r4 e d c
+		g d' c d
+		g, c c c
+		d2 d %685
+		r c
+		r c
+		r c
+		d4 d g, g
+		g2 g4 g %690
+		g c8 d e4 c
+		d2 g,
+		g1\fermata \bar "||" %693 FINIS
+	}
+}

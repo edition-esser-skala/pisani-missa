@@ -585,6 +585,241 @@ QuiTollisBassoLyrics = \lyricmode {
 	bis. %494 finis
 }
 
+CumSanctoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		R1*7 %544
+		R1\fermataMarkup %545
+		\tempoCumSanctoB \mvTr d4\fE^\tuttiE d8 d a'8. a16 a4
+		r8 a a a b b b b
+		b4. b8 a4 r8 a
+		g4. g8 f4 r8 f
+		f4 f8 f g4 a %550
+		b1
+		a2. gis4
+		a4 a8 a g4 fis! \noBreak
+		e2 d4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC R1*24 %578
+		a'2 d,
+		r4 d fis gis %580
+		a h cis h
+		a gis fis e
+		fis2 gis
+		a4 h cis a
+		h1 %585
+		a2 r
+		R1*3
+		r4 d, e fis %590
+		g2. fis4
+		e e fis g
+		a2 g
+		fis4 d e fis
+		g a h g %595
+		a g fis e
+		d2. d4
+		cis h a2~
+		a d~
+		d e %600
+		fis4 gis a2~
+		a \once \tieDashed g~
+		g fis
+		e a
+		d, r %605
+		R1*7 %612
+		d2 a
+		r4 a h cis
+		d e fis e %615
+		d cis h a
+		h2 cis
+		d4 e fis d
+		e1
+		d2. d4 %620
+		a'1
+		e
+		h'
+		fis
+		cis2 cis'~ %625
+		cis h~
+		h a
+		gis cis,
+		fis4 gis a h
+		cis2 a %630
+		h cis
+		d a
+		h cis
+		fis, r\fermata
+		R1*3 %637
+		a2 d,
+		r4 d fis gis
+		a2. g4 %640
+		fis e d2~
+		d g~
+		g a
+		h4 cis d2~
+		d cis %645
+		d r
+		r4 d, e fis
+		g a h a
+		g fis e d
+		cis2 d %650
+		a'( a,)
+		d d'
+		cis h
+		a a
+		h cis %655
+		d fis,
+		g a
+		h fis
+		g a
+		d, r %660
+		R1*3
+		r4 d( cis h)
+		a2 r %665
+		R1*2
+		r2 e'
+		a,4 a'( h cis)
+		d2 r %670
+		R1*2
+		r2 a
+		d,8 d'[ cis d] h[ a g fis]
+		e[ fis g e] a[ g fis e] %675
+		d[ e fis d] g[ fis e d]
+		cis[ d e cis] fis[ e d cis]
+		h[ cis d h] e[ d cis h]
+		a2 a
+		d r %680
+		d r
+		d r
+		r4 a'( h cis)
+		d2 r
+		a r %685
+		h r
+		fis r
+		g fis
+		e d
+		a'( a,) %690
+		d d'
+		g, a
+		d,1\fermata \bar "|." %693 FINIS
+	}
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+	Cum San -- cto Spi -- ri -- tu, %546
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, in
+	glo -- ri -- a, in
+	glo -- ri -- a De -- i %550
+	Pa --
+	_ _
+	tris, De -- i Pa -- tris,
+	a -- men.
+
+	A -- men, %579
+	a -- _ _ %580
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ %585
+	men,
+
+	a -- _ _ %590
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _ _ _ %595
+	_ _ _ _
+	_ _
+	_ _ _
+	_
+	_ %600
+	_ _ _
+	_
+	_
+	_ _
+	men, %605
+
+	a -- men, %613
+	a -- _ _
+	_ _ _ _ %615
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_
+	men, a -- %620
+	_
+	_
+	_
+	_
+	_ _ %625
+	_
+	_
+	_ _
+	_ _ _ _
+	_ _ %630
+	_ _
+	_ _
+	_ _
+	\xE men.
+
+	A -- men, %638
+	a -- _ _
+	_ _ %640
+	_ _ _
+	_
+	_
+	_ _ _
+	_ %645
+	\x men,
+	a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ men, %650
+	\xE a --
+	men, a --
+	_ _
+	men, a --
+	_ _ %655
+	men, a --
+	_ _
+	men, a --
+	_ _
+	men. %660
+
+	\x A -- %664
+	men, %665
+
+	a -- %668
+	men, a --
+	men, %670
+
+	a -- %673
+	men, a -- _
+	_ _ %675
+	_ _
+	_ _
+	_ _
+	men, a --
+	men, %680
+	a --
+	men,
+	a --
+	men,
+	a -- %685
+	men,
+	a --
+	_ _
+	_ men,
+	a -- %690
+	men, a --
+	men, a --
+	men. %693 FINIS
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

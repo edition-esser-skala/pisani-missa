@@ -271,6 +271,9 @@ tempoQuiTollis = \tempoMarkup "Largo"
 	tempoQuiTollisB = \tempoMarkup "Arioso"
 	tempoQuiTollisC = \tempoMarkup "Largo"
 tempoQuoniam = \tempoMarkup "Allegro"
+tempoCumSancto = \tempoMarkup "Allegro"
+	tempoCumSanctoB = \tempoMarkup "Largo"
+	tempoCumSanctoC = \tempoMarkup "Allegro"
 
 
 

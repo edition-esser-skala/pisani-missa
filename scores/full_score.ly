@@ -7,7 +7,7 @@
 \include "../definitions.ly"
 
 \paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
-
+% showFirstLength = r1*17
 #(set-global-staff-size 15.87)
 
 \book {
@@ -502,63 +502,155 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2.6"
+	% 		title = "Q U O N I A M   T U   S O L U S   S A N C T U S"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #20
+	% 		system-system-spacing.minimum-distance = #20
+	% 		systems-per-page = #2
+	% 	}
+	% 	% \tocSection "2.6" "Quoniam tu solus sanctus"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \violinGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe I"
+	% 						\QuoniamOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe II"
+	% 						\QuoniamOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \violinGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\QuoniamViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\QuoniamViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\QuoniamViola
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
+	% 				\new Voice = "SopranoI" { \dynamicUp \QuoniamSopranoINotes }
+	% 			}
+	% 			\new Lyrics \lyricsto SopranoI \QuoniamSopranoILyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Fondamento"
+	% 					% \transpose c c,
+	% 					\QuoniamOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \QuoniamBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2.6"
-			title = "Q U O N I A M   T U   S O L U S   S A N C T U S"
+			number = "2.7"
+			title = "C U M   S A N C T O   S P I R I T U"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #2
-		}
-		% \tocSection "2.6" "Quoniam tu solus sanctus"
+		% \tocSection "2.7" "Cum Sancto Spiritu"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\QuoniamOboeI
+							\CumSanctoOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\QuoniamOboeII
+							\CumSanctoOboeII
 						}
 					>>
 				>>
 				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+						% \transpose c d
+						\partcombine \CumSanctoTrombaI \CumSanctoTrombaII
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
+					% \transpose c d
+					\CumSanctoTimpani
+				}
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuoniamViolinoI
+							\set Staff.instrumentName = "Flauto I"
+							\CumSanctoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuoniamViolinoII
+							\CumSanctoViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\QuoniamViola
+						\CumSanctoViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
-					\new Voice = "SopranoI" { \dynamicUp \QuoniamSopranoINotes }
-				}
-				\new Lyrics \lyricsto SopranoI \QuoniamSopranoILyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto I"
+						\new Voice = "SopranoI" { \dynamicUp \CumSanctoSopranoINotes }
+					}
+					\new Lyrics \lyricsto SopranoI \CumSanctoSopranoILyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Canto II"
+						\new Voice = "SopranoII" { \dynamicUp \CumSanctoSopranoIINotes }
+					}
+					\new Lyrics \lyricsto SopranoII \CumSanctoSopranoIILyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
 						% \transpose c c,
-						\QuoniamOrgano
+						\CumSanctoOrgano
 					}
 				>>
-				\new FiguredBass { \QuoniamBassFigures }
+				\new FiguredBass { \CumSanctoBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

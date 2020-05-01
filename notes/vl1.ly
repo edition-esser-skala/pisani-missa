@@ -669,6 +669,158 @@ QuoniamViolinoI = {
 	}
 }
 
+CumSanctoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #538
+		a''4\fE a8. a16 a fis, g a h cis d e
+		<fis a, d,>4 r r2
+		e4 e8. e16 e cis, d e fis gis a h %540
+		cis4 r r2
+		r16 fis, g a h cis d e fis d e fis g a h cis
+		d8 d d d d8.[ d16 a8. a16]
+		fis8.[ fis16 d8. d16] a8.[ a16 fis8. fis16]
+		d8 d16 d d d d d d4 r\fermata %545
+		\tempoCumSanctoB fis'8 fis fis fis fis fis e e
+		a a a a a a g g
+		gis gis gis gis a a a a
+		b b b b a a16 f d8 a16 f
+		d8 f' f f e e a a %550
+		a a g g gis16(-. gis-. gis-. gis-.) gis(-. gis-. gis-. gis-.)
+		g(-. g-. g-. g-.) fis!(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) h(-. h-. h-. h-.)
+		e,8 e e e e e a a \noBreak
+		g g g g fis4 r\fermata \bar "||"
+		\time 2/2 \tempoCumSanctoC d2 a \noBreak %555
+		r4 a h cis
+		d e fis e
+		d cis h a
+		h2 cis
+		d4 e fis d %560
+		e1\trill
+		d4 fis e d
+		cis e d4. cis8
+		d1
+		cis4 d e d %565
+		cis2 d~
+		d4 cis h2
+		cis4 d e cis
+		d e fis gis
+		a cis, d e %570
+		fis2 e4. d8
+		e2 a,
+		fis4 g a g
+		fis2 g~
+		g4 h a g %575
+		d'1
+		h2 e
+		cis d
+		cis d4. e8
+		d4 d d d %580
+		e e a a
+		a a a a
+		a a gis fis
+		e e e e
+		d e fis gis %585
+		a2 r
+		R1*3
+		r4 fis g a %590
+		h d, e fis
+		g2 fis
+		r4 cis d e
+		fis1
+		d2 r %595
+		a' d,
+		r4 d fis gis
+		a h cis h
+		a gis fis e
+		fis2 gis %600
+		a4 h cis a
+		h2. a8 h
+		cis2 d
+		d cis
+		d r %605
+		R1*8 %613
+		a4 cis, d e
+		fis1~ %615
+		fis4 e d2~
+		d4 h a g
+		fis g a fis
+		g2 g
+		fis r %620
+		e' a~
+		a4 g!8 fis g4 ais
+		h fis h2~
+		h4 a8 gis a2
+		gis4 e!2 cis'4 %625
+		d8 cis d2 h4
+		cis8 h cis2 a4
+		h8 a h2 gis4
+		a a a a
+		gis gis a a %630
+		gis gis gis gis
+		gis gis a a
+		gis2. fis8 gis
+		fis2 r\fermata
+		R1*4 %638
+		d2 a
+		r4 a h cis %640
+		d e fis e
+		d cis h a
+		h2 cis
+		d4 e fis d
+		e1 %645
+		d2 r
+		r4 fis g a
+		h h h h
+		h h h h
+		a a d d %650
+		d d cis cis
+		d a a a
+		a a gis gis
+		a a a, a'
+		h, a' cis, a' %655
+		d, d fis, d'
+		g, d' a d
+		h d fis, d'
+		g, d' a cis
+		d8 a' g a fis a g a %660
+		h g fis g e g fis g
+		a fis e fis d fis e fis
+		g e d e cis e d e
+		fis4 a2 gis4
+		a8 e d e cis e d e %665
+		fis d cis d h d cis d
+		e cis h cis a cis h cis
+		d h a h gis h a h
+		cis4 a'2 g!4
+		fis8 a, g a fis a g a %670
+		h g fis g e g fis g
+		a fis e fis d fis e fis
+		g e d e cis e d e
+		fis4 a' d r
+		d r cis r %675
+		cis r h r
+		h r a r
+		a^\critnote r g r
+		g g g fis8 e
+		fis2 r %680
+		r r4 d'8 a
+		d4 a g fis
+		e a a g
+		fis d' fis,8 d' fis, d'
+		e, cis' e, cis' e, cis' e, cis' %685
+		d, h' d, h' d, h' d, h'
+		c, a' c, a' c, a' c, a'
+		h,4 cis d d'
+		cis8 cis cis cis d d d d
+		d d d d cis cis cis cis
+		d2 <fis, a, d,>
+		<g h, d, g,> <e a,>
+		<fis a, d,>1\fermata \bar "|." %693 FINIS
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
