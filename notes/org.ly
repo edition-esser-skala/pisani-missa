@@ -2027,6 +2027,56 @@ CredoBassFigures = \figuremode {
 	r1 %201 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \tempoSanctus
+		\mvTr b8\fE-\tutti b' a f b4 f
+		f8 g a b c g c b
+		a f b2 a4
+		b r \mvTr b\pE-\solo r8 es,
+		b b' b, d c4 f8 f, %5
+		b \mvTr b'\fE-\tuttiE a f r b a f
+		c' b a b c4 c,
+		f8 a-\solo g f c4 r
+		c r c r8 c
+		f g a b c4 c, %10
+		f\p g a r8 d,
+		a'4 r8 a d,4 r8 gis
+		a \mvTr a\fE-\tuttiE f d r d' b g
+		cis,4 d8 g a4 a,
+		d r8 d' b g c b %15
+		a f r b es, f g es
+		f1
+		b,4 es-\solo f r
+		f r8 f b f g d
+		es4 f b, r\fermata \bar "||" %20 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r4 <6> r2
+	r4 <[6]> <4> <_->
+	<6 5-> r <4- 2> <6>
+	r1
+	r2 <7 _->4 <7-> %5
+	<[9 4-]>8 <[8 3]> <6>4 r q
+	r q <4> <3>
+	r8 <6> <[6]>2.
+	r2 <[7]>
+	r8 <[6]> q4 <[6 4]> <[5 3]> %10
+	r <[8 6]>8 <[7 5]> <_+>2
+	<[_+]>4. <[_+]>8 <[9 4]>4 <[8 3]>8 <[7 _!]>
+	<_+>4 <[6]> r q
+	<[6 5]>4. <[6]>8 <4>4 <_+>
+	r2 <6 5>4 <[_-]> %15
+	<6 [5-]>2. <[6]>8 q
+	<7- 3>4 <6 4> <5 4> <\t 3>
+	r4 <[6]>2.
+	<[7-]>2 r4. <[6]>8
+	<6 5>1 %20 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

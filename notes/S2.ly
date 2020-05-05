@@ -1099,3 +1099,45 @@ CredoSopranoIILyrics = \lyricmode {
 	_ %200
 	men. %201 finis
 }
+
+SanctusSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr d'4\fE^\tuttiE f8([ c)] d4 c
+		c f, c' c8 c
+		c4 d es4. es8
+		d4 r r2
+		R1 %5
+		r8 d c a r d c c
+		c4 f, c'8[( b16 a] g8[ b)]
+		a4 r r2
+		R1*4 %12
+		r8 cis d a r d g, g
+		a4 d d( cis)
+		d r8 f d b es d %15
+		c f, r d' es4. es8
+		c4 b c2
+		d4 r r2
+		R1
+		R\fermataMarkup \bar "||" %20 finis
+	}
+}
+
+SanctusSopranoIILyrics = \lyricmode {
+	\xE San -- ctus, San -- ctus
+	San -- ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth.
+
+	\x O -- san -- na, o -- san -- na %6
+	in ex -- cel --
+	sis.
+
+	O -- san -- na, o -- san -- na %13
+	in ex -- cel --
+	sis, \xE o -- san -- na in ex -- %15
+	cel -- sis, o -- san -- na
+	in ex -- cel --
+	sis. %18 finis
+}

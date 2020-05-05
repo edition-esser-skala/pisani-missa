@@ -988,6 +988,33 @@ CredoViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoSanctus
+		d'4\fE c8 f d4 c
+		r8 c f f f es16 d es8 es
+		es d16 c d8 c16 b c4. c8
+		b4 r r2
+		R1 %5
+		r8 d c f, r d' c f
+		e! c f4. g8 c, e
+		f c' b16 g a f g8 a g16 e f d
+		e8 c16 d e f g a b8 b b a16 g
+		a8 e f b, a4 g %10
+		f r r2
+		R1
+		r8 e' a d,, r f' g g
+		g e f e e4. d8
+		d4 r8 a' g4. g8 %15
+		f4 r8 f g f es es
+		es4 d c4. c8
+		b8 f' es16 d c b a8 f16 g a b c d
+		es8 f, f16 es' d c d8 f, g d
+		es4 f b, r\fermata \bar "||" %20 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

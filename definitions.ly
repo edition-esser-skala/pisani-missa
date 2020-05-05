@@ -279,6 +279,7 @@ tempoCredo = \tempoMarkup "A tempo giusto"
 	tempoCrucifixus = \tempoMarkup "Andante"
 	tempoEtResurrexit = \tempoMarkup "Allegro"
 	tempoQuiLocutus = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Vivace"
 
 
 

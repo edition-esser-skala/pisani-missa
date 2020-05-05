@@ -1468,6 +1468,48 @@ CredoSopranoILyrics = \lyricmode {
 	men. %201 finis
 }
 
+SanctusSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr b'4\fE^\tuttiE c8([ a)] b4 a
+		a8([ b)] c([ d)] c4 c8 c
+		c([ a)] b4 c4. c8
+		b \mvTr d\pE^\solo b c d([ b16 c)] d8 es
+		d4 b c8([ b16 c)] a8 c %5
+		c b r \mvTr f'\fE^\tuttiE d4 c
+		c4. d8 c2
+		c4 r r2
+		R1*4 %12
+		r2 r8 a b b
+		a4. b8 a2
+		a4 r8 d d d c c %15
+		c c r b b([ a)] b([ c)]
+		a f b2( a4)
+		b r r2
+		R1
+		R\fermataMarkup \bar "||" %20
+	}
+}
+
+SanctusSopranoILyrics = \lyricmode {
+	San -- ctus, San -- ctus
+	San -- ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt coe -- li et
+	ter -- ra glo -- ri -- a %5
+	tu -- a. O -- san -- na
+	in ex -- cel --
+	sis.
+
+	O -- san -- na %13
+	in ex -- cel --
+	sis, o -- san -- na in ex -- %15
+	cel -- sis, o -- san -- na
+	in ex -- cel --
+	sis. %18 finis
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

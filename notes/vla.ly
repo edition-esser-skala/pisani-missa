@@ -859,3 +859,30 @@ CredoViola = {
 		f\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+SanctusViola = {
+	\relative c' {
+		\clef alto
+		\key b \lydian \time 4/4 \tempoSanctus
+		f4\fE f f f
+		f8 g a b c g c b
+		a f b4. a16 g a8. a16
+		b4 r r2
+		R1 %5
+		r8 f a a, r f' a c~
+		c16 d c d a8 b c4 r8 c,
+		c8. d16 e8 f e4 r
+		c r e r8 c'
+		c g c b r16 c a b c8 c, %10
+		f4 r r2
+		R1
+		r8 a f d r d' b g
+		e a f b a4 r8 a
+		a4 r8 d b g c b %15
+		a f r b b4 r8 g
+		c,4 d8 es? f c f8. f16
+		f4 g c, r
+		a' r8 f f f g d
+		es4 f b, r\fermata \bar "||" %20 finis
+	}
+}

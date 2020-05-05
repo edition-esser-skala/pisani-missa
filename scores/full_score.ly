@@ -663,10 +663,96 @@
 	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 	% 	\markup \null
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "C R E D O   I N   U N U M   D E U M"
+	% 	}
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #25
+	% 		top-system-spacing.minimum-distance = #25
+	% 		top-markup-spacing.basic-distance = #5
+	% 		top-markup-spacing.minimum-distance = #5
+	% 		markup-system-spacing.basic-distance = #20
+	% 		markup-system-spacing.minimum-distance = #20
+	% 	}
+	% 	% \tocSection "3" "Credo in unum Deum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \violinGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\CredoViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\CredoViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\CredoViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Canto I"
+	% 					\new Voice = "SopranoI" { \dynamicUp \CredoSopranoINotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoI \CredoSopranoILyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Canto II"
+	% 					\new Voice = "SopranoII" { \dynamicUp \CredoSopranoIINotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoII \CredoSopranoIILyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \CredoAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \CredoBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Fondamento"
+	% 					% \transpose c c,
+	% 					\CredoOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \CredoBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
+	% \bookpart {
+	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+	% 	\partTitle "4" "S A N C T U S"
+	% 	\tocPart "4" "Sanctus"
+	% 	\score { \new Staff \with { \remove "Clef_engraver" \remove "Time_signature_engraver" } { \stopStaff s } }
+	% }
+	% \bookpart {
+	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+	% 	\markup \null
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "C R E D O   I N   U N U M   D E U M"
+			number = "4.1"
+			title = "S A N C T U S"
 		}
 		\paper {
 			top-system-spacing.basic-distance = #25
@@ -676,67 +762,67 @@
 			markup-system-spacing.basic-distance = #20
 			markup-system-spacing.minimum-distance = #20
 		}
-		% \tocSection "3" "Credo in unum Deum"
+		% \tocSection "4.1" "Sanctus"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\CredoViolinoI
+							\SanctusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CredoViolinoII
+							\SanctusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\CredoViola
+						\SanctusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto I"
-						\new Voice = "SopranoI" { \dynamicUp \CredoSopranoINotes }
+						\new Voice = "SopranoI" { \dynamicUp \SanctusSopranoINotes }
 					}
-					\new Lyrics \lyricsto SopranoI \CredoSopranoILyrics
+					\new Lyrics \lyricsto SopranoI \SanctusSopranoILyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Canto II"
-						\new Voice = "SopranoII" { \dynamicUp \CredoSopranoIINotes }
+						\new Voice = "SopranoII" { \dynamicUp \SanctusSopranoIINotes }
 					}
-					\new Lyrics \lyricsto SopranoII \CredoSopranoIILyrics
+					\new Lyrics \lyricsto SopranoII \SanctusSopranoIILyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \CredoAltoLyrics
+					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
 						% \transpose c c,
-						\CredoOrgano
+						\SanctusOrgano
 					}
 				>>
-				\new FiguredBass { \CredoBassFigures }
+				\new FiguredBass { \SanctusBassFigures }
 			>>
 			\layout { }
-			% \midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

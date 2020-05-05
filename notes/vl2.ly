@@ -976,3 +976,30 @@ CredoViolinoII = {
 		b\breve*1/2\fermata \bar "|." %201 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoSanctus
+		b'4\fE c8 a b4 a
+		r2 r8 g g g
+		f4. g8 es4. f8
+		d4 r r2
+		R1 %5
+		r8 b' f' f, r b f' a,
+		g4 a8 d g,4. f8
+		f4 r r8 c'' b16 g a f
+		g4 c,16 d e f g8 g g8 f16 e
+		f8 b, a f' c4 e %10
+		f r r2
+		R1
+		r8 cis d d, r a' b b
+		a4 d8 d d4 cis
+		d8 f f f f es16 d es8 es %15
+		es4 d16 c b a g8 a b c
+		a f b2 a4
+		b8 d c16 b a g f4 f16 g a b
+		c8 f, f16 c' b a b8 f g d
+		es4 f b, r\fermata \bar "||" %20 finis
+	}
+}
