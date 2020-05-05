@@ -809,3 +809,170 @@ CumSanctoViolinoII = {
 		<fis a, d,>1\fermata \bar "|." %693 FINIS
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoCredo
+		r4 b'\fE c8 f, c'4
+		b8 f b4. c8 a4
+		b r r2
+		r8 es es es f, d' d d
+		e,! g c d b4. c8 %5
+		a4 r r2
+		R1
+		r2 r8 es' c es
+		d4. es8 c4. d8
+		b4. c8 as4. b8 %10
+		g4 r8 g' g4.^\critnote g8
+		es4. es8 d4. d8
+		d g, c4. d8 b a16 g
+		a4. g8 g d' c16 a b c
+		a4 d16 e fis g a8 a a g16 fis %15
+		g8 a, g g g4 fis
+		g r r2
+		R1*2
+		r8 f'\pE b16 a b a b8 b, r4 %20
+		R1*2
+		r4 a8\fE a b4 c
+		b b8 b a4 d8 d
+		d4 cis d8 f e16 cis d h %25
+		cis4 r r8 a16 h cis d e f
+		g8 g g f16 e f8 e d d
+		d4 cis d r
+		R1*4 %32
+		r8 a a a g4. g8
+		a4 r8 a b4. c8
+		f,4 r8 f' es c f es %35
+		d b f'4. es16 d c8 b
+		a f b c16 b a4 b~
+		b a b r8 d
+		es16 f d es c d b c a4 c8 a
+		d c b c f,4 a \noBreak %40
+		b4 r r2\fermata \bar "||"
+		\tempoEtIncarnatus r4 g2\fE c8 c \noBreak
+		g d' c h16 a h4 r8 h
+		c4 g8 es' c4. d8
+		h-! h-! h-! h-! h h h h %45
+		c g c2 h4
+		c r8 g f f f f
+		g4. c8 f,4. f8
+		es4 r8 g f f f g
+		es c g'4. f8 f c' %50
+		h g c2 g4 \noBreak
+		c r r2\fermata \bar "||"
+		\tempoCrucifixus R1*14 %66
+		R1\fermataMarkup \bar "||"
+		\time 3/4 \tempoEtResurrexit c'4\fE f,8 g a f \noBreak
+		g4 c, c'~
+		c b8 a b c %70
+		a4 f8 g a b
+		c4 f, c'~
+		c b8 a g f
+		e c g' c, a' c,
+		b'4. e,8 f4~ %75
+		f8 d e4.\trill f8
+		f4 r r
+		r r a~
+		a g8 a f g
+		e4 c e %80
+		f c f
+		f2 e4
+		f r r
+		R2.*2 %85
+		r4 r f~
+		f c e
+		a, h c
+		c2 h4
+		c2 r4 %90
+		a\p r r
+		fis r a
+		g2 d4~
+		d g e
+		d r r %95
+		R2.
+		r4 a''8\fE d, g d
+		fis2 g4
+		d4. c8 b4
+		c a4. g8 %100
+		g4 r r
+		r8 g c8. b16 b8. a16
+		a8 d g d a' d,
+		b'4. fis8 g4~
+		g8 e! fis4. g8 %105
+		g4 r r
+		R2.*2
+		r4 r a,~
+		a c2 %110
+		f,8 e f g a4
+		g a2
+		g4 c8 d e f
+		g4 c, f
+		d2 d4~ %115
+		d d cis
+		d8 d c b a g
+		f4 r r
+		R2.*4 %122
+		r4 f' f
+		a,2 d4
+		a g4. g8 %125
+		a4-\critnote r r
+		R2.*5 %131
+		r4 a d
+		d2 c4~
+		c a4. h8
+		gis2 r4 %135
+		R2.*5 %140
+		r4 c e
+		a,4. h8 c4~
+		c c h
+		c2 c4
+		g2 g4 %145
+		g2 g4~
+		g g4. f8
+		f8 c'' b a g f
+		e c g' c, a' c,
+		b'4. e,8 f4~ %150
+		f8 d e4. f8 \noBreak
+		f4 r r\fermata \bar "||"
+		\time 2/2 \tempoQuiLocutus R1*4 %156
+		r2 b,\fE
+		f b
+		c b
+		a r4 b %160
+		b a b c
+		f,2. f4
+		g2 a
+		b2. b4
+		a2 r %165
+		R1*8 %173
+		r4 b b b
+		c a d c %175
+		b a b c
+		d2. c4
+		b g d'2~
+		d4 es c2
+		d r %180
+		R1
+		r4 g, c c
+		c b a c
+		b2. c4
+		f,2 r4 f' %185
+		es2 f
+		b, r
+		R1
+		r4 g c b
+		a b a g %190
+		f2 f'~
+		f4 es d c
+		b c d2
+		es4 d8 c d4 c8 b
+		c2 f, %195
+		R1
+		r2 r4 f'
+		es d8 c d4 c8 b
+		c2 d
+		c2. b4 %200
+		b\breve*1/2\fermata \bar "|." %201 finis
+	}
+}

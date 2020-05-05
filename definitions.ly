@@ -274,6 +274,11 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Allegro"
 	tempoCumSanctoB = \tempoMarkup "Largo"
 	tempoCumSanctoC = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "A tempo giusto"
+	tempoEtIncarnatus = \tempoMarkup "Largo"
+	tempoCrucifixus = \tempoMarkup "Andante"
+	tempoEtResurrexit = \tempoMarkup "Allegro"
+	tempoQuiLocutus = \tempoMarkup "Allegro"
 
 
 

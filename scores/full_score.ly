@@ -561,96 +561,182 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2.7"
+	% 		title = "C U M   S A N C T O   S P I R I T U"
+	% 	}
+	% 	% \tocSection "2.7" "Cum Sancto Spiritu"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe I"
+	% 						\CumSanctoOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe II"
+	% 						\CumSanctoOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+	% 					% \transpose c d
+	% 					\partcombine \CumSanctoTrombaI \CumSanctoTrombaII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
+	% 				% \transpose c d
+	% 				\CumSanctoTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \violinGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\CumSanctoViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\CumSanctoViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\CumSanctoViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Canto I"
+	% 					\new Voice = "SopranoI" { \dynamicUp \CumSanctoSopranoINotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoI \CumSanctoSopranoILyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Canto II"
+	% 					\new Voice = "SopranoII" { \dynamicUp \CumSanctoSopranoIINotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoII \CumSanctoSopranoIILyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Fondamento"
+	% 					% \transpose c c,
+	% 					\CumSanctoOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \CumSanctoBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
+	% \bookpart {
+	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+	% 	\partTitle "3" "C R E D O"
+	% 	\tocPart "3" "Credo"
+	% 	\score { \new Staff \with { \remove "Clef_engraver" \remove "Time_signature_engraver" } { \stopStaff s } }
+	% }
+	% \bookpart {
+	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+	% 	\markup \null
+	% }
 	\bookpart {
 		\header {
-			number = "2.7"
-			title = "C U M   S A N C T O   S P I R I T U"
+			number = "3"
+			title = "C R E D O   I N   U N U M   D E U M"
 		}
-		% \tocSection "2.7" "Cum Sancto Spiritu"
+		\paper {
+			top-system-spacing.basic-distance = #25
+			top-system-spacing.minimum-distance = #25
+			top-markup-spacing.basic-distance = #5
+			top-markup-spacing.minimum-distance = #5
+			markup-system-spacing.basic-distance = #20
+			markup-system-spacing.minimum-distance = #20
+		}
+		% \tocSection "3" "Credo in unum Deum"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\CumSanctoOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\CumSanctoOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
-						% \transpose c d
-						\partcombine \CumSanctoTrombaI \CumSanctoTrombaII
-					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in D–A" } }
-					% \transpose c d
-					\CumSanctoTimpani
-				}
-				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Flauto I"
-							\CumSanctoViolinoI
+							\set Staff.instrumentName = "Violino I"
+							\CredoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CumSanctoViolinoII
+							\CredoViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\CumSanctoViola
+						\CredoViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto I"
-						\new Voice = "SopranoI" { \dynamicUp \CumSanctoSopranoINotes }
+						\new Voice = "SopranoI" { \dynamicUp \CredoSopranoINotes }
 					}
-					\new Lyrics \lyricsto SopranoI \CumSanctoSopranoILyrics
+					\new Lyrics \lyricsto SopranoI \CredoSopranoILyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Canto II"
-						\new Voice = "SopranoII" { \dynamicUp \CumSanctoSopranoIINotes }
+						\new Voice = "SopranoII" { \dynamicUp \CredoSopranoIINotes }
 					}
-					\new Lyrics \lyricsto SopranoII \CumSanctoSopranoIILyrics
+					\new Lyrics \lyricsto SopranoII \CredoSopranoIILyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \CumSanctoAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \CumSanctoAltoLyrics
+					\new Lyrics \lyricsto Alto \CredoAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \CumSanctoTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \CumSanctoTenoreLyrics
+					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CumSanctoBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \CumSanctoBassoLyrics
+					\new Lyrics \lyricsto Basso \CredoBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Fondamento"
 						% \transpose c c,
-						\CumSanctoOrgano
+						\CredoOrgano
 					}
 				>>
-				\new FiguredBass { \CumSanctoBassFigures }
+				\new FiguredBass { \CredoBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			% \midi { \tempo 4 = 90 }
 		}
 	}
 }

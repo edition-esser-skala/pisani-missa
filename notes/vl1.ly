@@ -821,6 +821,173 @@ CumSanctoViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoCredo
+		r4 d'\fE es8 c f es
+		d c b d es4. f8
+		d b r4 r2
+		r8 c' c c d, b' b b
+		c, e! f4. g8 e4 %5
+		f r r2
+		R1
+		r2 r8 g es g
+		f d g16 f es d es8 c f16 es d c
+		d8 b es2 d4 %10
+		es8 b es es es d16 c d8 d
+		d g, c4. d8 b d
+		g,4 g'8 a fis d g4~
+		g fis g8 b a16 fis g e
+		fis8 d16 e fis g a b c8 c c b16 a %15
+		b8 fis g c, b4 a
+		g r r2
+		R1*2
+		r8 f'\pE b16 a b a b8 b, r4 %20
+		R1*2
+		r4 fis'8\fE fis g4 a
+		d, g8 g g e! f g
+		f4 e d8 a' g16 e f g %25
+		e8 a,16 h cis d e f g8 cis,16 d e f g a
+		b8 b b a16 g a8 cis, d g
+		f4 e d r
+		R1*4 %32
+		r8 f f f f4 e
+		f8 c f f f es16 d es8 es
+		es4 d c4. c8 %35
+		b4 r8 f' g g, r es'
+		es c d es16 d c4 d
+		c4. c8 b f' b f
+		g16 a f g es f d es c8 f, f' es
+		d a' b es, d b' c, a' \noBreak %40
+		b,4 r r2\fermata \bar "||"
+		\tempoEtIncarnatus r4 es2\fE es8 es \noBreak
+		d g, es' d16 c d4 r8 d
+		es c g'4. f16 es f4
+		g8-! g-! g-! g-! g g as as %45
+		g c, r g' f4. g8
+		es4 r8 es es d d d
+		es b es2 d4
+		es8 b es es es d16 c d8 d
+		d g, c b as c f es %50
+		d4 es d4. c8 \noBreak
+		c4 r r2\fermata \bar "||"
+		\tempoCrucifixus R1*14 %66
+		R1\fermataMarkup \bar "||"
+		\time 3/4 \tempoEtResurrexit c'4\fE f,8 g a f \noBreak
+		g4 c, c'~
+		c b8 a b c %70
+		a4 f8 g a b
+		c4 f, c'~
+		c b8 a g f
+		e c g' c, a' c,
+		b'4. e,8 f4~ %75
+		f8 d e4.\trill f8
+		f4 r r
+		r r c'~
+		c b8 c a b
+		g4 c, g' %80
+		a4. b8 c a
+		b2 b4
+		a r r
+		R2.*2 %85
+		r4 r a~
+		a g c,
+		a' f e
+		d2 d4
+		c2 r4 %90
+		c\p r r
+		c r c
+		b2 d4~
+		d g,4. g8
+		fis4 r r %95
+		R2.
+		r4 a'8\fE d, b' d,
+		c'2 b4
+		a fis g~
+		g8 g g4 fis %100
+		g8 d g8. f16 f8. es16
+		es8 c a'8. g16 g8. fis16
+		fis8 d g d a' d,
+		b'4. fis8 g4~
+		g8 e! fis4. g8 %105
+		g4 r r
+		R2.*2
+		r4 r f~
+		f a2 %110
+		d,8 c d e f4
+		e f2
+		e4 c8 d e f
+		g4 c, a'
+		f2 e4~ %115
+		e e4. d8
+		d d c! b a g
+		f4 r r
+		R2.*4 %122
+		r4 a' a
+		e2 f4
+		f d4. e8 %125
+		cis4 r r
+		R2.*5 %131
+		r4 f f
+		e2 e4~
+		e e d
+		e2 r4 %135
+		R2.*5 %140
+		r4 e g
+		c,4. d8 e4~
+		e f4. f8
+		e2 f4
+		f2 f4 %145
+		f2 f4~
+		f f e
+		f8 c' b a g f
+		e c g' c, a' c,
+		b'4. e,8 f4~ %150
+		f8 d e4. f8 \noBreak
+		f4 r r\fermata \bar "||"
+		\time 2/2 \tempoQuiLocutus R1*4 %156
+		r2 d\fE
+		c d4 e
+		f2 d
+		c4 f f f %160
+		f es es es
+		es2 d
+		c4 e f2~
+		f e
+		f r %165
+		R1*8 %173
+		r4 g g g
+		a a a a %175
+		d,2 g~
+		g4 fis g a
+		b2 a
+		g2. a4
+		fis2 r %180
+		r4 d g g
+		g f es d
+		c f f f
+		f es es es
+		es2 d %185
+		c2. c4
+		b2 r
+		r4 f' b a
+		g f es d
+		c2 f~ %190
+		f4 es d c
+		d c b a
+		g a b2
+		c4 a b a8 g
+		a2 f4 f' %195
+		es d8 c d4 c8 b
+		c2 f,4 d'
+		c b8 a b4 a8 g
+		a4 f b2~
+		b a %200
+		b\breve*1/2\fermata \bar "|." %201 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

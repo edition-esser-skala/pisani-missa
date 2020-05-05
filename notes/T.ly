@@ -882,6 +882,311 @@ CumSanctoTenoreLyrics = \lyricmode {
 	men. %693 FINIS
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \lydian \time 4/4 \autoBeamOff \tempoCredo
+		r4 \mvTr d\fE^\tuttiE c4. f8
+		d([ es)] f([ d)] es2
+		d4 r r8 c f f
+		f8([ es?16 d)] es8 f d4. g,8
+		c4. f8 d4 b %5
+		c r r2
+		R1
+		r2 r4 es8 es
+		d4. b8 c4 c8 c
+		d b es2( d4) %10
+		es8 b b b b([ c)] d4
+		es4. es8 d2~
+		d4 c2 b8([ c)]
+		d4. d8 d4 r
+		R1*8 %22
+		r4 d8 d d4 c8 c
+		d4 e! e8[ a,] d4~
+		d cis d r %25
+		R1*2
+		r2 r4 \mvTr f~\pE^\soloE
+		f8 f e e f c c f
+		d4 c8([ f)] d4 c8([ d)] %30
+		b2 a4 f'8 f
+		es?([ cis)] d e16([ f)] d4 cis
+		d \mvTr f\fE^\tuttiE f e8 e
+		f8. c16 c8 f f es16([ d)] es4~
+		es d8 d c2 %35
+		d4 r8 d b b r es
+		es8[( c)] d d c4( d
+		c2) b4 r
+		R1*2 \noBreak %40
+		R1\fermataMarkup \bar "||"
+		\tempoEtIncarnatus r4 \mvTr es2\fE^\tuttiE es8 es \noBreak
+		d4 es d r8 d
+		es4 es8 es es4( c)
+		d d4. d8 d d %45
+		c4.( es8 f4.) f8
+		es g es2 d4
+		es8([ b] es2) d4
+		es r r r8 d
+		es4. d8 c4 f~ %50
+		f es d4. d8 \noBreak
+		c4 r r2\fermata \bar "||"
+		\tempoCrucifixus R1 \noBreak
+		r2 r4 \mvTr c\pE^\solo
+		c8 b!16([ a!)] b8 g as2 %55
+		g4 r c8 d16([ es)] d8 c
+		h4 c d r
+		d g, es'4. d8
+		c h c es d2
+		c4 r r g'~ %60
+		g8 c, f2 es4
+		d2 c
+		d8 b es2 d4
+		es r f4. g8
+		es4. d8 c4. f8 %65
+		d4 es d4. d8 \noBreak
+		c4 r r2\fermata \bar "||"
+		\time 3/4 \tempoEtResurrexit R2.*9 %76
+		\mvTr f4\fE^\tuttiE f e \noBreak
+		f c f~
+		f f f
+		e e e %80
+		f f4. f8
+		d2( c4)
+		c r r
+		r f f,
+		b8([ a)] b([ c)] d([ e)] %85
+		f4 f f~
+		f c c
+		f f e
+		d2.
+		c4 r r %90
+		R2.*6 %96
+		r4 d d
+		c2 d4
+		d2 d4
+		es d4. d8 %100
+		d4 r r
+		R2.*7 %108
+		r4 r f~
+		f f2 %110
+		d4. e8 f4
+		e f2
+		e8. e16 e2
+		e4 f2
+		d d4~ %115
+		d d( cis)
+		d2 r4
+		R2.*5 %122
+		r4 f f
+		e2 f4
+		f d4. d8 %125
+		e2 r4
+		R2.*5 %131
+		r4 f f
+		e2 e4~
+		e e( d)
+		e2 r4 %135
+		R2.*5 %140
+		r4 e e
+		c2 c4~
+		c f2
+		e f4
+		f2 f4 %145
+		f2 f4~
+		f f( e)
+		f2 r4
+		R2.*3 \noBreak %151
+		R2.\fermataMarkup \bar "||"
+		\time 2/2 \tempoQuiLocutus R1*4 %156
+		r2 \mvTr f\fE^\tuttiE
+		f2. f4
+		f2 f4 f
+		f4. c8 c4 f %160
+		f2 es
+		es4 es d d
+		c1
+		d2 b
+		c r %165
+		R1*8 %173
+		r2 d4 d
+		c2 d~ %175
+		d d4 c
+		d c b c
+		d2. d4
+		d2( c)
+		d r %180
+		r d
+		es es4 d
+		c2 f
+		b,4. b8 b2
+		r d %185
+		es c
+		d r
+		R1
+		g,2 c~
+		c4 b a g %190
+		f2 f'~
+		f4 es d f
+		es2 b
+		c d
+		c1 %195
+		R
+		r2 r4 f
+		es c d b
+		c2 d
+		c1 %200
+		b\breve*1/2\fermata \bar "|." %201 finis
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	\xE Pa -- trem o --
+	mni -- po -- ten --
+	tem, \x fa -- cto -- rem
+	coe -- li et ter -- _
+	_ _ _ _ %5
+	\xE rae,
+
+	Et in
+	u -- num Do -- mi -- num
+	Je -- sum Chri -- %10
+	stum, Fi -- li -- um De -- i
+	u -- ni -- ge --
+	_ _
+	_ ni -- tum.
+
+	De -- um ve -- rum de %23
+	De -- o ve -- _
+	_ ro. %25
+
+	\x Ge -- %28
+	ni -- tum non fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem %30
+	Pa -- tri, per quem
+	o -- mni -- a fa -- cta
+	sunt. \xE Qui pro -- pter nos
+	ho -- mi -- nes et pro -- pter no --
+	stram sa -- lu -- %35
+	tem de -- scen -- dit, de --
+	scen -- dit de coe --
+	lis.
+
+	Et in -- car -- %42
+	na -- tus est de
+	Spi -- ri -- tu San --
+	cto ex Ma -- ri -- a %45
+	Vir -- gi --
+	ne, et ho -- mo
+	fa -- ctus
+	est, et
+	ho -- mo fa -- _ %50
+	_ _ ctus
+	est.
+
+	\x Sub
+	Pon -- ti -- o Pi -- la -- %55
+	to, pas -- sus et se --
+	pul -- tus est,
+	cru -- ci -- fi -- xus
+	e -- ti -- am pro no --
+	bis, pas -- %60
+	sus et se --
+	pul -- tus,
+	et se -- pul -- tus
+	est, pas -- sus
+	et se -- pul -- _ %65
+	_ _ _ tus
+	est.
+
+	\xE Et re -- sur -- %77
+	re -- xit ter --
+	ti -- a
+	di -- e se -- %80
+	cun -- dum Scri --
+	ptu --
+	ras,
+	\x et a --
+	scen -- dit in %85
+	coe -- lum, \xE se --
+	det ad
+	dex -- te -- ram
+	Pa --
+	tris.
+
+	Iu -- di -- %97
+	ca -- re
+	vi -- vos
+	et mor -- tu -- %100
+	os.
+
+	Et __ %109
+	in %110
+	Spi -- ri -- tum
+	San -- ctum,
+	Do -- mi -- num
+	et vi --
+	vi -- fi -- %115
+	can --
+	tem.
+
+	Qui cum %123
+	Pa -- tre
+	et Fi -- li -- %125
+	o
+
+	si -- mul
+	ad -- o --
+	ra --
+	tur, %135
+
+	si -- mul %141
+	ad -- o --
+	ra --
+	tur et
+	con -- glo -- %145
+	ri -- fi --
+	ca --
+	tur:
+
+	Et %157
+	u -- nam
+	san -- ctam ca --
+	tho -- li -- cam et %160
+	a -- po --
+	sto -- li -- cam Ec --
+	cle --
+	_ si --
+	am.
+
+	Et ex -- %174
+	pe -- cto __ %175
+	re -- sur --
+	re -- cti -- o -- nem
+	mor -- tu --
+	o --
+	rum, %180
+	et
+	vi -- tam ven --
+	tu -- ri
+	sae -- cu -- li,
+	a -- %185
+	_ _
+	men,
+
+	\x a -- _
+	_ _ _ %190
+	_ _
+	_ _ _
+	_ _
+	_ _
+	men, %195
+
+	a --
+	_ _ _ _
+	_ _
+	_ %200
+	men. %201 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -1128,6 +1128,346 @@ CumSanctoSopranoILyrics = \lyricmode {
 	men. %693 FINIS
 }
 
+CredoSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoCredo
+		r4 \mvTr b'\fE^\tuttiE c c
+		b8 f b2( a4)
+		b r r2
+		r8 c c c d4. c16 b
+		c4.( d8 b2) %5
+		a4 \mvTr f'8\pE^\soloE f f4 g8 d
+		es8. d16 c4 des8 h c f
+		es4( d8.) c16 c4 \mvTr c8\fE^\tuttiE c
+		d4. d8 c4 c8 c
+		b4. b8 as4( f) %10
+		b8 es es es es4 d
+		d8 g, c2 b4~
+		b c a b
+		a4. a8 g4 r
+		R1*8 %22
+		r4 a8 a b4 c8 c
+		b4. b8 a4.( b8
+		a2) a4 r %25
+		R1*7 %32
+		r4 d d c8 c
+		c8. c16 c8 c b4. c8
+		b4 b8 b c2 %35
+		b8 f' d[ b] g[ g' es c]
+		a4 b8 b a4 b~
+		b a b r
+		R1*2 \noBreak %40
+		R1\fermataMarkup \bar "||"
+		\tempoEtIncarnatus r4 \mvTr c2\fE^\tuttiE c8 c \noBreak
+		d4 c h r8 h
+		c4 c8 es c2
+		h4 h4. h8 h h %45
+		c([ g] c2) h4
+		c r8 c c4 b
+		b4.( c8 b4.) b8
+		b b es4. d16([ c)] d4~
+		d8[ g, c b!] as4. c8 %50
+		h[ g] c2 h4 \noBreak
+		c r r2\fermata \bar "||"
+		\tempoCrucifixus R1*2
+		r2 r4 \mvTr c\pE^\soloE %55
+		c8 b!16([ a!)] b8 g as2
+		g4 c8 d h g c4~
+		c h c r
+		r c c8 h16([ a!)] h8 h
+		c4 g d'4. g,8 %60
+		c4. d8 c4 g
+		r2 c4. f,8
+		b4. b8 as4 f
+		b es4. f,8 d'4~
+		d8 g, c[ b] as4. c8 %65
+		h[ g] c2 h4 \noBreak
+		c r r2\fermata \bar "||"
+		\time 3/4 \tempoEtResurrexit R2.*9 %76
+		\mvTr c4\fE^\tuttiE c8([ d)] c([ d)] \noBreak
+		c4 c c~
+		c d d
+		c c c %80
+		c8([ b)] a([ b)] c([ a)]
+		b2.
+		a4 a b
+		c8([ b)] a([ b]) c4
+		d2. %85
+		c2 c4~
+		c c c
+		c h c
+		c2( h4)
+		c r \mvTr c\pE^\solo %90
+		c a8([ b)] c4
+		c d8([ c)] d([ a)]
+		b2 a4~
+		a b4. b8
+		a2 r4 %95
+		R2.
+		r4 \mvTr a\fE^\tuttiE b
+		c2 b4
+		a2 b4
+		a a4. a8 %100
+		g4 r r
+		R2.*7 %108
+		r4 r d'~
+		d c!2 %110
+		b4. b8 f4
+		b( f) c'
+		c8. c16 c2
+		c4 c2
+		b b4~ %115
+		b a2
+		a r4
+		r \mvTr a\pE^\solo b
+		c( a8[ b]) c4
+		c d2 %120
+		c4( a8[ b)] c4~
+		c8 c b2
+		a4 \mvTr c\fE^\tuttiE d
+		e2 a,4
+		a d4. d8 %125
+		cis4 \mvTr a\pE^\soloE a
+		d f8[( e] d4)
+		d f8([ e)] d4
+		d f8([ e] d4)
+		es4.( cis8) d4( %130
+		h) cis2
+		d4 \mvTr d\fE^\tuttiE d
+		d2 c!4~
+		c a( d)
+		h2 r4 %135
+		R2.*5 %140
+		r4 c c
+		c2 c4~
+		c c( h)
+		c2 c4
+		b!2 b4 %145
+		b2 d4~
+		d c2
+		c r4
+		R2.*3 \noBreak %151
+		R2.\fermataMarkup \bar "||"
+		\time 2/2 \tempoQuiLocutus \mvTr b2\pE^\soloE c \noBreak
+		d2. es4
+		f2 b,4 b %155
+		es1
+		d2 \mvTr d\fE^\tuttiE
+		c d
+		c d4 d
+		c4. c8 c4 c %160
+		b( a) b( c)
+		b2. b4
+		c2. d4
+		b2. b4
+		a2 \mvTr f'\pE^\soloE %165
+		f4 d g,2
+		f' g4 d
+		es( d) c2
+		c2. c4
+		c2 d4( c) %170
+		b2. c4
+		d( fis,) g( c)
+		b2( a)
+		g \mvTr b4\fE^\tuttiE b
+		a2 d %175
+		b4 a b c
+		b( a) g( a)
+		b2 a
+		g( c)
+		a r %180
+		r g'
+		es c4 c
+		f2. f4
+		f2 es4 es
+		es2 d %185
+		c1
+		b2 f'4 es
+		d c b2~
+		b c4 b
+		a b c f, %190
+		b2. c4
+		d c b2~
+		b b
+		a( b)
+		a r4 f' %195
+		es c d b
+		c2 f,4 d'
+		c a b g
+		a f b2~
+		b a %200
+		b\breve*1/2\fermata \bar "|." %201 finis
+	}
+}
+
+CredoSopranoILyrics = \lyricmode {
+	Pa -- trem o --
+	mni -- po -- ten --
+	tem,
+	fa -- cto -- rem coe -- li et
+	ter -- %5
+	rae, vi -- si -- bi -- li -- um
+	o -- mni -- um et in -- vi -- si --
+	bi -- li -- um. Et in
+	u -- num Do -- mi -- num
+	Je -- sum Chri -- %10
+	stum, Fi -- li -- um De -- i
+	u -- ni -- ge -- _
+	_ _ _
+	_ ni -- tum.
+
+	De -- um ve -- rum de %23
+	De -- o ve --
+	ro. %25
+
+	Qui pro -- pter nos %33
+	ho -- mi -- nes et pro -- pter
+	no -- stram sa -- lu -- %35
+	tem de -- scen -- _
+	_ dit de coe -- _
+	_ lis.
+
+	Et in -- car -- %42
+	na -- tus est de
+	Spi -- ri -- tu San --
+	cto ex Ma -- ri -- a %45
+	Vir -- gi --
+	ne, et ho -- mo
+	fa -- ctus
+	est, et ho -- mo fa --
+	_ _ %50
+	_ _ ctus
+	est.
+
+	Sub %55
+	Pon -- ti -- o Pi -- la --
+	to pas -- sus et se -- pul --
+	tus est,
+	sub Pon -- ti -- o Pi --
+	la -- to pas -- sus %60
+	et se -- pul -- tus,
+	pas -- sus
+	et se -- pul -- tus
+	est, pas -- sus et __
+	se -- pul -- _ _ %65
+	_ _ tus
+	est.
+
+	Et re -- sur -- %77
+	re -- xit ter --
+	ti -- a
+	di -- e se -- %80
+	cun -- dum Scri --
+	ptu --
+	ras, et a --
+	scen -- dit in
+	coe -- %85
+	lum, se --
+	det ad
+	dex -- te -- ram
+	Pa --
+	tris. Et %90
+	i -- te -- rum
+	ven -- tu -- rus
+	est cum __
+	glo -- ri --
+	a %95
+
+	iu -- di --
+	ca -- re
+	vi -- vos
+	et mor -- tu -- %100
+	os.
+
+	Et __ %109
+	in %110
+	Spi -- ri -- tum
+	San -- ctum,
+	Do -- mi -- num
+	et vi --
+	vi -- fi -- %115
+	can --
+	tem,
+	qui ex
+	Pa -- tre
+	Fi -- li -- %120
+	o -- que __
+	pro -- ce --
+	dit. Qui cum
+	Pa -- tre
+	et Fi -- li -- %125
+	o si -- mul
+	ad -- o --
+	ra -- tur et
+	con -- glo --
+	ri -- fi -- %130
+	ca --
+	tur, si -- mul
+	ad -- o --
+	ra --
+	tur, %135
+
+	si -- mul %141
+	ad -- o --
+	ra --
+	tur et
+	con -- glo -- %145
+	ri -- fi --
+	ca --
+	tur:
+
+	Qui lo -- %153
+	cu -- tus
+	est per Pro -- %155
+	phe --
+	tas. Et
+	u -- nam
+	san -- ctam ca --
+	tho -- li -- cam et %160
+	a -- po --
+	sto -- li --
+	cam Ec --
+	cle -- si --
+	am. Con -- %165
+	fi -- te -- or
+	u -- num ba --
+	ptis -- ma
+	in re --
+	mis -- si -- %170
+	o -- nem
+	pec -- ca --
+	to --
+	rum. Et ex --
+	pe -- cto %175
+	re -- sur -- re -- cti --
+	o -- nem
+	mor -- tu --
+	o --
+	rum, %180
+	et
+	vi -- tam ven --
+	tu -- ri
+	sae -- cu -- li,
+	a -- _ %185
+	_
+	men, a -- _
+	_ _ _
+	_ _
+	_ _ _ _ %190
+	_ _
+	_ _ _
+	men,
+	a --
+	men, a -- %195
+	_ _ _ _
+	_ men, a --
+	_ _ _ _
+	_ _ _
+	_ %200
+	men. %201 finis
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble
