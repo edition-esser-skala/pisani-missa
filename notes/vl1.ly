@@ -1015,10 +1015,53 @@ SanctusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-%
-% 	}
-% }
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 2/2 \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoAgnusDei
+		b''4\fE a b8 f b b
+		b a16 g a8 a g4. g8
+		f4. g8 es4. f8
+		d4 r r2
+		R1 %5
+		r4 c8 c c4 c
+		c8 a d, a' b4 a
+		a4. g8 g d' g16 f f es
+		es d d c c4. d16 es d8 c
+		b16 g fis g c g fis g d' g, fis g es' g a g %10
+		fis d g b, a g' a, fis' g8 es d16 c b a
+		g4 r r2
+		r r8 d d'4~
+		d8 g, c c c4 b8 d
+		g,4. a8 fis4 r %15
+		R1
+		r2 r4 fis'8 fis
+		g4 a b8 a g g
+		g e! f e e4. d8
+		d a' g16 a f g e a, h cis d a e' a, %20
+		f' d cis d g d cis d a' d, cis d b' d, e d
+		cis a d b a g f e d8 d' d16 c b a
+		b4 r r2
+		r8 d16 es f es f b, f'8 c f, f'
+		es d16 c d8 c16 b \tempoAgnusDeiB c4. c8 %25
+		b4 \tempoDonaNobis r d8 es f es
+		d4. c8 b16 c a b g4
+		g'8 f es16 f d es c8 f, r4
+		r8 f' b, es c4. b8
+		b b f'4~ f8 g, es'4~ %30
+		es8 f, d'4~ d8 es, c'4~
+		c8 f, b c a f b4~
+		b a b r8 f'
+		g16 es f d es c d b c8 f, f' es
+		d16 a b g a8. b16 b4 r\fermata \bar "|." %35 FINIS
+	}
+}

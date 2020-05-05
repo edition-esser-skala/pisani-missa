@@ -1510,14 +1510,87 @@ SanctusSopranoILyrics = \lyricmode {
 	sis. %18 finis
 }
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-%
-% 	}
-% }
-%
-% SopranoILyrics = \lyricmode {
-%
-% }
+BenedictusSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+BenedictusSopranoILyrics = \lyricmode {
+
+}
+
+AgnusDeiSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr b'4\fE^\tuttiE a b b8 b
+		b([ a16 g)] a8 c b4 b8 c
+		b f b2( a4)
+		b \mvTr b8\pE^\soloE c d([ b)] es([ d16 c)]
+		d8([ b)] c([ b16 a)] b8 a b4 %5
+		a \mvTr c8\fE^\tuttiE c c([ b)] a4
+		a4. a8 b4 a
+		a2 g4 r
+		R1*3 %11
+		b4 a b b8 a
+		a a r a b([ c)] b d
+		d([ g,] c2) b4
+		b( c) a \mvTr a8\pE^\soloE b %15
+		c([ a)] d([ c16 b)] c8([ a)] fis([ c')]
+		b a b4 a \mvTr a8\fE^\tuttiE a
+		b4 c b4. b8
+		a4 a8([ b)] a2
+		a4 r r2 %20
+		R1*2
+		b4 c b8([ a)] b a
+		b b r b c4 a8 a
+		b([ c)] d([ b)] \tempoAgnusDeiB c2 %25
+		b4 \tempoDonaNobis b8 c d c b4~
+		b8[ c] d([ c)] b[ a] g4~
+		g c8([ b)] a8[( g f a]
+		b4.) b8 b4( a)
+		b f'4. g,8 es'4~ %30
+		es8 f, d'4. es,8 c'4~
+		c8[ f,] b([ c)] a4 b~
+		b a b r
+		R1
+		R\fermataMarkup \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiSopranoILyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta, pec --
+	ca -- ta mun --
+	di: Mi -- se -- re -- re, __
+	mi -- se -- re -- re no -- %5
+	bis, mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus De -- i, qui %12
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta
+	mun -- di: Mi -- se -- %15
+	re -- re, __ mi -- se --
+	re -- re no -- bis, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+
+	A -- gnus De -- i, qui %23
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- %25
+	di: Do -- na no -- bis pa --
+	cem, do -- _
+	na no --
+	bis pa --
+	cem, do -- na no -- %30
+	bis, do -- na no --
+	bis pa -- _
+	_ cem. %33 FINIS
+}

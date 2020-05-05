@@ -1003,3 +1003,54 @@ SanctusViolinoII = {
 		es4 f b, r\fermata \bar "||" %20 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 2/2 \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoAgnusDei
+		d'4\fE c d d8 c
+		c f, f'4. es16 d es8 es
+		es d16 c d8 d g,4 a
+		b r r2
+		R1 %5
+		r4 a8 a a4 g
+		fis8 fis d fis g4. g8
+		g4 fis g r
+		r8 g' c16 b b a a4 r8 fis
+		g16 g, fis g c g fis g d' g, fis g es' g a g %10
+		fis d g b, a g' a, fis' g8 es d16 c b a
+		g4 r r2
+		r r4 r8 g
+		es'4 es8 es d4. d8
+		d c16 b c4 d r %15
+		R1
+		r2 r4 a8 a
+		b4 c b4. b8
+		a4 d d cis
+		d8 f e16 f d e cis a h cis d a e' a, %20
+		f' d cis d g d cis d a' d, cis d b' d, e d
+		cis a d b a g f e d8 d' d16 c b a
+		b4 r r2
+		r8 b16 c d c d b c8 f, r a
+		b c f, f' \tempoAgnusDeiB es4. f8 %25
+		d4 \tempoDonaNobis r r b8 c
+		d16 es c d b4 r g'8 f
+		es16 f d es c d b c a8 f a c
+		f,4 b4. a16 g a4
+		b r8 b g'4. c,8 %30
+		f4. b,8 es4. a,8
+		d4. g,8 c f d c16 b
+		c4. b8 b4 r8 f'
+		g16 es f d es c d b c8 f, f' es
+		d16 a b g a8. b16 b4 r\fermata \bar "|." %35 FINIS
+	}
+}

@@ -1141,3 +1141,88 @@ SanctusSopranoIILyrics = \lyricmode {
 	in ex -- cel --
 	sis. %18 finis
 }
+
+BenedictusSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+BenedictusSopranoIILyrics = \lyricmode {
+
+}
+
+AgnusDeiSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr b'4\fE^\tuttiE f' b, b8 es
+		c c r f b,4 es8 es
+		es4 d es( c)
+		d r r2
+		R1 %5
+		r4 c8 c c4. c8
+		c([ a)] fis([ a)] g4 c
+		a2 b4 r
+		R1*3 %11
+		d4 d g, g8 c
+		a a r a g([ a)] b g
+		es'2( d4.) d8
+		d4( c) d r %15
+		R1
+		r2 r4 d8 d
+		g,4 a b8([ a)] g4
+		a d d( cis)
+		d r r2 %20
+		R1*2
+		b4 f' d8([ c)] b c
+		b b r d c4 f8 f
+		es4 d \tempoAgnusDeiB c2 %25
+		d4 \tempoDonaNobis r d8 es f es
+		d4. c8 b4 c8([ d)]
+		es4. d8 c[ b a c]
+		b4 c c2
+		b4 r b4. b8 %30
+		b4 b es4. es8
+		d4. c8 c4( b
+		c2) b4 r
+		R1
+		R\fermataMarkup \bar "|." %35 finis
+	}
+}
+
+AgnusDeiSopranoIILyrics = \lyricmode {
+	\xE A -- gnus De -- i, qui
+	tol -- lis, \x qui tol -- lis \xE pec --
+	ca -- ta mun --
+	di:
+	%5
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus De -- i, qui %12
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta
+	mun -- di: %15
+
+	Mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+
+	A -- gnus De -- i, qui %23
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- %25
+	di: \x Do -- na no -- bis
+	pa -- cem, do -- na
+	no -- _ _
+	_ bis pa --
+	cem, do -- na %30
+	no -- bis, do -- na
+	no -- bis pa --
+	\xE cem. %33 FINIS
+}

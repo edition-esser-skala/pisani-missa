@@ -2077,14 +2077,95 @@ SanctusBassFigures = \figuremode {
 	<6 5>1 %20 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 2/2 \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+
+}
+
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \tempoAgnusDei
+		\mvTr b'4\fE-\tutti f d8 b d es
+		f f, r f' g f g a
+		b b, d b c2
+		b4 r \mvTr b\pE-\soloE b
+		b b b'8 f b e,! %5
+		f4 \mvTr f8\fE-\tuttiE f f4 es
+		d4. c8 b4 c
+		d d, g r8 g'-\solo
+		c16 b b a a g g fis fis4 r8 d
+		g4 a b c %10
+		d8 c d d, g c, d d,
+		g'4-\tutti d' b8 g b, c
+		d4 r8 d' b a g b
+		c b a g fis4 g
+		es2 d4 r %15
+		\mvTr d\pE-\soloE d d d
+		g8 d g cis, d4 \mvTr d'8\fE-\tuttiE c
+		b4 a g8 f e! d
+		cis4 d8 g a4 a,
+		d-\soloE g a f8 cis %20
+		d4 e f g
+		a8 g a a, d d' d16 c! b a
+		b4-\tuttiE a b8 f d f
+		b,4 r8 b' a4 f
+		g8 a b4 \tempoAgnusDeiB b4 a %25
+		b \tempoDonaNobis r b8 c d c
+		b4. a8 g f es d
+		c d es c f4. es8
+		d4 es f f,
+		b8 c d b es f g a %30
+		b b, d b c c' a f
+		b b, d es f2~
+		f b,8 c d b
+		es d c b f' g a f
+		b es, f f, b4 r\fermata \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r2 <6>4 <[6]>8 <[6 5]>
+	<[4]> <[3]>4. <7>4 <6->
+	<4-> <[6]>8 q <7 _->4 <6 \t>
+	r2 <[5 3]>4 <[6 4-]>
+	<[5 3]> <[7 4-]> <[8 3]>4. <7 5>8 %5
+	r2. <[4 3]>4
+	<[7] _+>2 <6>4 <[6] _->
+	<4> <_+> r2
+	<[_-]>8 <[6]> <[6\\]>4 <[6]>4. <[7 _+]>8
+	r4 <6\\> <6> <_-> %10
+	<[_+]>8 <[7 _-]> <4> <_+> r <[_-]> <[4]> <[_+]>
+	r4 <_+> <6> <[6]>8 <[6 5 _-]>
+	<_+>2 <6>4. <[6]>8
+	<[9 _-]>4 <[5- 3]> <[6 5]>2
+	<7>4 <6> <_+>2 %15
+	<[5 _+]>4 <[6 4]> <[7 _+]>2
+	r8 <[_+]> r <7 5 _!> <_+>2
+	<6>4 <6\\> r2
+	<6 5>4 <_!>8 <6 5> <4>4 <_+>
+	r2 <_+>4 <6>8 <[6]> %20
+	r4 <[6\\]> <[6]> q
+	<[_+]>8 <[5]> <4> <_+> r2
+	r4 <6> r <[6]>
+	r2 <6>
+	<6-> <4- 2>4 <\t \t> %25
+	r2. <[6]>4
+	r1
+	<[_-]>4 <[6]>2.
+	<6>4 <[6 5]> <[4]> <[3]>
+	r <[6]> <[9]> <[6-]> %30
+	<[4-]> <[6]> <[9] _-> <6 5->
+	<[9]> <[6]>8 q <7- 3>4 <6 4>
+	<5 4> <\t 3> r <[6]>
+	r8 <[6]> <[6 _-]>4 r <[6]>8 <[7-]>
+	r1 %35 finis
+}

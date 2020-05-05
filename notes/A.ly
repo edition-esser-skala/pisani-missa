@@ -1354,19 +1354,92 @@ SanctusAltoLyrics = \lyricmode {
 	tu -- a. O -- san -- na, o --
 	san -- na in ex -- cel --
 	sis, o -- san -- %15
-	na in ex -- 
+	na in ex --
 	cel --
 	sis. %18 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+
+}
+
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr f4\fE^\tuttiE f f f8 g
+		f f r a g4 g8 f
+		f4. g8 es4( c)
+		f r r2
+		R1 %5
+		r4 a8 a a4 g
+		fis4. fis8 g4 g
+		g( fis) g r
+		R1*3 %11
+		g4 fis g g8 g
+		g([ fis16 e)] fis8 fis g([ fis)] g g
+		g4( a2) g4
+		g2 fis4 \mvTr fis8\pE^\soloE g %15
+		a([ fis)] b([ a16 g)] a8([ fis)] d([ a')]
+		g fis g4 fis \mvTr fis8\fE^\tuttiE fis
+		g4 fis g4. g8
+		g4 f8([ e)] e2
+		d4 r r2 %20
+		R1*2
+		f4. f8 f4 f8 f
+		f f r f f4 f8 a
+		g4 f \tempoAgnusDeiB es( f) %25
+		f \tempoDonaNobis d8 es f es d4~
+		d8 es f d g4. f8
+		es[ f] g4 f2~
+		f4 g f2
+		f4 r g4. g8 %30
+		f4. f8 es4. f8
+		f4 f8([ g)] f2~
+		f f4 r
+		R1
+		R\fermataMarkup \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	\xE A -- gnus De -- i, qui
+	tol -- lis, \x qui \xE tol -- lis pec --
+	ca -- ta mun --
+	di:
+	%5
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus De -- i, qui %12
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta
+	mun -- di: Mi -- se -- %15
+	re -- re, __ mi -- se --
+	re -- re no -- bis, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+
+	A -- gnus De -- i, qui %23
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- %25
+	di: \x Do -- na no -- bis pa --
+	cem, do -- na no -- _
+	_ _ _
+	\xE bis pa --
+	cem, do -- na %30
+	no -- bis, do -- na
+	no -- bis pa --
+	cem. %33 FINIS
+}

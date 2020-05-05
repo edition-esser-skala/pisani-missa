@@ -1233,14 +1233,87 @@ SanctusTenoreLyrics = \lyricmode {
 	\xE sis. %18 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+
+}
+
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \lydian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr d4\fE^\tuttiE c d d8 c
+		c c r f f([ es16 d)] es8 es
+		es4 d es2
+		d4 \mvTr d8\pE^\soloE es f([ d)] g([ f16 es)]
+		f8([ d)] es([ d16 c)] d8 c d4 %5
+		c \mvTr f8\fE^\tuttiE f c4. c8
+		d4. d8 d4 es
+		d2 d4 r
+		R1*3 %11
+		d4 d d d8 es
+		d d r d d([ c)] d d
+		es2( d4.) d8
+		d4( c) d r %15
+		R1
+		r2 r4 d8 d
+		d4 c d4. d8
+		e! a, d2( cis4)
+		d r r2 %20
+		R1*2
+		d4 c d8([ c)] d c
+		d d r d c4 c8 f
+		es4 d \tempoAgnusDeiB c4.( f8) %25
+		d4 \tempoDonaNobis r r b8 c
+		d c b4. b8 c d
+		es4. d8 c[ b a c]
+		d4 c c2
+		b4 r b4. b8 %30
+		b4 b r c8 c
+		d4. c8 c4( d
+		c2) b4 r
+		R1
+		R\fermataMarkup \bar "|."
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	\xE A -- gnus De -- i, qui
+	tol -- lis, \x qui \xE tol -- lis pec --
+	ca -- ta mun --
+	di: Mi -- se -- re -- re, __
+	mi -- se -- re -- re no -- %5
+	bis, mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus De -- i, qui %12
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta
+	mun -- di: %15
+
+	Mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+
+	A -- gnus De -- i, qui %23
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- %25
+	di: Do -- na
+	no -- bis pa -- cem, \x do -- na
+	\xE no -- _ _
+	_ bis pa --
+	cem, do -- na %30
+	no -- bis, do -- na
+	no -- bis pa --
+	cem. %33 FINIS
+}

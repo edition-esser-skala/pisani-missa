@@ -110,7 +110,7 @@ partTitle = #(define-scheme-function
 		\markup {
 			\column {
 				\vspace #25
-				\fill-line { \fontsize #20 \with-color #(rgb-color .8313 0 0) #number }
+				\fill-line { \fontsize #15 \with-color #(rgb-color .8313 0 0) #number }
 				\vspace #3
 				\fill-line { \fontsize #4 #title }
 			}
@@ -280,6 +280,10 @@ tempoCredo = \tempoMarkup "A tempo giusto"
 	tempoEtResurrexit = \tempoMarkup "Allegro"
 	tempoQuiLocutus = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Vivace"
+tempoBenedictus = \tempoMarkup "[Tempo deest]"
+tempoAgnusDei = \tempoMarkup "Andante"
+	tempoAgnusDeiB = \tempoMarkup "Adagio"
+	tempoDonaNobis = \tempoMarkup "Allegro"
 
 
 

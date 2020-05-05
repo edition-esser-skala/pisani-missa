@@ -1149,14 +1149,87 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %18 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #21
+
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+
+}
+
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr b'4\fE^\tuttiE f d8([ b)] d es
+		f f, r f' g([ f)] g a
+		b([ b,)] d([ b)] c2
+		b4 r r2
+		R1 %5
+		r4 f'8 f f4 es
+		d4. c8 b4 c
+		d( d,) g r
+		R1*3 %11
+		g'4 d' b8([ g)] b, c
+		d d r d' b([ a)] g b
+		c([ b a g] fis4) g
+		es2 d4 r %15
+		R1
+		r2 r4 d'8 c!
+		b4 a g8([ f)] e!([ d)]
+		cis4 d8([ g)] a4( a,)
+		d r r2 %20
+		R1*2
+		b'4 a b8([ f)] d f
+		b, b r b' a4 f8 f
+		g8([ a)] b4 \tempoAgnusDeiB b( a) %25
+		b \tempoDonaNobis r b8 c d c
+		b4. a8 g([ f)] es([ d)]
+		c[ d es c] f4. es8
+		d4 es f( f,)
+		b r es8([ f)] g([ a)] %30
+		b([ b,)] d([ b)] c([ c')] a([ f)]
+		b([ b,)] d([ es)] f2~
+		f b,4 r
+		R1
+		R\fermataMarkup \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	\xE A -- gnus De -- i, qui
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun --
+	di:
+	%5
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus De -- i, qui %12
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta
+	mun -- di: %15
+
+	Mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+
+	A -- gnus De -- i, qui %23
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- %25
+	di: Do -- na no -- bis
+	pa -- cem, \x do -- na
+	no -- _ _
+	_ \xE bis pa --
+	cem, do -- na %30
+	no -- bis, do -- na
+	no -- bis pa --
+	cem. %33 FINIS
+}
