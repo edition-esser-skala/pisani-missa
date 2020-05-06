@@ -579,3 +579,60 @@ CumSanctoOboeI = {
 		fis1\fermata \bar "|." %693 FINIS
 	}
 }
+
+BenedictusOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 2/2 \tempoBenedictus
+			\set Score.currentBarNumber = #21
+			R1*8 %28
+			d'1\fE
+			e %30
+			f
+			e
+			d
+			d~
+			d2 cis %35
+			f1
+			e1~
+			e
+			R1*2 %40
+			a,1
+			h
+			c
+			h2 a
+			a( gis) %45
+			a1
+			R1*2
+			d1
+			e %50
+			f
+			e
+			d
+			d~
+			d2 cis %55
+			d1~
+			d2 c!~
+			c b~
+			b a~
+			a g~ %60
+			g4 g f2~
+			f4 f' e d
+			cis a a'2~
+			a g~
+			g f~ %65
+			f e4 d
+			cis2 d~ \noBreak
+			d cis
+			\key b \major \time 3/2 \tempoOsanna
+				\set Staff.timeSignatureFraction = 3/2
+				\override Staff.TimeSignature.style = #'single-digit
+				d1 d2 \noBreak
+			\time 6/2 f2. f4 f2 f f( e) %70
+			f1 f2 d d d
+			\time 3/2 es1.~
+			\time 6/2 es2 es d c c1
+			b2 \tempoOsannaFinis b b b1.~
+			b b\fermata \bar "|." %75 finis
+	}
+}

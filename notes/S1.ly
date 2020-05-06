@@ -1515,12 +1515,103 @@ BenedictusSopranoINotes = {
 		\clef treble
 		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
 			\set Score.currentBarNumber = #21
-
+		R1*8 %28
+		\mvTr d'1\fE^\tutti
+		e %30
+		f
+		e
+		d
+		d~
+		d2 cis %35
+		f1
+		e1~
+		e
+		R1*2 %40
+		a,1
+		h
+		c
+		h2 a
+		a( gis) %45
+		a1
+		R1*2
+		d1
+		e %50
+		f
+		e
+		d
+		d~
+		d2 cis %55
+		d1~
+		d2 c!~
+		c b~
+		b a~
+		a g~ %60
+		g4 g f2~
+		f4 f' e d
+		cis a a'2~
+		a g~
+		g f~ %65
+		f e4 d
+		cis2 d~ \noBreak
+		d cis
+		\key b \major \time 3/2 \tempoOsanna
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			d1 d2 \noBreak
+		\time 6/2 f2. f4 f2 f f( e) %70
+		f1 f2 d d d
+		\time 3/2 es1.~
+		\time 6/2 es2 es d c c1
+		b2 \tempoOsannaFinis b b b1.~
+		b b\fermata \bar "|." %75 finis
 	}
 }
 
 BenedictusSopranoILyrics = \lyricmode {
+	Be -- %29
+	ne -- %30
+	di --
+	ctus,
+	qui
+	ve --
+	_ %35
+	_
+	nit, __
 
+	be -- %41
+	ne --
+	di --
+	ctus, qui
+	ve -- %45
+	nit,
+
+	be -- %49
+	ne -- %50
+	di --
+	ctus,
+	\xE qui
+	ve --
+	_ %55
+	\x nit __
+	in __
+	no --
+	_
+	_ %60
+	mi -- ne __
+	Do -- _ _
+	_ _ _
+	_
+	_ %65
+	_ _
+	_ _
+	mi --
+	ni. O --
+	san -- na in ex -- cel -- %70
+	sis, o -- san -- na, o --
+	san --
+	na in ex -- cel --
+	sis, in ex -- cel --
+	sis. %75 finis
 }
 
 AgnusDeiSopranoINotes = {

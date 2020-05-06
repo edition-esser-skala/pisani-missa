@@ -1142,19 +1142,6 @@ SanctusSopranoIILyrics = \lyricmode {
 	sis. %18 finis
 }
 
-BenedictusSopranoIINotes = {
-	\relative c' {
-		\clef treble
-		\key d \dorian \time 2/2 \autoBeamOff \tempoBenedictus
-			\set Score.currentBarNumber = #21
-
-	}
-}
-
-BenedictusSopranoIILyrics = \lyricmode {
-
-}
-
 AgnusDeiSopranoIINotes = {
 	\relative c' {
 		\clef treble

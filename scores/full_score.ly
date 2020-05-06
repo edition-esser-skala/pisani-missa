@@ -825,6 +825,82 @@
 	% 		\midi { \tempo 4 	= 90 }
 	% 	}
 	% }
+	\bookpart {
+		\header {
+			number = "4.2"
+			title = "B E N E D I C T U S      (di G:D:Z:)"
+		}
+		\paper {
+			top-system-spacing.basic-distance = #25
+			top-system-spacing.minimum-distance = #25
+			top-markup-spacing.basic-distance = #5
+			top-markup-spacing.minimum-distance = #5
+			markup-system-spacing.basic-distance = #20
+			markup-system-spacing.minimum-distance = #20
+		}
+		% \tocSection "4.2" "Benedictus"
+		\score {
+			<<
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Oboe I, II"
+						\BenedictusOboeI
+					}
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\BenedictusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\BenedictusViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\BenedictusViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoINotes }
+					}
+					\new Lyrics \lyricsto Soprano \BenedictusSopranoILyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \BenedictusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \BenedictusTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \BenedictusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \BenedictusBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Fondamento"
+						% \transpose c c,
+						\BenedictusOrgano
+					}
+				>>
+				\new FiguredBass { \BenedictusBassFigures }
+			>>
+			\layout { }
+			\midi { \tempo 2 = 65 }
+		}
+	}
 	% \bookpart {
 	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 	% 	\partTitle "5" "A G N U S   D E I"
@@ -835,80 +911,80 @@
 	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 	% 	\markup \null
 	% }
-	\bookpart {
-		\header {
-			number = "5.1"
-			title = "A G N U S   D E I"
-		}
-		\paper {
-			top-system-spacing.basic-distance = #25
-			top-system-spacing.minimum-distance = #25
-			top-markup-spacing.basic-distance = #5
-			top-markup-spacing.minimum-distance = #5
-			markup-system-spacing.basic-distance = #20
-			markup-system-spacing.minimum-distance = #20
-		}
-		% \tocSection "5.1" "Agnus Dei"
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AgnusDeiViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AgnusDeiViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\AgnusDeiViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto I"
-						\new Voice = "SopranoI" { \dynamicUp \AgnusDeiSopranoINotes }
-					}
-					\new Lyrics \lyricsto SopranoI \AgnusDeiSopranoILyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Canto II"
-						\new Voice = "SopranoII" { \dynamicUp \AgnusDeiSopranoIINotes }
-					}
-					\new Lyrics \lyricsto SopranoII \AgnusDeiSopranoIILyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Fondamento"
-						% \transpose c c,
-						\AgnusDeiOrgano
-					}
-				>>
-				\new FiguredBass { \AgnusDeiBassFigures }
-			>>
-			\layout { }
-			\midi { \tempo 4 	= 75 }
-		}
-	}
+	% \bookpart {
+	% 	\header {
+	% 		number = "5.1"
+	% 		title = "A G N U S   D E I"
+	% 	}
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #25
+	% 		top-system-spacing.minimum-distance = #25
+	% 		top-markup-spacing.basic-distance = #5
+	% 		top-markup-spacing.minimum-distance = #5
+	% 		markup-system-spacing.basic-distance = #20
+	% 		markup-system-spacing.minimum-distance = #20
+	% 	}
+	% 	% \tocSection "5.1" "Agnus Dei"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \violinGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\AgnusDeiViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\AgnusDeiViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\AgnusDeiViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Canto I"
+	% 					\new Voice = "SopranoI" { \dynamicUp \AgnusDeiSopranoINotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoI \AgnusDeiSopranoILyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Canto II"
+	% 					\new Voice = "SopranoII" { \dynamicUp \AgnusDeiSopranoIINotes }
+	% 				}
+	% 				\new Lyrics \lyricsto SopranoII \AgnusDeiSopranoIILyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Fondamento"
+	% 					% \transpose c c,
+	% 					\AgnusDeiOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \AgnusDeiBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 	= 75 }
+	% 	}
+	% }
 }
