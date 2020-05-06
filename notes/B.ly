@@ -264,7 +264,7 @@ GloriaBassoLyrics = \lyricmode {
 	_ ri -- a,
 	glo --
 	_
-	_ -- ri -- a, %45
+	_ ri -- a, %45
 
 	glo -- ri -- a in ex -- %48
 	cel -- sis,

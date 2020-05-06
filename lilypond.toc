@@ -1,1 +1,17 @@
-\contentsline {part}{\numberline {5}Agnus Dei}{1}
+\contentsline {part}{\numberline {1}Kyrie}{1}
+\contentsline {section}{\numberline {1}Kyrie eleison}{3}
+\contentsline {part}{\numberline {2}Gloria}{29}
+\contentsline {section}{\numberline {2.1}Gloria in excelsis}{31}
+\contentsline {section}{\numberline {2.2}Laudamus te}{47}
+\contentsline {section}{\numberline {2.3}Gratias agimus tibi}{54}
+\contentsline {section}{\numberline {2.4}Domine Deus}{62}
+\contentsline {section}{\numberline {2.5}Qui tollis}{79}
+\contentsline {section}{\numberline {2.6}Quoniam tu solus sanctus}{99}
+\contentsline {section}{\numberline {2.7}Cum Sancto Spiritu}{106}
+\contentsline {part}{\numberline {3}Credo}{127}
+\contentsline {section}{\numberline {3}Credo in unum Deum}{129}
+\contentsline {part}{\numberline {4}Sanctus}{161}
+\contentsline {section}{\numberline {4.1}Sanctus}{163}
+\contentsline {section}{\numberline {4.2}Benedictus}{169}
+\contentsline {part}{\numberline {5}Agnus Dei}{181}
+\contentsline {section}{\numberline {5}Agnus Dei}{183}
