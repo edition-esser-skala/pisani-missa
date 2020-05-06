@@ -5,8 +5,8 @@
 
 # change the following variables according to your project
 project = Pisani_Missa_in_D
-notes = obdc1 obdc2 fag vl1 vl2 vla vlc S A T B org
-scores = full_score ob1 ob2 obdc1 obdc2 vl1 vl2 vla soli coro org b
+notes = fl ob1 ob2 cor1 cor2 tr1 tr2 timp vl1 vl2 vla S1 S2 A T B org
+scores = full_score fl1 fl2 ob1 ob2 cor12 tr12timp vl1 vl2 vla coro org b
 
 # general definitions
 zipname = $(project:%=%_engraving_files)

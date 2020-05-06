@@ -76,7 +76,7 @@
 		}
 		\score {
 			<<
-				\new Staff { LaudamusViolinoI }
+				\new Staff { \LaudamusViolinoI }
 			>>
 		}
 	}
