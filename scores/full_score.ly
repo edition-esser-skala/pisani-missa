@@ -7,7 +7,7 @@
 \include "../definitions.ly"
 
 \paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
-% showFirstLength = r1*17
+
 #(set-global-staff-size 15.87)
 
 \book {

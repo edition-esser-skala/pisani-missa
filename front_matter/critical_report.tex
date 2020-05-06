@@ -4,15 +4,26 @@
 \setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
 \setkomafont{pageheadfoot}{\normalsize}
 
-\def\pnumbox#1{#1\hspace*{9cm}}
+\def\pnumbox#1{#1\hspace*{8cm}}
 \DeclareTOCStyleEntry[
   indent=0pt,
+  beforeskip=0pt,
+  entryformat=\itshape,
   entrynumberformat=\textcolor{oldred},
   numwidth=2em,
   linefill=\hfill,
   pagenumberbox=\pnumbox,
   pagenumberformat=\itshape
+]{tocline}{part}
+\DeclareTOCStyleEntry[
+  indent=2em,
+  beforeskip=-\baselineskip,
+  entrynumberformat=\textcolor{oldred},
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox
 ]{tocline}{section}
+
 
 \usepackage[english]{babel}
 
@@ -106,11 +117,12 @@
 \newif\ifprintreport\printreportfalse
 \directlua{
 scores = {
-  cl1 = "Clarinetto I",
-  cl2 = "Clarinetto II",
-  fag1 = "Fagotto I",
-  fag2 = "Fagotto II",
-  ottoni = "Corno I, II\string\\newline Tromba I, II\string\\newline Timpani",
+  fl1 = "Flauto I",
+  fl2 = "Flauto II",
+  ob1 = "Oboe I",
+  ob2 = "Oboe II",
+  cor12 = "Corno da caccia I, II in F/G",
+  tr12timp = "Tromba I, II in D\string\\newline Timpani in D–A",
   vl1 = "Violino I",
   vl2 = "Violino II",
   vla = "Viola",
@@ -147,11 +159,11 @@ end
 \begin{document}
 
 \titlehead{\fancytitlehead}
-\firstname{Giovanni} % Benedictus by Jan Dismas Zelenka
+\firstname{Giovanni}
 \lastname{Pisani}
 \title{Missa in D}
-\subtitle{ZWV deest\\(D-Dl Mus.2500-D-1)}
-\instrumentation{2 S, A, T, B (solo), 2 S, A, T, B (coro), 2 fl, 2 ob, 2 cor, 2 tr, timp, 2 vl, vla, b, org}
+\subtitle{(D-Dl Mus.2500-D-1)\\Benedictus by Jan Dismas Zelenka (ZWV deest)}
+\instrumentation{2 S, A, T, B (solo), 2 S, A, T, B (coro),\\2 fl, 2 ob, 2 cor da caccia, 2 tr, timp, 2 vl, vla, b, org}
 \maketitle
 
 
@@ -166,7 +178,7 @@ end
 Music engraving by LilyPond 2.18.0 (\url{http://www.lilypond.org}).\\
 Front matter typeset with Source Sans Pro and Fredericka the Great.
 
-\textit{First version, April 2020}
+\textit{First version, May 2020}
 
 \vspace*{2cm}
 
@@ -179,7 +191,7 @@ In general, this edition closely follows the manuscript. Any changes that were i
 
 \bigskip
 
-\footnotetext[1]{Abbreviations: A, alto; B, basso; fag, bassoon; Ms, manuscript; ob, oboe; org, organ; r, rest; S, soprano; T, tenore; vl, violin; vla, viola; vlc, violoncello.}
+\footnotetext[1]{Abbreviations: A, alto; B, basso; cor, horn; fl, flute; Ms, manuscript; ob, oboe; org, organ; r, rest; S, soprano; T,~tenore; timp, timpani; tr, trumpet; vl, violin; vla, viola.}
 
 \begin{longtable}{lll L{10cm}}
 	\toprule
@@ -219,10 +231,10 @@ In general, this edition closely follows the manuscript. Any changes that were i
 \end{longtable}
 
 
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page (https://github.com/skafdasschaf/pisani-missa). Your help will be greatly appreciated.
+This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page (\url{https://github.com/skafdasschaf/pisani-missa}). Your help will be greatly appreciated.
 
 \bigskip
-\textit{Salzburg, April 2020\\
+\textit{Salzburg, May 2020\\
 Wolfgang Esser-Skala}
 
 
