@@ -1,0 +1,17 @@
+composer: Pisani, Giovanni
+title: Missa in D
+id: (D-Dl Mus.2500-D-1)
+genre: mass
+scoring: 2 S, A, T, B (solo), 2 S, A, T, B (coro), 2 fl, 2 ob, 2 cor da caccia (F/G), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2500-D-1
+    type: manuscript copy
+    date: 1740–1745
+    rism: 211011535
+    url: http://digital.slub-dresden.de/id389939730
+github: pisani-missa
+imslp: Mass_in_D_major_(Pisani,_Giovanni)
+notes: Benedictus by Jan Dismas Zelenka (ZWV deest)
+
