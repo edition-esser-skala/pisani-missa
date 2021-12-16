@@ -1,254 +1,46 @@
-\documentclass[parskip=full]{scrreprt}
+\documentclass{ees}
 
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{8cm}}
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entryformat=\itshape,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{part}
-\DeclareTOCStyleEntry[
-  indent=2em,
-  beforeskip=-\baselineskip,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
-]{tocline}{section}
-
-
-\usepackage[english]{babel}
-
-\usepackage{fontspec}
-
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-
-\newfontfamily\headingfont{Fredericka the Great}
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-\usepackage{url}
-\urlstyle{same}
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
-
-\usepackage{graphicx}
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-\usepackage{pdfpages}
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
-
-\makeatletter
-
-\newcommand\fancytitlehead{
-	\headingfont%
-	\fontsize{80}{80}\selectfont\textcolor{black!80}{\@lastname.}\\[15pt]%
-	\fontsize{60}{60}\selectfont\@title.%
-}
-
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\instrumentation#1{\def\@instrumentation{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\instrumentation{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-	\Large%
-	{\@titlehead}%
-	\vfill%
-	{\strut\@firstname}\\%
-	{\sbseries\color{oldred}\strut\@lastname}\\%
-	{\strut\@namesuffix}%
-	\vfill%
-	{\sbseries\@title}\\%
-	{\@subtitle}\\[\baselineskip]%
-	{\itshape\@instrumentation}%
-	\vfill%
-	{\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  fl1 = "Flauto I",
-  fl2 = "Flauto II",
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  cor12 = "Corno da caccia I, II in F/G",
-  tr12timp = "Tromba I, II in D\string\\newline Timpani in D–A",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\makeatother
-
-
-
-
-
+\subtitle{Benedictus by Jan Dismas Zelenka (ZWV deest)}
 
 \begin{document}
 
-\titlehead{\fancytitlehead}
-\firstname{Giovanni}
-\lastname{Pisani}
-\title{Missa in D}
-\subtitle{(D-Dl Mus.2500-D-1)\\Benedictus by Jan Dismas Zelenka (ZWV deest)}
-\instrumentation{2 S, A, T, B (solo), 2 S, A, T, B (coro),\\2 fl, 2 ob, 2 cor da caccia, 2 tr, timp, 2 vl, vla, b, org}
-\maketitle
+\eesTitlePage
 
+\eesCriticalReport{
+  1 & –   & clno & in \B1 written in D \\
+    & 1   & ob 2 & 2nd \quarterNote\ in \B1: \sharp f″4 \\
+    & 41  & T    & 1st \eighthNote\ in \B1: g′8 \\
+    & 45  & timp & 1st \halfNote\ barely legible in \B1 (probably G16–G16–G16–G16–G16–G16–G16–G16) \\
+    & 84  & ob 1 & 2nd \eighthNote\ in \B1: \sharp f″8 \\
+    & 85  & vla  & 5th \eighthNote\ in \B1: a′8 \\
+  \midrule
+  2 & 22  & ob 2 & 1st \quarterNote\ in \B1: d′8–d′8 \\
+    & 22  & vl 2 & 1st \quarterNote\ in \B1: d′8–d′8 \\
+    & 25  & ob 1 & 1st \quarterNote\ in \B1: g″4 \\
+    & 38  & vl 1 & 1st \quarterNote\ in \B1: \sharp f″4 \\
+    & 55  & org  & 3rd \eighthNote\ in \B1: a8 \\
+    & 76  & vl 2 & 1st \eighthNote\ in \B1: d′8 \\
+    & 119 & vl 2 & 2nd \quarterNote\ in \B1: d″8.–c″16 \\
+    & 241 & org  & 1st \quarterNote\ in \B1: e4 \\
+    & 306 & vl   & 3rd \eighthNote\ in \B1: d′8 \\
+    & 385 & vla  & 1st \quarterNote\ in \B1: g′8.–g′16 \\
+    & 478 & vla  & 1st \quarterNote\ in \B1: g′8.–g′16 \\
+    & 572 & vl 2 & 2nd \halfNote\ in \B1: d″2 \\
+    & 572 & S 2  & 4th \quarterNote\ in \B1: d″4 \\
+    & 678 & vl 1 & 1st \quarterNote\ in \B1: g″4 \\
+  \midrule
+  3 & 11  & vl 2 & 3rd \quarterNote\ in \B1: f″4. \\
+    & 18  & org  & last \eighthNote\ in \B1: c′8 \\
+    & 34  & A    & last \eighthNote\ in \B1: g′8 \\
+    & 52  & org  & 1st \halfNote\ in \B1: c2 \\
+    & 126 & vl 2 & bar in \B1: a′2–\crotchetRest \\
+    & 126 & vla  & bar in \B1: a′2–\crotchetRest \\
+  \midrule
+  4 & 5   & T    & 2nd \quarterNote\ in \B1: \flat b4 \\
+}
 
-\thispagestyle{empty}
+\eesToc{}
 
-\vspace*{\fill}
-
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2020
-
-© 2020 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}. 
-
-Music engraving by LilyPond 2.18.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-\textit{First version, May 2020}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report.}
-
-This edition bases upon a manuscript in the Archive of the Königliche Hofkirche Dresden, which has been digitized by the Saxon State Library – State and University Library Dresden. The digital version of the manuscript is available at \url{http://digital.slub-dresden.de/id389939730/1} (siglum Mus.2500-D-1).
-
-In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.
-
-\bigskip
-
-\footnotetext[1]{Abbreviations: A, alto; B, basso; cor, horn; fl, flute; Ms, manuscript; ob, oboe; org, organ; r, rest; S, soprano; T,~tenore; timp, timpani; tr, trumpet; vl, violin; vla, viola.}
-
-\begin{longtable}{lll L{10cm}}
-	\toprule
-	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-	\midrule \endhead
-	1   & –   & tr 1, 2 & In the Ms, the trombas are written in D. \\
-	    & 1   & ob 2    & 2nd quarter in Ms: fis″4 \\
-	    & 41  & T       & 1st eighth in Ms: g′8 \\
-	    & 45  & timp    & 1st half of bar barey legible in Ms (probably G16–G16–G16–G16–G16–G16–G16–G16) \\
-	    & 84  & ob 1    & 2nd eighth in Ms: fis″8 \\
-	    & 85  & vla     & 5th eighth in Ms: a′8 \\
-	\midrule
-	2.1 & 22  & ob 2    & 1st quarter in Ms: d′8–d′8 \\
-	    & 22  & vl 2    & 1st quarter in Ms: d′8–d′8 \\
-	    & 25  & ob 1    & 1st quarter in Ms: g″4 \\
-	    & 38  & vl 1    & 1st quarter in Ms: fis″4 \\
-	    & 55  & org     & 3rd eighth in Ms: a8 \\
-	    & 76  & vl 2    & 1st eighth in Ms: d′8 \\
-	2.2 & 119 & vl 2    & 2nd quarter in Ms: d″8.–c″16 \\
-	2.3 & 241 & org     & 1st quarter in Ms: e4 \\
-	2.4 & 306 & vl 1, 2 & 3rd eighth in Ms: d′8 \\
-	2.5 & 385 & vla     & 1st quarter in Ms: g′8.–g′16 \\
-	    & 478 & vla     & 1st quarter in Ms: g′8.–g′16 \\
-	2.7 & 572 & vl 2    & 2nd half of bar in Ms: d″2 \\
-	    & 572 & S 2     & 4th quarter in Ms: d″4 \\
-	    & 678 & vl 1    & 1st quarter in Ms: g″4 \\
-	\midrule
-	3   & 11  & vl 2    & 3rd quarter in Ms: f″4. \\
-	    & 18  & org     & last eighth in Ms: c′8 \\
-	    & 34  & A       & last eighth in Ms: g′8 \\
-	    & 52  & org     & 1st half of bar in Ms: c2 \\
-	    & 126 & vl 2    & bar in Ms: a′2–r4 \\
-	    & 126 & vla     & bar in Ms: a′2–r4 \\
-	\midrule
-	4   & 5   & T       & 2nd quarter in Ms: bes4 \\
-	\bottomrule
-\end{longtable}
-
-
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page (\url{https://github.com/skafdasschaf/pisani-missa}). Your help will be greatly appreciated.
-
-\bigskip
-\textit{Salzburg, May 2020\\
-Wolfgang Esser-Skala}
-
-
-\chapter*{Contents.}
-
-\input{../out/lilypond.toc}
-
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../out/\lypdfname.pdf}
-\fi
-
-
+\eesScore
 
 \end{document}

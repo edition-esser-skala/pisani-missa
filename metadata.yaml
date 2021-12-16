@@ -1,17 +1,22 @@
-composer: Pisani, Giovanni
-title: Missa in D
-id: (D-Dl Mus.2500-D-1)
+composer:
+  last: Pisani
+  first: Giovanni
+title: Missa in D major
 genre: mass
-scoring: 2 S, A, T, B (solo), 2 S, A, T, B (coro), 2 fl, 2 ob, 2 cor da caccia (F/G), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: 2 S, A, T, B (solo), 2 S, A, T, B (coro), 2 fl, 2 ob, 2 cor da caccia (F/G),\\2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2500-D-1
-    type: manuscript copy
     date: 1740–1745
     rism: 211011535
-    url: http://digital.slub-dresden.de/id389939730
-github: pisani-missa
+    url: https://digital.slub-dresden.de/id389939730
+    license: public domain
+    principal: true
+    notes: partial autograph by Zelenka (Benedictus)
 imslp: Mass_in_D_major_(Pisani,_Giovanni)
+parts:
+  cor_da_caccia12: Corno da caccia I, II in F/G
+  ottoni: Clarino I, II in D\\Timpani in D–A
 notes: Benedictus by Jan Dismas Zelenka (ZWV deest)
-
